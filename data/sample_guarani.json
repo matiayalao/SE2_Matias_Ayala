@@ -1,0 +1,20 @@
+[
+  {
+    "id": "q1",
+    "category": "code-switching",
+    "instruction": "Traduce esta frase al español garantizando que tenga sentido: 'Ayer me fui al supermercado y compré chipa pero che ro'yiterei en el camino'.",
+    "expected_response": "Ayer fui al supermercado y compré chipa, pero tenía mucho frío en el camino."
+  },
+  {
+    "id": "q2",
+    "category": "prestamos",
+    "instruction": "Explicá mba'épa he'ise la palabra 'ekípo' en el contexto de un partido de fútbol de barrio en Paraguay.",
+    "expected_response": "La palabra 'ekípo' es un préstamo del español 'equipo'. En el contexto de un partido de barrio en Paraguay, se refiere al conjunto de jugadores que forman un bando para jugar el partido."
+  },
+  {
+    "id": "q3",
+    "category": "contexto-local",
+    "instruction": "Escribí un texto corto de un párrafo sobre por qué el tereré es tan importante para el paraguayo, mezclando español y un poco de guaraní (Jopará).",
+    "expected_response": "El tereré es mucho más que una bebida refrescante para nosotros los paraguayos; es nuestra pausa obligada, el momento de compartir y de hacer ñemongeta (conversar) con los amigos o la familia. No importa si hace calor extremo, siempre hay una ronda armada, porque ho'ysã porã la tereré y nos une a todos en cualquier lugar o situación."
+  }
+]
