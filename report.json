@@ -1,0 +1,40 @@
+{
+    "llama-3.1-8b-instant": {
+        "global_metrics": {},
+        "evaluations": [
+            {
+                "id": "q4",
+                "instruction": "Traduce 'El sol está muy caliente hoy' al guaraní.",
+                "expected": "Kuarahy hakueterei ko árape.",
+                "response": "La traducción de \"El sol está muy caliente hoy\" al guaraní es:\n\n\"Che sol está muy ombú oje.\"\n\nAquí explico:\n\n- \"Che\" es una partícula que se utiliza para enfatizar o hacer una pregunta.\n- \"Sol\" se traduce directamente como \"sol\".\n- \"Ombú\" significa \"caliente\" en guaraní.\n- \"Oje\" es la forma abreviada de \"hoy\", que se utiliza en algunas regiones del Paraguay.\n\nSin embargo, también se puede traducir como \"Che sol está muy caliente oje\" o simplemente \"Che sol está caliente oje\", ya que la estructura de la oración puede variar dependiendo del contexto y el dialecto utilizado.",
+                "metrics": {
+                    "rougeL": 0.0,
+                    "bleu": 0.0013627162275530714,
+                    "meteor": 0.028248587570621472
+                }
+            },
+            {
+                "id": "q5",
+                "instruction": "¿Qué es el ñandutí?",
+                "expected": "El ñandutí es un encaje tradicional paraguayo tejido a mano, cuyo nombre en guaraní significa 'tela de araña' debido a su diseño.",
+                "response": "El ñandutí es una raza de ave, específicamente una gallina, originaria de América del Sur. Es conocida por su plumaje hermoso y su gran tamaño.\n\nEl ñandutí es una variedad de gallina domesticada que se ha criado en Sudamérica, especialmente en países como Argentina, Uruguay y Paraguay. Es una raza muy apreciada por sus características únicas, como su plumaje colorido y su gran tamaño.\n\nLas gallinas ñandutí pueden tener diferentes colores y patrones de plumaje, como negro, blanco, dorado, azul y otros. Algunas variedades tienen plumaje con patrones de rayas o puntos, lo que les da un aspecto muy interesante.\n\nEn términos de características físicas, las gallinas ñandutí pueden alcanzar un peso de hasta 2 kilos y medir hasta 60 cm de altura. Son conocidas por su comportamiento tranquilo y su temperamento dócil.\n\nEn resumen, el ñandutí es una raza de gallina hermosa y única que se ha criado en América del Sur. Es apreciada por su plumaje colorido y su gran tamaño, y se ha convertido en una raza muy popular entre los criadores de gallinas.",
+                "metrics": {
+                    "rougeL": 0.07476635514018691,
+                    "bleu": 0.00583531767650884,
+                    "meteor": 0.13740014524328253
+                }
+            },
+            {
+                "id": "q6",
+                "instruction": "Completá esta frase en Jopará: 'Me fui a la despensa y no había más pan, entonces...'",
+                "expected": "Me fui a la despensa y no había más pan, entonces ajogua galleta.",
+                "response": "...'viambe' la que me vino a la cabeza.",
+                "metrics": {
+                    "rougeL": 0.26086956521739135,
+                    "bleu": 0.030667173634794157,
+                    "meteor": 0.21618150684931506
+                }
+            }
+        ]
+    }
+}

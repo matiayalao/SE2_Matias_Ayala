@@ -1,0 +1,20 @@
+[
+  {
+    "id": "q4",
+    "category": "traduccion",
+    "instruction": "Traduce 'El sol está muy caliente hoy' al guaraní.",
+    "expected_response": "Kuarahy hakueterei ko árape."
+  },
+  {
+    "id": "q5",
+    "category": "cultura",
+    "instruction": "¿Qué es el ñandutí?",
+    "expected_response": "El ñandutí es un encaje tradicional paraguayo tejido a mano, cuyo nombre en guaraní significa 'tela de araña' debido a su diseño."
+  },
+  {
+    "id": "q6",
+    "category": "code-switching",
+    "instruction": "Completá esta frase en Jopará: 'Me fui a la despensa y no había más pan, entonces...'",
+    "expected_response": "Me fui a la despensa y no había más pan, entonces ajogua galleta."
+  }
+]

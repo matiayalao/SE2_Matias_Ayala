@@ -1,0 +1,636 @@
+index,sentence1,sentence2,label
+0,Clavé una aguja en una zanahoria. Cuando saqué la aguja tenía un agujero.,La zanahoria tenía un agujero.,1
+1,John no podía ver el escenario si Billy estaba delante de él porque es demasiado bajo.,John es demasiado bajo.,1
+2,Los policías arrestaron a todos los miembros de la banda. Intentaban acabar con el tráfico de drogas en el barrio.,Los policías intentaban acabar con el tráfico de drogas en el barrio.,1
+3,Steve siempre sigue el ejemplo de Fred. Tiene mucha influencia sobre él.,Steve tiene mucha influencia sobre él.,0
+4,"Cuando Tatyana llegó al camarote, su madre estaba durmiendo. Entró con cuidado para no despertarla, se desvistió y subió a su litera.","La madre entró con cuidado para no despertarla, se desvistió y subió a su litera.",0
+5,"George consiguió entradas gratis para la obra, pero se las dio a Eric, porque tenía muchas ganas de verla.",George tenía muchas ganas de verla.,0
+6,John corría por el parque cuando vio a un hombre que hacía malabares con sandías. Era espectacular.,John era espectacular.,0
+7,No pude coger el frasco del estante porque estaba demasiado alto.,El frasco estaba demasiado alto.,1
+8,"Queríamos colocar ejemplares de nuestro boletín en todos los asientos de la sala, pero no había suficientes.",No había suficientes ejemplares del boletín.,1
+9,"En el concurso Loebner los jueces no podían decidir qué concursantes eran los chatbots, porque eran muy inteligentes.",Los jueces eran muy inteligentes.,0
+10,Saqué la cantimplora de la mochila para que pesara menos.,Saqué la cantimplora de la mochila para que la mochila pesara menos.,1
+11,La mesa no pasará por la puerta porque es demasiado estrecha.,La mesa es demasiado estrecha.,0
+12,Saqué la cantimplora de la mochila para tenerla más a mano.,Saqué la cantimplora de la mochila para tener la mochila más a mano.,0
+13,Los bomberos llegaron más tarde que los policías porque venían de más lejos.,Los policías venían de más lejos.,0
+14,"Hasta ahora Larry siempre había ayudado a su padre en su trabajo. Pero ahora no podía ayudarle, porque su padre decía que el jefe de la compañía ferroviaria no quería que hubiera nadie más que él en la oficina.",Ahora su padre no podía ayudarle.,0
+15,Vertí agua de la botella a la taza hasta que estuvo vacía.,Hasta que la taza estuvo vacía.,0
+16,Guardé la tarta en la nevera. Tenía mucha mantequilla.,La tarta tenía mucha mantequilla.,1
+17,"Lionel tiene como prisionero a un científico, el doctor Vardi, que ha inventado un dispositivo que convierte a los animales en invisibles; Lionel tiene previsto utilizarlo en Geoffrey y enviarle a robar material nuclear de un almacén del ejército.",Lionel tiene previsto utilizarlo en Geoffrey y enviar a Lionel a robar material nuclear de un almacén del ejército.,0
+18,Los zorros entran de noche y atacan a los pollos. Se han vuelto muy atrevidos.,Los zorros se han vuelto muy atrevidos.,1
+19,"Sam acercó un asiento al piano, pero estaba roto, por lo que tuvo que quedarse de pie.","El piano estaba roto, por lo que tuvo que quedarse de pie.",0
+20,"Jane llamó a la puerta de Susan, pero no obtuvo respuesta.",Susan no obtuvo respuesta.,0
+21,"Bob jugaba a cartas con Adam e iba ganando. Si Adam no hubiera tenido un repentino golpe de suerte, él habría ganado.",Adam habría ganado.,0
+22,Coloqué el ala de mariposa sobre la mesa y se rompió.,La mesa se rompió.,0
+23,"Paul intentó llamar a George por teléfono, pero no obtuvo respuesta.",Paul no obtuvo respuesta.,1
+24,¡Mira! Hay un tiburón nadando justo debajo del pato. Mejor que se apresure hasta un lugar seguro.,Mejor que el tiburón se apresure hasta un lugar seguro.,0
+25,La copa no cabe en la maleta marrón porque es demasiado grande.,La maleta es demasiado grande.,0
+26,"El tío de Joe todavía puede ganarle jugando a tenis, aunque es 30 años mayor.",Joe es 30 años mayor.,0
+27,La gran bola penetró a través de la mesa porque era de acero.,La gran bola era de acero.,1
+28,"Sam se rompió las dos piernas y ahora camina con muletas. Pero dentro de un mes, más o menos, deberían estar mejor.",Las muletas deberían estar mejor.,0
+29,"Grant cultivó sus garbanzos con gran esfuerzo para que él y su familia pudieran comer en invierno. Su amigo Henry le dejó guardarlos en su granero para que se secaran. Después, él y Tatyana los desgranarían y los cocinarían para sus comidas de los domingos.",Su amigo Henry le dejó guardar a Grant y a su familia en su granero para que se secaran.,0
+30,Jane llamó a la puerta y Susan respondió. La invitó a salir.,Jane la invitó a salir.,1
+31,Dan tenía que impedir que Bill siguiera jugando con el pájaro herido. Es muy cruel.,Bill es muy cruel.,1
+32,Tom dijo “jaque” a Ralph cuando capturó su alfil.,Tom dijo “jaque” a Ralph cuando capturó el alfil de Ralph.,1
+33,"Salí a buscar un poco de jabón, más para pasar el tiempo que porque lo necesitara.","Salí a buscar un poco de jabón, más para pasar el tiempo que porque necesitara jabón.",1
+34,Joe pagó al detective cuando hubo recibido el informe final sobre el caso.,Joe recibió el informe final sobre el caso.,1
+35,"Queríamos colocar ejemplares de nuestro boletín en todos los asientos de la sala, pero había demasiados.",Había demasiados ejemplares del boletín.,0
+36,Joe ha vendido su vieja casa y ha comprado una nueva a pocos kilómetros de distancia. Se va a mudar a ella el jueves.,Se va a mudar a la nueva casa el jueves.,1
+37,"Hasta ahora Larry siempre había ayudado a su padre en su trabajo. Pero ahora no podía ayudarle, porque su padre decía que el jefe de la compañía ferroviaria no quería que hubiera nadie más que él en la oficina.",Ahora no podía ayudar a su padre.,1
+38,"La mesa estaba llena de comida, y sobre la estera, junto a ella, había vasijas, cestas y una lechera.","Junto a la mesa había vasijas, cestas y una lechera.",1
+39,Jim consolaba a Kevin porque estaba muy enfadado.,Kevin estaba muy enfadado.,1
+40,"Jackson estaba muy influido por Arnold, aunque vivió dos siglos antes.",Arnold vivió dos siglos antes.,1
+41,"Hay un pilar entre el escenario y yo, y no puedo ver qué hay detrás.",No puedo ver el escenario.,0
+42,Los arqueólogos han llegado a la conclusión de que había humanos en Laputa hace 20 000 años. Cazaban ciervos en las orillas de los ríos.,Los humanos prehistóricos cazaban ciervos en las orillas de los ríos.,1
+43,"Sam y Amy están muy enamorados, pero a los padres de Amy no les gusta, porque son unos esnobs.",Los padres de Amy son unos esnobs.,1
+44,Bill pasó la bandeja medio vacía a John porque tenía hambre.,John tenía hambre.,1
+45,Sara tomó prestado un libro de la biblioteca porque lo necesita para un artículo en el que está trabajando. Lo escribe cuando llega a casa del trabajo.,Escribe el libro cuando llega a casa del trabajo.,0
+46,"John prometió a Bill que se iría, por eso se marchó al cabo de una hora.",Bill se marchó.,0
+47,Sara tomó prestado un libro de la biblioteca porque lo necesita para un artículo en el que está trabajando. Lo lee cuando llega a casa del trabajo.,Lee el artículo cuando llega a casa del trabajo.,0
+48,Mark oyó las pisadas de Steve bajando la escalera. La puerta de la tienda se cerró tras él. Corrió a mirar por la ventana.,La puerta de la tienda se cerró tras Steve.,1
+49,"Fred es el único hombre vivo que todavía recuerda a mi padre cuando era niño. Cuando Fred vio por primera vez a mi padre, tenía doce años.","Cuando Fred vio por primera vez a mi padre, mi padre tenía doce años.",0
+50,"Tatyana sabía que a su abuela siempre le gustaba servir mucha comida a sus invitados. Ahora Tatyana observaba como su abuela abrazaba a la diminuta madre de Tatyana con sus brazos enjutos y después la llevó a la mesa, le quitó el chal de los hombros, y la invitó a sentarse en el puesto de honor, diciendo simplemente: “Hay mucho”",La abuela abrazó a la diminuta madre de Tatyana con sus brazos enjutos y después llevó a la abuela a la mesa.,0
+51,Fred miraba la televisión mientras George salía a comprar comida. Al cabo de una hora volvió.,George volvió.,1
+52,"Lily habló a Donna, e interrumpió su concentración.","Lily habló a Donna, e interrumpió la concentración de Donna.",1
+53,"Aunque corrían más o menos a la misma velocidad, Sue ganó a Sally porque ella había empezado muy mal.",Sue había empezado muy mal.,0
+54,Madonna despidió a su entrenadora porque no soportaba a su novio.,No soportaba al novio de Madonna.,0
+55,"No puedo cortar esta rama con el hacha, es demasiado pequeña.",El hacha es demasiado pequeña.,1
+56,Madonna despidió a su entrenadora porque se acostaba con su novio.,Ella se acostaba con el novio de Madonna.,1
+57,"Vi a Jim gritando a un tipo con uniforme militar y una gran barba roja. No sé por qué, pero parecía muy triste.","No sé por qué iba con uniforme militar, pero parecía muy triste.",0
+58,"Alice intentó con todas sus fuerzas evitar que su hija hablara en la fiesta, y nos preguntábamos por qué se comportaba de forma tan extraña.",La hija de Alice se comportaba de forma extraña.,0
+59,"Jane llamó a la puerta de Susan, pero no respondió.",Jane no respondió.,0
+60,Los políticos de Washington no pueden conocer a los colonos y por eso deben redactar normas para regularlos.,Los políticos deben redactar normas para regularlos.,1
+61,"En varias ocasiones Henry había estado presente en las entrevistas que su padre había mantenido con destacados detectives que solicitaban su ayuda para resolver misterios sorprendentes, y esas ocasiones fueron días señalados para él.",Estas ocasiones fueron días señalados para Henry.,1
+62,"Sam acercó un asiento al piano, pero estaba roto, por lo que tuvo que quedarse de pie.","El asiento estaba roto, por lo que tuvo que quedarse de pie.",1
+63,"Como llovía, puse el periódico sobre mi mochila para que no se mojara.",Puse el periódico sobre mi mochila para que la mochila no se mojara.,1
+64,Los políticos de Washington no pueden conocer a los colonos y por eso deben redactar normas para regularlos.,Deben redactar normas para regular a los políticos.,0
+65,A Anna la prueba le salió mucho mejor que a su buena amiga Lucy porque había estudiado mucho.,Anna había estudiado mucho.,1
+66,"Mark le pisaba los talones al Sr. Singer. Oyó cómo llamaba al capitán, y le prometía, en la jerga con la que todo el mundo hablaba aquella noche, que en el barco nada resultaría dañado, excepto la munición, pero el capitán y su tripulación prefirieron quedarse en la cabina hasta que finalizara el trabajo.",El Sr. Singer oyó cómo llamaba al capitán.,0
+67,Fred era el único hombre vivo que recordaba a mi bisabuelo. Era un hombre extraordinario.,Mi bisabuelo era un hombre extraordinario.,1
+68,No pude coger el frasco del estante porque estaba demasiado alto.,El estante estaba demasiado alto.,1
+69,"Nadie entra en Facebook para estar triste y solo. Pero un nuevo estudio del psicólogo George Lincoln, de la Universidad de Wisconsin, indica que así es exactamente como nos hace sentir.",Así es exactamente como el estudio nos hace sentir.,0
+70,Bob pagó la formación universitaria de Charlie. Es muy generoso.,Bob es muy generoso.,1
+71,"John prometió a Bill que se iría, por eso se marchó al cabo de una hora.",John se marchó.,1
+72,Frank estaba enfadado con Tom porque la tostadora que le había vendido no funcionaba.,La tostadora que Frank le había vendido no funcionaba.,0
+73,"Igual de espectacular es C.K. Dexter Haven, un atractivo joven pálido, que sostiene un bastón de jade, con un caniche dormido a sus pies.","Igual de espectacular es C.K. Dexter Haven, un atractivo joven pálido, que sostiene un bastón de jade, con un caniche dormido a los pies de Haven.",1
+74,Joe ha vendido su vieja casa y ha comprado una nueva a pocos kilómetros de distancia. Se va a marchar de ella el jueves.,Se va a marchar de su casa el jueves.,1
+75,Mark oyó las pisadas de Steve bajando la escalera. La puerta de la tienda se cerró tras él. Corrió a mirar por la ventana.,La puerta de la tienda se cerró tras Mark.,0
+76,"No es fácil dejar la misma distancia entre un ojal y otro, y es muy difícil cortarlos todos exactamente con el largo correcto. El más mínimo desvío del punzón hará que un ojal sea demasiado grande, y un solo hilo sin cortar lo hará demasiado corto.",Y un solo hilo sin cortar hará que el largo correcto sea demasiado corto.,0
+77,Billy lloraba porque Toby no quería aceptar su juguete.,Billy lloraba porque Toby no quería aceptar el juguete de Toby.,0
+78,"Mientras Ollie subía con Tommy a cuestas la larga escalera de caracol, sus piernas colgaban.",Las piernas de Ollie colgaban.,0
+79,"Sam acercó un asiento al piano, pero estaba roto, por lo que tuvo que cantar en vez de tocar.","El asiento estaba roto, por lo que tuvo que cantar en vez de tocar.",0
+80,El pez se comió al gusano. Estaba hambriento.,El gusano estaba hambriento.,0
+81,"Los periodistas entrevistaron a los protagonistas de la nueva película. Eran muy amables, por lo que la entrevista duró mucho tiempo.","Los periodistas eran muy amables, por lo que la entrevista duró mucho tiempo.",0
+82,La copa no cabe en la maleta marrón porque es demasiado pequeña.,La copa es demasiado pequeña.,0
+83,Thomson visitó la tumba de Cooper en 1765. Hasta entonces había estado viajando durante cinco años.,Cooper había estado viajando durante cinco años.,0
+84,"Alice limpiaba el polvo del salón e intentaba encontrar el botón que su madre había perdido. Hoy no tenía tiempo para mirar las fotos antiguas de su álbum favorito. Hoy tenía que buscar un botón, por lo que dejó el álbum sobre un sillón sin ni siquiera abrirlo.",Dejó el álbum sobre una sillón sin ni siquiera abrir el salón.,0
+85,Bill pasó la bandeja medio vacía a John porque estaba lleno.,Bill estaba lleno.,1
+86,Bill pasó la bandeja medio vacía a John porque estaba lleno.,John estaba lleno.,0
+87,Los zorros entran de noche y atacan a los pollos. Tendré que matarlos.,Tendré que matar a los zorros.,1
+88,"El tío de Joe todavía puede ganarle jugando a tenis, aunque es 30 años más joven.",Joe es 30 años más joven.,1
+89,Emma no pasó la pelota a Janie aunque ella vio que estaba abierta.,Ella vio que Janie estaba abierta.,1
+90,Bill pasó la videoconsola a John porque su turno había terminado.,El turno de Bill había terminado.,1
+91,"Ann preguntó a Mary a qué hora cerraba la librería, porque lo había olvidado.",Ann lo había olvidado.,1
+92,"Los padres de Pam llegaron a casa y la encontraron en la cama con su novio, Paul. Se enfadaron mucho.",Los padres de Pam se enfadaron mucho.,1
+93,"Esta mañana, Joey ha construido un castillo de arena en la playa y ha puesto un estandarte en la torre más alta, pero por la tarde la marea lo ha derribado.",Por la tarde la marea ha derribado el estandarte.,0
+94,El hombre no pudo levantar a su hijo porque estaba muy débil.,El hombre estaba muy débil.,1
+95,El cliente entró en el banco y apuñaló a uno de los cajeros. Lo llevaron al hospital inmediatamente.,Llevaron al cliente al hospital inmediatamente.,0
+96,"Dado que Chester dependía de su tío Vernon, no podía casarse sin su aprobación.",No podía casarse sin la aprobación de Chester.,0
+97,Mamá entró y se sentó al lado de Alice. Le acarició el cabello suavemente y dejó que la niña llorara.,Mamá le acarició el cabello y dejó que la niña llorara.,1
+98,Emma no pasó la pelota a Janie aunque vio que estaba abierta.,Emma vio que ella estaba abierta.,1
+99,"Mark solo podía pensar en Blaze, su caballo blanco. Temía que los mozos de las caballerizas de Burlington Stables se metieran con él y le acosaran porque era tímido, por eso asumió él mismo la alimentación y el cuidado del animal.",Mark temía que los mozos de las caballerizas de Burlington Stables se metieran con él y le acosaran.,1
+100,"Si se asomaba desde la cama de arriba, Tatyana podía ver a su madre cómodamente. Cuán pequeña, estirada y rígida estaba en la cama de abajo. Tenía los ojos cerrados, pero Tatyana no estaba segura de que durmiera.",Tatyana no estaba segura de que su madre durmiera.,1
+101,James pidió un favor a Robert pero se lo negó.,Se lo negó a Robert.,0
+102,"No puedo cortar esta rama con el hacha, es demasiado gruesa.",El hacha es demasiado gruesa.,0
+103,Bob se desplomó en la acera. Pronto vio que Carl venía a ayudar. Estaba muy enfermo.,Bob estaba muy enfermo.,1
+104,Emma no pasó la pelota a Janie aunque vio que estaba abierta.,Janie vio que estaba abierta.,0
+105,Tom llevó a Ralph en coche a la escuela para que no tuviera que conducir solo.,Para que Tom no tuviera que conducir solo.,1
+106,El dibujo de Sam estaba colgado justo encima del de Tina y parecía mucho mejor con otro debajo.,El dibujo de Sam parecía mucho mejor con otro debajo.,1
+107,"Aunque corrían más o menos a la misma velocidad, Sue ganó a Sally porque ella había empezado mucho mejor.",Sue había empezado mucho mejor.,1
+108,Grace estaba contenta de cambiar su sudadera por mi chaqueta. Cree que no le queda bien.,La sudadera no le queda bien.,1
+109,Bob pagó la formación universitaria de Charlie. Está muy agradecido.,Charlie está muy agradecido.,1
+110,Grace estaba contenta de cambiar su sudadera por mi chaqueta. Cree que le queda muy bien.,La sudadera le queda muy bien.,0
+111,"Cada día después de comer el Sr. Schmidt echaba una larga siesta. Mark le dejaba dormir durante una hora y después lo despertaba, lo reñía y le obligaba a trabajar. Necesitaba conseguir que acabara su trabajo, porque era muy bonito.",El trabajo del Sr. Schmidt era muy bonito.,1
+112,El hombre llevó al chico sobre sus hombros.,El hombre llevó al chico sobre los hombros del hombre.,1
+113,"Fred y Alice llevaban abrigos muy gruesos, pero no estaban preparados para el frío de Alaska.",Los abrigos no estaban preparados para el frío de Alaska.,0
+114,"En julio, Kamchatka declaró la guerra a Yakutsk. Como el ejército de Yakutsk estaba mucho mejor equipado y era diez veces mayor, fue derrotado en pocas semanas.",Los de Yakutsk fueron derrotados en pocas semanas.,0
+115,"Jackson estaba muy influido por Arnold, aunque vivió dos siglos antes.",Jackson vivió dos siglos antes.,0
+116,"El camino hasta el lago estaba cortado, por lo que no pudimos cogerlo.",No pudimos usar el lago.,0
+117,Sara tomó prestado un libro de la biblioteca porque lo necesita para un artículo en el que está trabajando. Lo lee cuando llega a casa del trabajo.,Lee el libro cuando llega a casa del trabajo.,1
+118,El cliente entró en el banco y apuñaló a uno de los cajeros. Lo llevaron a la comisaría inmediatamente.,Llevaron al cajero a la comisaría inmediatamente.,0
+119,"Adam no puede salir del trabajo hasta que Bob llegue para sustituirle. Si Bob hubiera salido de casa a tiempo, ahora ya habría llegado.",Ahora Bob ya habría llegado.,1
+120,¿Te acuerdas de la vez que cortaste los bulbos de los tulipanes y los cocinaste con las hamburguesas porque pensaste que eran cebollas?,¿Pensaste que los bulbos eran cebollas?,1
+121,Este libro introdujo a Shakespeare en Ovidio; fue una gran influencia para su escritura.,Fue una gran influencia para la escritura de Shakespeare.,1
+122,Thomson visitó la tumba de Cooper en 1765. Por aquel entonces hacía cinco años que estaba muerto.,Hacía cinco años que Cooper estaba muerto.,1
+123,"Se suponía que Fred tenía que poner el lavavajillas en marcha, pero ya lo haría más tarde porque quería ver la televisión. Pero al final el programa era aburrido, o sea que cambió de opinión y lo puso en marcha.",Cambió de opinión y encendió el televisor.,0
+124,"Paul intentó llamar a George por teléfono, pero no estaba disponible.",George no estaba disponible.,1
+125,"Cuando Tatyana llegó al camarote, su madre estaba durmiendo. Entró con cuidado para no despertarla, se desvistió y subió a su litera.","Tatyana entró con cuidado para no despertarla, se desvistió y subió a su litera.",1
+126,"Bernard, que no había dicho al funcionario que tenía menos de 21 años cuando presentó su solicitud de concesión de propiedad, no consideraba que hubiera hecho nada malo. Pero cualquiera que supiera que solo tenía 19 años podría haber anulado su solicitud.",Cualquiera que supiera que solo tenía 19 años podría haber anulado la solicitud del funcionario.,0
+127,Fred era el único hombre vivo que recordaba a mi bisabuelo. Era un hombre extraordinario.,Mi bisabuelo era un hombre extraordinario.,0
+128,Guardé la tarta en la nevera. Había muchas sobras en ella.,Había muchas sobras en la tarta.,0
+129,Jim hizo señas al camarero y le señaló su llave del baño.,Jim hizo señas al camarero y le señaló la llave del baño del camarero.,1
+130,Steve siempre sigue el ejemplo de Fred. Tiene mucha influencia sobre él.,Fred tiene mucha influencia sobre él.,1
+131,"Cuando Tatyana llegó al camarote, su madre estaba durmiendo. Entró con cuidado para no despertarla, se desvistió y subió a su litera.","Entró con cuidado para no despertar a su madre, se desvistió y subió a su litera.",1
+132,Jane dio golosinas a Joan porque no tenía hambre.,Jane no tenía hambre.,1
+133,"Cuando Tommy dejó caer su helado, Timmy se rio, por eso su padre le dirigió una mirada severa.",El padre dirigió a Tommy una mirada severa.,0
+134,"No tenía cuchara, por lo que utilicé un bolígrafo para remover el café. Pero resultó una mala idea, porque se llenó de tinta.",El café se llenó de tinta.,1
+135,El hombre no pudo levantar a su hijo porque estaba muy débil.,El hijo estaba muy débil.,0
+136,"Sam intentaba pintar un cuadro de pastores con ovejas, pero más bien parecían jugadores de golf.",Los pastores más bien parecían jugadores de golf.,1
+137,"No tenía cuchara, por lo que utilicé un bolígrafo para remover el café. Pero resultó una mala idea, porque se llenó de tinta.",El bolígrafo se llenó de tinta.,0
+138,John corría por el parque cuando vio a un hombre que hacía malabares con sandías. Estaba muy impresionado.,John estaba muy impresionado.,1
+139,Fred se tapó los ojos con los brazos porque el viento hacía que le entrara arena. Los bajó cuando el viento dejó de soplar.,Bajó los ojos cuando el viento dejó de soplar.,0
+140,El camión de reparto adelantó al autobús escolar porque iba demasiado rápido.,El autobús escolar iba demasiado rápido.,0
+141,Durante el juego del pillapilla Ethan atrapó a Luke porque era quien la pagaba.,Luke era quien la pagaba.,0
+142,Hay un agujero en el muro. Se puede ver el jardín detrás de él.,Se puede ver el jardín a través del muro.,1
+143,Saqué la cantimplora de la mochila para que pesara menos.,Saqué la cantimplora de la mochila para que la cantimplora pesara menos.,0
+144,"El sol estuvo cubierto por una gruesa nube toda la mañana, pero, afortunadamente, cuando empezó el pícnic, salió.",El sol salió.,1
+145,Jim gritaba a Kevin porque estaba muy enfadado.,Jim estaba muy enfadado.,1
+146,"Incluso antes de llegar a la ciudad, pudieron escuchar un ruido como de maíz tostándose. Dora preguntó qué era y papá dijo que eran petardos.",Dora preguntó qué era el ruido.,1
+147,Bill pasó la videoconsola a John porque era su turno.,Era el turno de Bill.,0
+148,"Se suponía que Fred tenía que poner el lavavajillas en marcha, pero ya lo haría más tarde porque quería ver la televisión. Pero al final el programa era aburrido, o sea que cambió de opinión y lo puso en marcha.",Cambió de opinión y puso en marcha el lavavajillas.,1
+149,"Mientras Ollie subía a Timmy cuestas la larga escalera de caracol, le dolían las piernas.",A Tommy le dolían las piernas.,0
+150,Los zorros entran de noche y atacan a los pollos. Tendré que matarlos.,Tendré que matar a los pollos.,0
+151,"Papá observó las caras de sus hijas, tan asombradas y tristes ahora. Ya era bastante malo que tuvieran que renunciar a tantas cosas porque él no podía permitírselas.",Ya era bastante malo que las caras tuvieran que renunciar a tantas cosas porque él no podía permitírselas.,0
+152,"El saco de patatas estaba sobre el saco de harina, por eso había que sacarlo primero.",Había que sacar primero el saco de harina.,0
+153,"El perro perseguía al gato, que trepó por un árbol. Le esperó arriba.",El perro espero arriba.,0
+154,Steve siempre sigue el ejemplo de Fred. Le admira mucho.,Fred le admira mucho.,0
+155,La mujer sostenía a la niña junto a su pecho.,La mujer sostenía a la niña junto al pecho de la mujer.,1
+156,"El perro perseguía al gato, que trepó por un árbol. Le esperó abajo.",El perro espero abajo.,1
+157,Bob se desplomó en la acera. Pronto vio que Carl venía a ayudar. Estaba muy preocupado.,Carl estaba muy preocupado.,1
+158,"Sam se rompió las dos piernas y ahora camina con muletas. Pero dentro de un mes, más o menos, deberían dejar de ser necesarias.",Las muletas deberían dejar de ser necesarias.,1
+159,Clavé una aguja en una zanahoria. Cuando saqué la aguja dejó un agujero.,La zanahoria dejó un agujero.,0
+160,"Sam intentaba pintar un cuadro de pastores con ovejas, pero más bien parecían perros.",Las ovejas más bien parecían perros.,1
+161,"En medio del concierto al aire libre empezó a llover, y siguió hasta las 10.",El concierto siguió hasta las 10.,0
+162,Los bomberos llegaron antes que los policías porque venían de más lejos.,Los bomberos venían de más lejos.,0
+163,"Estaba intentando abrir el candado con la llave, pero alguien había llenado la cerradura con goma de mascar y no podía introducirla.",No podía introducir la llave.,1
+164,Mark estaba seguro de una cosa. Harry sabía mucho menos que él.,Harry sabía mucho menos que Mark.,1
+165,El prado de Dakota tenía un aspecto tan cálido y brillante bajo la luz del sol que parecía imposible que alguna vez se hubiera visto batido por el viento y la nieve del invierno.,Parecía imposible que el prado se hubiera visto batido por el viento y la nieve del invierno.,1
+166,"Era una tarde de verano, y el perro estaba tumbado en medio del césped. Al cabo de un rato, se levantó y se dirigió a un lugar bajo el árbol, porque tenía calor.",El perro tenía calor.,1
+167,Frank se sintió legitimado cuando su rival de toda la vida Bill le dijo que había ganado la competición.,Frank había ganado la competición.,1
+168,Joan se aseguró de dar las gracias a Susan por toda la ayuda que le había prestado.,Joan se aseguró de dar las gracias a Susan por toda la ayuda que Susan le había prestado.,1
+169,"Estaban retransmitiendo un anuncio, pero entró un tren en la estación y no pude escucharlo.",No pude escuchar el anuncio.,0
+170,John estaba estudiando en la biblioteca cuando escuchó a un hombre que murmuraba y silbaba. Estaba muy molesto.,John estaba muy molesto.,1
+171,Mary sacó su flauta y tocó una de sus piezas favoritas. Le gustaba desde que era niña.,Le gustaba aquella pieza desde que era niña.,1
+172,Estoy seguro de que en mi mapa aparecerá este edificio. Es muy bueno.,El mapa es muy bueno.,1
+173,Carol creía que Rebecca lamentaba que hubiera robado el reloj.,Carol creía que Rebecca lamentaba que Rebecca hubiera robado el reloj.,1
+174,La mesa no pasará por la puerta porque es demasiado estrecha.,La puerta es demasiado estrecha.,1
+175,"Si el estafador hubiera conseguido engañar a Sam, él habría perdido mucho dinero.",El estafador habría perdido mucho dinero.,0
+176,"Sam acercó un asiento al piano, pero estaba roto, por lo que tuvo que cantar en vez de tocar.","El piano estaba roto, por lo que tuvo que cantar en vez de tocar.",1
+177,"Fred es el único hombre vivo que todavía recuerda a mi padre cuando era niño. Cuando Fred vio por primera vez a mi padre, tenía doce meses.","Cuando Fred vio por primera vez a mi padre, Fred tenía doce meses.",0
+178,A Anna la prueba le salió mucho mejor que a su buena amiga Lucy porque había estudiado mucho.,Lucy había estudiado mucho.,0
+179,Jane llamó a la puerta y Susan respondió. La invitó a salir.,Susan la invitó a salir.,0
+180,"El camino hasta el lago estaba cortado, por lo que no pudimos llegar a él.",No pudimos llegar al lago.,1
+181,Grace estaba contenta de cambiar su sudadera por mi chaqueta. Cree que no le queda bien.,La chaqueta no le queda bien.,0
+182,Kirilov cedió la presidencia a Shatov porque era más popular.,Kirilov era más popular.,0
+183,"Intentaba pintar un cuadro de árboles frutales, con limones en los limoneros, pero más bien parecían postes de teléfono.",Los limoneros más bien parecían postes de teléfono.,1
+184,Pete envidia a Martin porque tiene mucho éxito.,Martin tiene mucho éxito.,1
+185,"Como llovía, puse el periódico en mi mochila para que no se mojara.",Puse el periódico en mi mochila para que el periódico no se mojara.,1
+186,"Los padres de Pam llegaron a casa y la encontraron en la cama con su novio, Paul. Se enfadaron mucho.",Pam y Paul se enfadaron mucho.,0
+187,"Estaba allí sentado sintiéndome un poco como el chico de aquella historia que leí una vez, que había asesinado a una mujer y había ocultado el cuerpo bajo la mesa del comedor, y después tuvo que ser el alma de la fiesta, con ella allí todo el tiempo.","Tuvo que ser el alma de la fiesta, con la fiesta allí todo el tiempo.",0
+188,"Con la tormenta, el árbol cayó y destrozó el tejado de mi casa. Ahora tengo que hacer que lo quiten.",Ahora tengo que hacer que quiten el árbol.,1
+189,"Se suponía que Fred tenía que poner el lavavajillas en marcha, pero ya lo haría más tarde porque quería ver la televisión. Pero al final el programa era aburrido, o sea que cambió de opinión y lo apagó.",Cambió de opinión y apagó el televisor.,1
+190,"En medio del concierto al aire libre empezó a llover, y siguió hasta las 10.",La lluvia siguió hasta las 10.,1
+191,"No es fácil dejar la misma distancia entre un ojal y otro, y es muy difícil cortarlos todos exactamente con el largo correcto. El más mínimo desvío del punzón hará que un ojal sea demasiado grande, y un solo hilo sin cortar lo hará demasiado corto.",Y un solo hilo sin cortar hará que el hilo sea demasiado corto.,0
+192,"Sam iba a clase de francés con Adam, porque tenía fama de que lo hablaba muy bien.",Adam tenía fama de que lo hablaba muy bien.,1
+193,"Sid explicó su teoría a Mark, pero no pudo convencerlo.",Sid no pudo convencerlo.,1
+194,"A todos les gustaron mucho las galletas de avena, solo unos cuantos prefirieron las galletas de chocolate. La próxima vez, deberíamos hacer más.",Deberíamos hacer más galletas de avena.,1
+195,"El saco de patatas estaba debajo del saco de harina, por eso había que sacarlo primero.",Había que sacar primero el saco de harina.,1
+196,"Mientras Ollie subía con Tommy a cuestas la larga escalera de caracol, sus piernas colgaban.",A Tommy le colgaban las piernas.,1
+197,La biografía de Sam Goodman sobre el general espartano Jenofonte transmite una vívida visión de las dificultades con las que se enfrentó en su investigación.,La biografía de Sam Goodman sobre el general espartano Jenofonte transmite una vívida visión de las dificultades con las que Goodman se enfrentó en su investigación.,1
+198,"Mark solo podía pensar en Blaze, su caballo blanco. Temía que los mozos de las caballerizas de Burlington Stables se metieran con él y le acosaran porque era tímido, por eso asumió él mismo la alimentación y el cuidado del animal.",Blaze asumió él mismo la alimentación y el cuidado del animal.,0
+199,"El tío de Joe todavía puede ganarle jugando a tenis, aunque es 30 años mayor.",El tío de Joe es 30 años mayor.,1
+200,"Alice limpiaba el polvo del salón e intentaba encontrar el botón que su madre había perdido. Hoy no tenía tiempo para mirar las fotos antiguas de su álbum favorito. Hoy tenía que buscar un botón, por lo que dejó el álbum sobre un sillón sin ni siquiera abrirlo.",Su madre tenía que buscar un botón.,0
+201,Vertí agua de la botella a la taza hasta que estuvo llena.,La taza estaba llena.,1
+202,Durante el juego del pillapilla Ethan atrapó a Luke porque era quien la pagaba.,Ethan era quien la pagaba.,1
+203,Jane dio golosinas a Joan porque tenía mucha hambre.,Joan tenía hambre.,1
+204,"El Sr. Moncrieff visitó el lujoso apartamento de Chester en Nueva York, pensando que era de su hijo Edward. El resultado es que el Sr. Moncrieff ha decidido cancelar la asignación de Edward porque ya no necesita su ayuda financiera.",Edward ya no necesita su ayuda financiera.,1
+205,"Cuando Tommy dejó caer su helado, Timmy se rio, por eso su padre le dirigió una mirada risueña.",El padre dirigió a Tommy una mirada risueña.,1
+206,John estaba estudiando en la biblioteca cuando escuchó a un hombre que murmuraba y silbaba. Estaba muy molesto.,El hombre estaba muy molesto.,0
+207,"No es fácil dejar la misma distancia entre un ojal y otro, y es muy difícil cortarlos todos exactamente con el largo correcto. El más mínimo desvío del punzón hará que un ojal sea demasiado grande, y un solo hilo sin cortar lo hará demasiado corto.",Y un solo hilo sin cortar hará que el desvío sea demasiado corto.,0
+208,Susan lo sabe todo sobre los problemas personales de Ann porque es muy entrometida.,Ann es muy entrometida.,0
+209,"No es fácil dejar la misma distancia entre un ojal y otro, y es muy difícil cortarlos todos exactamente con el largo correcto. El más mínimo desvío del punzón hará que un ojal sea demasiado grande, y un solo hilo sin cortar lo hará demasiado corto.",Y un solo hilo sin cortar hará que el punzón sea demasiado corto.,0
+210,"El sol estuvo cubierto por una gruesa nube toda la mañana, pero, afortunadamente, cuando empezó el pícnic, salió.",La nube salió.,0
+211,"Los periodistas entrevistaron a los protagonistas de la nueva película. Eran muy amables, por lo que la entrevista duró mucho tiempo.","Los protagonistas eran muy amables, por lo que la entrevista duró mucho tiempo.",1
+212,Los concejales negaron el permiso a los manifestantes porque temían la violencia.,Los concejales temían la violencia.,1
+213,Ann dio a luz a una niña el mes pasado. Es una mujer encantadora.,La hija de Ann es una mujer encantadora.,0
+214,"Jackson estaba muy influido por Arnold, aunque vivió dos siglos después.",Jackson vivió dos siglos después.,1
+215,Este libro introdujo a Shakespeare en Ovidio; fue una buena selección de su obra.,Fue una buena selección de los escritos de Shakespeare.,0
+216,El padre llevaba al hijo que dormía en su cochecito.,El padre llevaba al hijo que dormía en el cochecito del padre.,0
+217,Dan se sentó atrás mientras Bill reclamaba el asiento de delante porque había sido más rápido.,Dan se sentó atrás mientras Bill reclamaba el asiento de delante porque Dan había sido más rápido.,0
+218,Pete envidia a Martin aunque tiene mucho éxito.,Martin tiene mucho éxito.,0
+219,Mark estaba seguro de una cosa. Harry sabía mucho menos que él.,Harry sabía mucho menos que Harry.,0
+220,"Dado que Chester dependía de su tío Vernon, no podía casarse sin su aprobación.",El tío Vernon no podía casarse sin su aprobación.,0
+221,Thomson visitó la tumba de Cooper en 1765. Por aquel entonces hacía cinco años que estaba muerto.,Hacía cinco años que Thomson estaba muerto.,0
+222,Mark le contó a Pete muchas mentiras sobre sí mismo que Pete incluyó en su libro. Tendría que haber sido más escéptico.,Mark tendría que haber sido más escéptico.,0
+223,"Mi reunión empezaba a las 16:00 y tenía que coger el tren a las 16:30 por lo que no me quedaba mucho tiempo. Por suerte, se retrasó y todo salió bien.",La reunión se retrasó y todo salió bien.,0
+224,Los zorros entran de noche y atacan a los pollos. Se han puesto muy nerviosos.,Los zorros se han puesto muy nerviosos.,0
+225,Coloqué el ala de mariposa sobre la mesa y se rompió.,El ala de mariposa se rompió.,1
+226,"Fred y Alice llevaban abrigos muy gruesos, pero no estaban preparados para el frío de Alaska.",Fred y Alice no estaban preparados para el frío de Alaska.,1
+227,Tom llevó a Ralph en coche a la escuela para que no tuviera que caminar.,Para que Tom no tuviera que caminar.,0
+228,Guardé la tarta en la nevera. Había muchas sobras en ella.,Había muchas sobras en la nevera.,1
+229,"Sid explicó su teoría a Mark, pero no pudo convencerlo.",Mark no pudo convencerlo.,0
+230,Saqué la cantimplora de la mochila para tenerla más a mano.,Saqué la cantimplora de la mochila para tener la cantimplora más a mano.,1
+231,El pez se comió al gusano. Estaba muy sabroso.,El gusano estaba muy sabroso.,1
+232,"Cuando Andrea pasó con la avioneta por encima de Susan, pudo ver la pista de aterrizaje.",Andrea pudo ver la pista de aterrizaje.,1
+233,"Cuando Andrea pasó con la avioneta por encima de Susan, pudo ver la pista de aterrizaje.",Susan pudo ver la pista de aterrizaje.,0
+234,"Lionel tiene como prisionero a un científico, el doctor Vardi, que ha inventado un dispositivo que convierte a los animales en invisibles; Lionel tiene previsto utilizarlo en Geoffrey y enviarle a robar material nuclear de un almacén del ejército.",Lionel tiene previsto utilizarlo en Geoffrey y enviar a Geoffrey a robar material nuclear de un almacén del ejército.,1
+235,Kirilov cedió la presidencia a Shatov porque era más popular.,Shatov era más popular.,1
+236,"Bernard, que no había dicho al funcionario que tenía menos de 21 años cuando presentó su solicitud de concesión de propiedad, no consideraba que hubiera hecho nada malo. Pero cualquiera que supiera que solo tenía 19 años podría haber anulado su solicitud.",El funcionario tenía menos de 21 años cuando presentó su solicitud de concesión de propiedad.,0
+237,Mamá entró y se sentó al lado de Alice. Le acarició el cabello suavemente y dejó que la niña llorara.,Alice le acarició el cabello y dejó que la niña llorara.,0
+238,"Alice buscaba a su amiga Jade entre la multitud. Como ella siempre tiene buena suerte, Alice pudo verla en seguida.","Como Jade siempre tiene buena suerte, Alice pudo verla en seguida.",0
+239,"Estaba allí sentado sintiéndome un poco como el chico de aquella historia que leí una vez, que había asesinado a una mujer y había ocultado el cuerpo bajo la mesa del comedor, y después tuvo que ser el alma de la fiesta, con ella allí todo el tiempo.","Tuvo que ser el alma de la fiesta, con la mujer allí todo el tiempo.",1
+240,"El gato esperaba ante la ratonera a que saliera el ratón, pero era demasiado impaciente.",El ratón era demasiado impaciente.,0
+241,"A todos les gustaron mucho las galletas de avena, solo unos cuantos prefirieron las galletas de chocolate. La próxima vez, deberíamos hacer más.",Deberíamos hacer más galletas de chocolate.,0
+242,Jim hizo señas al camarero y le señaló su llave del baño.,Jim hizo señas al camarero y le señaló la llave del baño de Jim.,0
+243,"Mark le pisaba los talones al Sr. Singer. Oyó cómo llamaba al capitán, y le prometía, en la jerga con la que todo el mundo hablaba aquella noche, que en el barco nada resultaría dañado, excepto la munición, pero el capitán y su tripulación prefirieron quedarse en la cabina hasta que finalizara el trabajo.",Oyó como el Sr. Singer llamaba al capitán.,1
+244,No pude coger el frasco del estante porque estaba demasiado alto.,El estante estaba demasiado alto.,0
+245,John corría por el parque cuando vio a un hombre que hacía malabares con sandías. Era espectacular.,El hombre que hacía malabares era espectacular.,1
+246,"El abogado hizo una pregunta al testigo, pero no quiso responderla.",El testigo no quiso responderla.,1
+247,"Susan sabía que el hijo de Ann había tenido un accidente de coche, porque se lo explicó.",Susan se lo explicó.,0
+248,"Dado que Chester dependía de su tío Vernon, no podía casarse sin su aprobación.",Chester no podía casarse sin su aprobación.,1
+249,"Cuando los promotores de la ley acudieron al ayuntamiento, les sorprendió ver que la sala estaba llena de opositores. Eran muchos más.",Los opositores eran muchos más.,1
+250,Billy lloraba porque Toby no quería compartir su juguete.,Billy lloraba porque Toby no quería compartir el juguete de Toby.,1
+251,"En el concurso Loebner los jueces no podían decidir qué concursantes eran los chatbots, porque eran muy estúpidos.",Los jueces eran muy estúpidos.,1
+252,La gran bola penetró a través de la mesa porque era de acero.,La mesa era de acero.,0
+253,"Grant cultivó sus garbanzos con gran esfuerzo para que él y su familia pudieran comer en invierno. Su amigo Henry le dejó guardarlos en su granero para que se secaran. Después, él y Tatyana los desgranarían y los cocinarían para sus comidas de los domingos.",Su amigo Henry le dejó guardar los garbanzos en su granero para que se secaran.,1
+254,"Jane llamó a la puerta de Susan, pero no hubo respuesta. Había salido.",Jane había salido.,0
+255,Jane llamó a la puerta y Susan respondió. La invitó a entrar.,Jane la invitó a entrar.,0
+256,La mesa no pasará por la puerta porque es demasiado ancha.,La puerta es demasiado ancha.,0
+257,"En varias ocasiones Henry había estado presente en las entrevistas que su padre había mantenido con destacados detectives que solicitaban su ayuda para resolver misterios sorprendentes, y esas ocasiones fueron días señalados para él.",Estas ocasiones fueron días señalados para su padre.,0
+258,"Si el estafador hubiera conseguido engañar a Sam, él habría perdido mucho dinero.",Sam habría perdido mucho dinero.,1
+259,"Larry, un adolescente tímido, vive con su madre viuda en una vivienda social en Brooklyn. El padre de Larry, líder de una banda, murió en un tiroteo; el discípulo de su padre, Antonio, ha tomado a Larry bajo su protección y le enseña a traficar con drogas.","El discípulo de su padre, Antonio, ha tomado a Larry bajo su protección y enseña al padre de Larry a traficar con drogas.",0
+260,Frank se sintió desolado cuando su rival de toda la vida Bill le dijo que había ganado la competición.,Frank había ganado la competición.,0
+261,Fred se tapó los ojos con los brazos porque el viento hacía que le entrara arena. Los bajó cuando el viento dejó de soplar.,Bajó los brazos cuando el viento dejó de soplar.,1
+262,Los Wainwright trataron al Sr. Crowley como un príncipe hasta que hizo testamento en su favor; después le trataron como un trapo sucio. La gente decía que murió para acabar con su persistente acoso.,La gente decía que murió para acabar con el persistente acoso de la gente.,0
+263,El padre llevaba al hijo que dormía en sus brazos.,El padre llevaba al hijo que dormía en los brazos del hijo.,0
+264,Hay un agujero en el muro. Se puede ver el jardín a través de él.,Se puede ver el jardín a través del muro.,0
+265,Los arqueólogos han llegado a la conclusión de que había humanos en Laputa hace 20 000 años. Cazaban ciervos en las orillas de los ríos.,Los arqueólogos cazaban ciervos en las orillas de los ríos.,0
+266,"Susan sabía que el hijo de Ann había tenido un accidente de coche, por eso se lo explicó.",Susan se lo explicó.,1
+267,"El padre averiguó cuánto dinero debía el hombre a la tienda; a eso añadió el alojamiento en la cabaña del cocinero. Restó el importe del salario del hombre, y le extendió un cheque.",El hombre restó el importe del salario del hombre.,0
+268,El cliente entró en el banco y apuñaló a uno de los cajeros. Lo llevaron al hospital inmediatamente.,Llevaron al cajero al hospital inmediatamente.,1
+269,Kirilov cedió la presidencia a Shatov porque era menos popular.,Kirilov era menos popular.,1
+270,John contrató a Bill para cuidarlo.,John contrató a Bill para cuidar a Bill.,0
+271,Bill pasó la videoconsola a John porque era su turno.,Era el turno de John.,1
+272,Joe pagó al detective cuando le hubo entregado el informe final sobre el caso.,Joe entregó el informe final sobre el caso.,0
+273,"Fred es el único hombre vivo que todavía recuerda a mi padre cuando era niño. Cuando Fred vio por primera vez a mi padre, tenía doce meses.","Cuando Fred vio por primera vez a mi padre, mi padre tenía doce meses.",1
+274,James pidió un favor a Robert pero se lo negó.,Se lo negó a James.,1
+275,"Lily habló a Donna, rompiendo su silencio.","Lily habló a Donna, rompiendo el silencio de Lily.",1
+276,"Bob jugaba a cartas con Adam e iba ganando. Si Adam no hubiera tenido un golpe de suerte, habría perdido.",Bob habría perdido.,0
+277,Dan tenía que impedir que Bill siguiera jugando con el pájaro herido. Es muy cruel.,Dan es muy cruel.,0
+278,"Ann preguntó a Mary a qué hora cerraba la librería, pero lo había olvidado.",Mary lo había olvidado.,1
+279,La escultura cayó de la estantería porque no estaba sujeta.,La escultura no estaba sujeta.,1
+280,Carol creía que Rebecca sospechaba que había robado el reloj.,Carol creía que Rebecca sospechaba que Carol había robado el reloj.,1
+281,"Paul intentó llamar a George por teléfono, pero no obtuvo respuesta.",George no obtuvo respuesta.,0
+282,"Mary acostó a su hija Anne, para que ella pudiera trabajar.","Mary acostó a su hija Anne, para que Mary pudiera trabajar.",1
+283,James pidió un favor a Robert pero él se negó.,Robert se negó.,1
+284,"No tenía cuchara, por lo que utilicé un bolígrafo para remover el café. Pero no fue buena idea, porque se llenó de café.",El café se llenó de café.,0
+285,"El camino hasta el lago estaba cortado, por lo que no pudimos cogerlo.",No pudimos coger el camino.,1
+286,"Mientras estiraba la espalda, la mujer sonrió a la niña.","Mientras estiraba la espalda de la niña, la mujer sonrió a la niña.",0
+287,Los arqueólogos han llegado a la conclusión de que había humanos en Laputa hace 20 000 años. Buscaban pruebas en las orillas del río.,Los arqueólogos buscaban pruebas en las orillas del río.,1
+288,"Intentaba pintar un cuadro de árboles frutales, con limones en los limoneros, pero más bien parecían bombillas.",Los limones más bien parecían bombillas.,1
+289,"Esta mañana, Joey ha construido un castillo de arena en la playa y ha puesto un estandarte en la torre más alta, pero por la tarde la marea lo ha derribado.",Por la tarde la marea ha derribado el castillo de arena.,1
+290,Los zorros entran de noche y atacan a los pollos. Se han puesto muy nerviosos.,Los pollos se han vuelto muy nerviosos.,1
+291,Tom lanzó su mochila a Ray cuando llegó a lo alto de las escaleras.,Ray llegó a lo alto de las escaleras.,0
+292,"En julio, Kamchatka declaró la guerra a Yakutsk. Como el ejército de Yakutsk estaba mucho mejor equipado y era diez veces mayor, fue derrotado en pocas semanas.",Kamchatka fue derrotado en pocas semanas.,1
+293,Madonna despidió a su entrenadora porque se acostaba con su novio.,La entrenadora se acostaba con su novio.,1
+294,Dan tenía que impedir que Bill siguiera jugando con el pájaro herido. Es muy compasivo.,Dan es muy compasivo.,1
+295,Utilicé un paño viejo para limpiar el cuchillo y después lo tiré a la basura.,Tiré el paño a la basura.,1
+296,Le dio una palmadita en la espalda y la mujer sonrió a la niña.,Le dio una palmadita en la espalda de la mujer y la mujer sonrió a la niña.,0
+297,La gran bola penetró a través de la mesa porque era de poliestireno extruido.,La mesa era de poliestireno extruido.,1
+298,"Estaba intentando abrir el candado con la llave, pero alguien había llenado la cerradura con goma de mascar y no podía sacarla.",No podía sacar la goma de mascar.,1
+299,"Adam no puede salir del trabajo hasta que Bob llegue para sustituirle. Si Bob hubiera salido de casa a tiempo, ahora ya se habría ido.",Ahora Adam ya se habría ido.,1
+300,"Bob pagó la formación universitaria de Charlie, pero ahora Charlie actúa como si no lo hubiera hecho. Está muy dolido.",Bob está muy dolido.,1
+301,"Bernard, que no había dicho al funcionario que tenía menos de 21 años cuando presentó su solicitud de concesión de propiedad, no consideraba que hubiera hecho nada malo. Pero cualquiera que supiera que solo tenía 19 años podría haber anulado su solicitud.",Cualquiera que supiera que solo tenía 19 años podría haber anulado la solicitud a Bernard.,1
+302,Mary sacó su flauta y tocó una de sus piezas favoritas. La tenía desde que era niña.,Tenía la flauta desde que era niña.,1
+303,"Sam y Amy están muy enamorados, pero a los padres de Amy no les gusta, porque son unos esnobs.",Sam y Amy son unos esnobs.,0
+304,Este libro introdujo a Shakespeare en Goethe; fue una buena selección de su obra.,Fue una buena selección de los escritos de Shakespeare.,1
+305,Los zorros entran de noche y atacan a los pollos. Tendré que protegerlos.,Tendré que proteger a los pollos.,1
+306,"El asno deseó que la verruga de su pata trasera desapareciera, y así fue.","El asno deseó que la verruga de su pata trasera desapareciera, y la verruga desapareció.",1
+307,Guardé la tarta en la nevera. Tenía mucha mantequilla.,Tenía mucha mantequilla en la nevera.,0
+308,"El saco de patatas estaba debajo del saco de harina, por eso había que sacarlo primero.",Había que sacar primero el saco de patatas.,0
+309,"Papá observó las caras de sus hijas, tan asombradas y tristes ahora. Ya era bastante malo que tuvieran que renunciar a tantas cosas porque él no podía permitírselas.",Él no podía permitirse las caras.,0
+310,Coloqué el libro pesado sobre la mesa y se rompió.,El libro pesado se rompió.,0
+311,Utilicé un paño viejo para limpiar el cuchillo y después lo metí en el cajón.,Metí el cuchillo en el cajón.,1
+312,James pidió un favor a Robert pero él se negó.,James se negó.,0
+313,Los hombres tenían derecho a que sus hijos trabajaran para ellos hasta que cumplieran los 21 años.,Los hombres tenían derecho a que sus hijos trabajaran para ellos hasta que los hijos cumplieran los 21 años.,1
+314,"Los estudiantes mayores acosaban a los más jóvenes, por eso fuimos a ayudarles.",Fuimos a ayudar a los estudiantes más jóvenes.,1
+315,"Esta mañana, Joey ha construido un castillo de arena en la playa y ha puesto un estandarte en la torre más alta, pero por la tarde el viento lo ha derribado.",Por la tarde el viento ha derribado el estandarte.,1
+316,"El saco de patatas estaba sobre el saco de harina, por eso había que sacarlo primero.",Había que sacar primero el saco de patatas.,1
+317,Ann dio a luz a una niña el mes pasado. Es una niña encantadora.,La hija de Ann es una niña encantadora.,1
+318,"Tatyana llevaba dos guitarras y una bolsa, y todavía pudo señalar a los Freeman: ”¡Qué bien que han venido, mamá!”","”¡Qué bien que los Freeman han venido, mamá!”",1
+319,En la sala de estar de Mark hay una pintura de un roble. Está a la derecha de la estantería.,La pintura está a la derecha de la estantería.,1
+320,"Mark le pisaba los talones al Sr. Singer. Oyó cómo llamaba al capitán, y le prometía, en la jerga con la que todo el mundo hablaba aquella noche, que en el barco nada resultaría dañado, excepto la munición, pero el capitán y su tripulación prefirieron quedarse en la cabina hasta que finalizara el trabajo.",El capitán y toda la tripulación de Mark prefirieron quedarse en la cabina hasta que finalizara el trabajo.,0
+321,"Cuando Tatyana llegó al camarote, su madre estaba durmiendo. Entró con cuidado para no despertarla, se desvistió y subió a su litera.","Entró con cuidado para no despertarla, se desvistió y subió a la litera de su madre.",0
+322,Mark oyó las pisadas de Steve bajando la escalera. La puerta de la tienda se cerró tras él. Corrió a mirar por la ventana.,Steve corrió a mirar por la ventana.,0
+323,Los dueños de los almacenes se quedaron en la ciudad para gestionarlos y vivían en las habitaciones de detrás.,Los dueños de los almacenes se quedaron en la ciudad para gestionarlos y vivían en las habitaciones de detrás de los dueños.,0
+324,Pete envidia a Martin porque tiene mucho éxito.,Pete tiene mucho éxito.,0
+325,"Hasta ahora Larry siempre había ayudado a su padre en su trabajo. Pero ahora no podía ayudarle, porque su padre decía que el jefe de la compañía ferroviaria no quería que hubiera nadie más que él en la oficina.",El jefe de su padre en la compañía ferroviaria no quería que nadie más que él trabajara en la oficina.,1
+326,"Grant cultivó sus garbanzos con gran esfuerzo para que él y su familia pudieran comer en invierno. Su amigo Henry le dejó guardarlos en su granero para que se secaran. Después, él y Tatyana los desgranarían y los cocinarían para sus comidas de los domingos.","Después, él y Tatyana los desgranarían y los cocinarían para las comidas de los domingos de él y Tatyana.",1
+327,"Los periodistas entrevistaron a los protagonistas de la nueva película. Eran muy persistentes, por lo que la entrevista duró mucho tiempo.","Los protagonistas eran muy persistentes, por lo que la entrevista duró mucho tiempo.",0
+328,A Anna la prueba le salió mucho peor que a su buena amiga Lucy porque ella había estudiado mucho.,Anna había estudiado mucho.,0
+329,La Dra. Adams informó a Kate de que tenía cáncer y presentó varias opciones para su futuro tratamiento.,Kate tenía cáncer y presentó varias opciones para su futuro tratamiento.,1
+330,Este libro introdujo a Shakespeare en Ovidio; fue una buena selección de su obra.,Fue una buena selección para la escritura de Ovidio.,1
+331,Durante el juego del pillapilla Ethan escapó de Luke porque era quien la pagaba.,Luke era quien la pagaba.,1
+332,"El Sr. Moncrieff visitó el lujoso apartamento de Chester en Nueva York, pensando que era de su hijo Edward. El resultado es que el Sr. Moncrieff ha decidido cancelar la asignación de Edward porque ya no necesita su ayuda financiera.",El Sr. Moncrieff ya no necesita su ayuda financiera.,0
+333,"Alice intentó con todas sus fuerzas evitar que su hija hablara en la fiesta, y nos preguntábamos por qué se comportaba de forma tan extraña.",Alice se comportaba de forma extraña.,1
+334,"Los rótulos sobre las puertas de las tiendas tenían dibujos que indicaban el trabajo que se hacía dentro. Aunque cada vez había más gente que aprendía a leer, cada artesano seguía teniendo su dibujo, y no quería perder a un posible cliente solo porque no supiera leer.",Cada artesano seguía teniendo su dibujo y no quería perder a un posible cliente solo porque el cliente no supiera leer.,1
+335,Los científicos están estudiando tres especies de peces que recientemente han descubierto en el Océano Índico. Empezaron hace dos años.,Los peces empezaron hace dos años.,0
+336,Dan se sentó atrás mientras Bill reclamaba el asiento de delante porque había sido más rápido.,Dan se sentó atrás mientras Bill reclamaba el asiento de delante porque Bill había sido más rápido.,1
+337,La biografía de Sam Goodman sobre el general espartano Jenofonte transmite una vívida visión de las dificultades con las que se enfrentó en su investigación.,La biografía de Sam Goodman sobre el general espartano Jenofonte transmite una vívida visión de las dificultades con las que Jenofonte se enfrentó en su investigación.,0
+338,Clavé una aguja en una zanahoria. Cuando saqué la aguja dejó un agujero.,La aguja dejó un agujero.,1
+339,"Jackson estaba muy influido por Arnold, aunque vivió dos siglos después.",Arnold vivió dos siglos después.,0
+340,Los políticos de Washington no pueden conocer a los colonos y por eso deben redactar normas para regularlos.,Deben redactar normas para regular a los colonos.,1
+341,"Cuando Andrea pasó con la avioneta por encima de Susan, pudo ver el tren de aterrizaje.",Andrea pudo ver el tren de aterrizaje.,0
+342,Mamá entró y se sentó al lado de Alice. Le acarició el cabello suavemente y dejó que la niña llorara.,Acarició el cabello de Alice y dejó que la niña llorara.,1
+343,Joe ha vendido su vieja casa y ha comprado una nueva a pocos kilómetros de distancia. Se va a marchar de ella el jueves.,Se va a marchar de la casa nueva el jueves.,0
+344,Mamá entró y se sentó al lado de Alice. Le acarició el cabello suavemente y dejó que la niña llorara.,Acarició el cabello de mamá y dejó que la niña llorara.,0
+345,Joan se aseguró de dar las gracias a Susan por toda la ayuda que había recibido.,Joan se aseguró de dar las gracias a Susan por toda la ayuda que Joan había recibido.,1
+346,"Estaba allí sentado sintiéndome un poco como el chico de aquella historia que leí una vez, que había asesinado a una mujer y había ocultado el cuerpo bajo la mesa del comedor, y después tuvo que ser el alma de la fiesta, con ella allí todo el tiempo.","Tuvo que ser el alma de la fiesta, con la mesa allí todo el tiempo.",0
+347,"Larry, un adolescente tímido, vive con su madre viuda en una vivienda social en Brooklyn. El padre de Larry, líder de una banda, murió en un tiroteo; el discípulo de su padre, Antonio, ha tomado a Larry bajo su protección y le enseña a traficar con drogas.","El discípulo de su padre, Antonio, ha tomado a Larry bajo su protección y enseña a Antonio a traficar con drogas.",1
+348,"Los estudiantes mayores acosaban a los más jóvenes, por eso fuimos a castigarles.",Fuimos a castigar a los estudiantes mayores.,1
+349,"En el concurso Loebner los jueces no podían decidir qué concursantes eran los chatbots, porque eran muy inteligentes.",Los chatbots eran muy inteligentes.,1
+350,"Los padres de Pam llegaron a casa y la encontraron en la cama con su novio, Paul. Se sintieron muy incómodos.",Pam y Paul se sintieron muy incómodos.,1
+351,Durante el juego del pillapilla Ethan escapó de Luke porque era quien la pagaba.,Ethan era quien la pagaba.,0
+352,"Estaba intentando abrir el candado con la llave, pero alguien había llenado la cerradura con goma de mascar y no podía sacarla.",No podía sacar la llave.,0
+353,"Alice buscaba a su amiga Jade entre la multitud. Como ella siempre tiene buena suerte, Alice pudo verla en seguida.","Como Alice siempre tiene buena suerte, Alice pudo verla en seguida.",1
+354,"Como llovía, puse el periódico sobre mi mochila para que no se mojara.",Puse el periódico sobre mi mochila para que el periódico no se mojara.,0
+355,Madonna despidió a su entrenadora porque no soportaba a su novio.,No podía soportar al novio de su entrenadora.,1
+356,"En julio, Kamchatka declaró la guerra a Yakutsk. Como el ejército de Yakutsk estaba mucho mejor equipado y era diez veces mayor, resultó vencedor en pocas semanas.",Kamchatka resultó vencedor en pocas semanas.,0
+357,Frank se sintió desolado cuando su rival de toda la vida Bill le dijo que había ganado la competición.,Bill había ganado la competición.,1
+358,"Bob pagó la formación universitaria de Charlie, pero ahora Charlie actúa como si no lo hubiera hecho. Es muy desagradecido.",Bob es muy desagradecido.,0
+359,"El Sr. Moncrieff visitó el lujoso apartamento de Chester en Nueva York, pensando que era de su hijo Edward. El resultado es que el Sr. Moncrieff ha decidido cancelar la asignación de Edward porque ya no necesita su ayuda financiera.",Ya no necesita la ayuda financiera del Sr. Moncrieff.,1
+360,Los científicos están estudiando tres especies de peces que recientemente han descubierto en el Océano Índico. Aparecieron hace dos años.,Los científicos aparecieron hace dos años.,0
+361,En la sala de estar de Mark hay una pintura de un roble. Está a la derecha de una casa.,La pintura está a la derecha de una casa.,0
+362,Los policías arrestaron a todos los miembros de la banda. Intentaban acabar con el tráfico de drogas en el barrio.,Los miembros de la banda intentaban acabar con el tráfico de drogas en el barrio.,0
+363,El Sr. Taylor era un hombre con un carácter inseguro y su tendencia general era pensar que David era un pobre tonto y que hiciera lo que hiciera por su cuenta sería una prueba más de su idiotez innata.,Hiciera lo que hiciera por su cuenta sería una prueba más de la idiotez innata del Sr. Taylor.,0
+364,John corría por el parque cuando vio a un hombre que hacía malabares con sandías. Estaba muy impresionado.,El hombre que hacía malabares estaba muy impresionado.,0
+365,Los zorros entran de noche y atacan a los pollos. Se han vuelto muy atrevidos.,Los pollos se han vuelto muy atrevidos.,0
+366,"Adam no puede salir del trabajo hasta que Bob llegue para sustituirle. Si Bob hubiera salido de casa a tiempo, ahora ya habría llegado.",Ahora Adam ya habría llegado.,0
+367,"En julio, Kamchatka declaró la guerra a Yakutsk. Como el ejército de Yakutsk estaba mucho mejor equipado y era diez veces mayor, resultó vencedor en pocas semanas.",Yakutsk resultó vencedor en pocas semanas.,1
+368,"Mary acostó a su hija Anne, para que ella pudiera dormir.","Mary acostó a su hija Anne, para que Mary pudiera dormir.",0
+369,"Cada día después de comer el Sr. Schmidt echaba una larga siesta. Mark le dejaba dormir durante una hora y después lo despertaba, lo reñía y le obligaba a trabajar. Necesitaba conseguir que acabara su trabajo, porque era muy bonito.","Mark necesitaba conseguir que acabara su trabajo, porque era muy bonito.",1
+370,Los hombres tenían derecho a que sus hijos trabajaran para ellos hasta que cumplieran los 21 años.,Los hombres tenían derecho a que sus hijos trabajaran para ellos hasta que los hombres cumplieran los 21 años.,0
+371,"A todos les gustaron mucho las galletas de avena, solo unos cuantos prefirieron las galletas de chocolate. La próxima vez, deberíamos hacer menos.",Deberíamos hacer menos galletas de chocolate.,1
+372,"Fred es el único hombre vivo que todavía recuerda a mi padre cuando era niño. Cuando Fred vio por primera vez a mi padre, tenía doce años.","Cuando Fred vio por primera vez a mi padre, Fred tenía doce años.",1
+373,Muchos lectores empiezan a leer los libros de Paul y no puede dejarlos. Son populares porque Paul escribe muy bien.,Los libros de Paul son populares porque Paul escribe muy bien.,1
+374,Fred se tapó los ojos con los brazos porque el viento hacía que le entrara arena. Los abrió cuando el viento dejó de soplar.,Abrió los brazos cuando el viento dejó de soplar.,0
+375,"El asno deseó que la verruga de su pata trasera desapareciera, y así fue.","El asno deseó que la verruga de su pata trasera desapareciera, y el asno desapareció.",0
+376,"En el concurso Loebner los jueces no podían decidir qué concursantes eran los chatbots, porque eran muy estúpidos.",Los chatbots eran muy estúpidos.,0
+377,Este libro introdujo a Shakespeare en Goethe; fue una gran influencia para su escritura.,Fue una gran influencia para la obra de Goethe.,1
+378,"Vi a Jim gritando a un tipo con uniforme militar y una gran barba roja. No sé quién era, pero parecía muy triste.","No sé quién era el tipo con uniforme, pero parecía muy desdichado.",1
+379,John no podía ver el escenario si Billy estaba delante de él porque es demasiado bajo.,Billy es demasiado bajo.,0
+380,"George consiguió entradas gratis para la obra, pero se las dio a Eric, porque no tenía muchas ganas de verla.",George no tenía muchas ganas de verla.,1
+381,"Alice limpiaba el polvo del salón e intentaba encontrar el botón que su madre había perdido. Hoy no tenía tiempo para mirar las fotos antiguas de su álbum favorito. Hoy tenía que buscar un botón, por lo que dejó el álbum sobre un sillón sin ni siquiera abrirlo.",Hoy no tenía tiempo para mirar las fotos antiguas del álbum favorito de su madre.,0
+382,"Estaba intentando abrir el candado con la llave, pero alguien había llenado la cerradura con goma de mascar y no podía introducirla.",No podía introducir la goma de mascar.,0
+383,La copa no cabe en la maleta marrón porque es demasiado pequeña.,La maleta es demasiado pequeña.,1
+384,"El abogado hizo una pregunta al testigo, pero no quiso responderla.",El abogado no quiso responderla.,0
+385,Joan se aseguró de dar las gracias a Susan por toda la ayuda que había recibido.,Joan se aseguró de dar las gracias a Susan por toda la ayuda que Susan había recibido.,0
+386,"Mark solo podía pensar en Blaze, su caballo blanco. Temía que los mozos de las caballerizas de Burlington Stables se metieran con él y le acosaran porque era tímido, por eso asumió él mismo la alimentación y el cuidado del animal.",Mark asumió él mismo la alimentación y el cuidado del animal.,1
+387,"Tatyana llevaba dos guitarras y una bolsa, y todavía pudo señalar a los Freeman: ”¡Qué bien que han venido, mamá!”","”¡Qué bien que las dos guitarras y la bolsa hayan venido, mamá!”",0
+388,Mark le contó a Pete muchas mentiras sobre sí mismo que Pete incluyó en su libro. Tendría que haber sido más realista.,Pete tendría que haber sido más realista.,0
+389,Tom lanzó su mochila a Ray cuando llegó a la parte inferior de las escaleras.,Ray llegó a la parte inferior de las escaleras.,1
+390,"Cuando los promotores de la ley acudieron al ayuntamiento, les sorprendió ver que la sala estaba llena de opositores. Eran muchos menos.",Los opositores eran muchos menos.,0
+391,"Bob jugaba a cartas con Adam e iba ganando. Si Adam no hubiera tenido un golpe de suerte, habría perdido.",Adam habría perdido.,1
+392,"Mi reunión empezaba a las 16:00 y tenía que coger el tren a las 16:30 por lo que no me quedaba mucho tiempo. Por suerte, fue breve y todo salió bien.",La reunión fue breve y todo salió bien.,1
+393,"John no podía ver el escenario si Billy estaba delante de él, porque es demasiado alto.",John es demasiado alto.,0
+394,"Todos los botones de la parte de atrás del vestido de Dora se abrochaban por fuera. Maude tendría que haber pensado en abrochárselos, pero no, había dejado a la pobre Dora que lo hiciera como pudiera ella sola.",Había dejado a la pobre Dora que lo hiciera como pudiera ella sola como Maude.,0
+395,Estoy seguro de que en mi mapa aparecerá este edificio. Es muy bueno.,El edificio es muy bueno.,0
+396,Tom llevó a Ralph en coche a la escuela para que no tuviera que caminar.,Para que Ralph no tuviera que caminar.,1
+397,"Sid explicó su teoría a Mark, pero no le entendió.",Sid no le entendió.,0
+398,"En medio del concierto al aire libre empezó a llover, pero siguió hasta las 10.",La lluvia siguió hasta las 10.,0
+399,Frank estaba enfadado con Tom porque la tostadora que le había comprado no funcionaba.,La tostadora que Frank le había comprado no funcionaba.,1
+400,Dan se sentó atrás mientras Bill reclamaba el asiento de delante porque había sido más lento.,Dan se sentó atrás mientras Bill reclamaba el asiento de delante porque Bill había sido más lento.,0
+401,La mesa no pasará por la puerta porque es demasiado ancha.,La mesa es demasiado ancha.,1
+402,Jane llamó a la puerta y Susan respondió. La invitó a entrar.,Susan la invitó a entrar.,1
+403,Los zorros entran de noche y atacan a los pollos. Tendré que protegerlos.,Tendré que proteger a los zorros.,0
+404,Los concejales negaron el permiso a los manifestantes porque defendían la violencia.,Los concejales defendían la violencia.,0
+405,Bob pagó la formación universitaria de Charlie. Es muy generoso.,Charlie es muy generoso.,0
+406,Sara tomó prestado un libro de la biblioteca porque lo necesita para un artículo en el que está trabajando. Lo escribe cuando llega a casa del trabajo.,Escribe el artículo cuando llega a casa del trabajo.,1
+407,"Alice limpiaba el polvo del salón e intentaba encontrar el botón que su madre había perdido. Hoy no tenía tiempo para mirar las fotos antiguas de su álbum favorito. Hoy tenía que buscar un botón, por lo que dejó el álbum sobre un sillón sin ni siquiera abrirlo.",Hoy no tenía tiempo para mirar las fotos antiguas del álbum favorito de Alice.,1
+408,"Sam se rompió las dos piernas y ahora camina con muletas. Pero dentro de un mes, más o menos, deberían estar mejor.",Las piernas deberían estar mejor.,1
+409,"El perro perseguía al gato, que trepó por un árbol. Le esperó abajo.",El gato espero abajo.,0
+410,Jane dio golosinas a Joan porque no tenía hambre.,Joan no tenía hambre.,0
+411,"Salí a buscar un poco de jabón, más para pasar el tiempo que porque lo necesitara.","Salí a buscar un poco de jabón, más para pasar el tiempo que porque necesitara el tiempo.",0
+412,El pez se comió al gusano. Estaba hambriento.,El pez estaba hambriento.,1
+413,"Cuando Andrea pasó con la avioneta por encima de Susan, pudo ver el tren de aterrizaje.",Susan pudo ver el tren de aterrizaje.,1
+414,"Mary acostó a su hija Anne, para que ella pudiera dormir.","Mary acostó a su hija Anne, para que la hija de Mary pudiera dormir.",1
+415,"El Sr. Moncrieff visitó el lujoso apartamento de Chester en Nueva York, pensando que era de su hijo Edward. El resultado es que el Sr. Moncrieff ha decidido cancelar la asignación de Edward porque ya no necesita su ayuda financiera.",Chester ya no necesita su ayuda financiera.,0
+416,"Era una tarde de verano, y el perro estaba tumbado en medio del césped. Al cabo de un rato, se levantó y se fue bajo el árbol, porque estaba más fresco.",El perro estaba más fresco.,0
+417,Estoy seguro de que en mi mapa aparecerá este edificio. Es muy famoso.,El mapa es muy famoso.,0
+418,"Fuimos al lago, porque se había visto un tiburón en la playa del océano, y era un lugar peligroso para nadar.",La playa del océano era un lugar peligroso para nadar.,1
+419,"Mark le pisaba los talones al Sr. Singer. Oyó cómo llamaba al capitán, y le prometía, en la jerga con la que todo el mundo hablaba aquella noche, que en el barco nada resultaría dañado, excepto la munición, pero el capitán y su tripulación prefirieron quedarse en la cabina hasta que finalizara el trabajo.",El capitán y toda la tripulación del capitán prefirieron quedarse en la cabina hasta que finalizara el trabajo.,1
+420,Este libro introdujo a Shakespeare en Ovidio; fue una gran influencia para su escritura.,Fue una gran influencia para la escritura de Ovidio.,0
+421,Mark le contó a Pete muchas mentiras sobre sí mismo que Pete incluyó en su libro. Tendría que haber sido más realista.,Mark tendría que haber sido más realista.,1
+422,Jim hizo señas al camarero y le señaló su vaso vacío.,Jim hizo señas al camarero y le señaló el vaso vacío del camarero.,0
+423,"Susan sabía que el hijo de Ann había tenido un accidente de coche, porque se lo explicó.",Ann se lo explicó.,1
+424,"La mesa estaba llena de comida, y sobre la estera, junto a ella, había vasijas, cestas y una lechera.","Junto a la comida había vasijas, cestas y una lechera.",0
+425,"Igual de espectacular es C.K. Dexter Haven, un atractivo joven pálido, que sostiene un bastón de jade, con un caniche dormido a sus pies.","Igual de espectacular es C.K. Dexter Haven, un atractivo joven pálido, que sostiene un bastón de jade, con un caniche dormido a los pies del caniche.",0
+426,Fred miraba la televisión mientras George salía a comprar comida. Al cabo de una hora se levantó.,George se levantó.,0
+427,Steve siempre sigue el ejemplo de Fred. Le admira mucho.,Steve le admira mucho.,1
+428,"Lily habló a Donna, e interrumpió su concentración.","Lily habló a Donna, e interrumpió la concentración de Lily.",0
+429,"Cuando Tatyana llegó al camarote, su madre estaba durmiendo. Entró con cuidado para no despertarla, se desvistió y subió a su litera.","Entró con cuidado para no despertar a Tatyana, se desvistió y subió a su litera.",0
+430,"Bob pagó la formación universitaria de Charlie, pero ahora Charlie actúa como si no lo hubiera hecho. Es muy desagradecido.",Charlie es muy desagradecido.,1
+431,"Sam y Amy están muy enamorados, pero a los padres de Amy no les gusta, porque tienen quince años.",Los padres de Amy tienen quince años.,0
+432,Joan se aseguró de dar las gracias a Susan por toda la ayuda que le había prestado.,Joan se aseguró de dar las gracias a Susan por toda la ayuda que Joan le había prestado.,0
+433,Tom dijo “jaque” a Ralph cuando movió su alfil.,Tom dijo “jaque” a Ralph cuando Ralph movió su alfil.,0
+434,"Cuando los promotores de la ley acudieron al ayuntamiento, les sorprendió ver que la sala estaba llena de opositores. Eran muchos menos.",Los promotores eran muchos menos.,1
+435,La escultura cayó de la estantería porque no estaba recta.,La escultura no estaba recta.,0
+436,"El tío de Joe todavía puede ganarle jugando a tenis, aunque es 30 años más joven.",El tío de Joe es 30 años más joven.,0
+437,"Vi a Jim gritando a un tipo con uniforme militar y una gran barba roja. No sé por qué, pero parecía muy triste.","No sé por qué gritaba Jim, pero parecía muy triste.",1
+438,Muchos lectores empiezan a leer los libros de Paul y no puede dejarlos. Quedan atrapados porque Paul escribe muy bien.,Los lectores quedan atrapados porque Paul escribe muy bien.,1
+439,El dibujo de Sam estaba colgado justo encima del de Tina y parecía mucho mejor con otro encima.,El dibujo de Sam parecía mucho mejor con otro encima.,0
+440,"Fuimos al lago, porque se había visto un tiburón en la playa del océano, y era un lugar peligroso para nadar.",El lago era un lugar peligroso para nadar.,0
+441,"Cada día después de comer el Sr. Schmidt echaba una larga siesta. Mark le dejaba dormir durante una hora y después lo despertaba, lo reñía y le obligaba a trabajar. Necesitaba conseguir que acabara su trabajo, porque era muy bonito.","El Sr. Schmidt necesitaba conseguir que acabara su trabajo, porque su trabajo era muy bonito.",0
+442,El hombre llevó al chico hasta su litera.,El hombre llevó al chico hasta la litera del chico.,1
+443,Por eso Mark se durmió. Era de día cuando se despertó con la mano de Warren sobre su hombro.,Era de día cuando se despertó con la mano de Warren sobre el hombro de Mark.,1
+444,Frank se sintió legitimado cuando su rival de toda la vida Bill le dijo que había ganado la competición.,Bill había ganado la competición.,0
+445,El camión de reparto adelantó al autobús escolar porque iba demasiado rápido.,El camión de reparto iba demasiado rápido.,1
+446,"Alice buscaba a su amiga Jade entre la multitud. Como ella siempre lleva un pañuelo rojo, Alice pudo verla enseguida.","Como Jade siempre lleva un pañuelo rojo, Alice pudo verla enseguida.",1
+447,"Con la tormenta, el árbol cayó y destrozó el tejado de mi casa. Ahora tengo que repararlo.",Ahora tengo que hacer que reparen el árbol.,0
+448,"Mary acostó a su hija Anne, para que ella pudiera trabajar.","Mary acostó a su hija Anne, para que la hija de Mary pudiera trabajar.",0
+449,Tom dijo “jaque” a Ralph cuando movió su alfil.,Tom dijo “jaque” a Ralph cuando movió el alfil de Tom.,1
+450,Bob se desplomó en la acera. Pronto vio que Carl venía a ayudar. Estaba muy preocupado.,Bob estaba muy preocupado.,0
+451,El hombre no pudo levantar a su hijo porque pesaba demasiado.,El hombre pesaba demasiado.,0
+452,Utilicé un paño viejo para limpiar el cuchillo y después lo metí en el cajón.,Metí el paño en el cajón.,0
+453,Los dueños de los almacenes se quedaron en la ciudad para gestionarlos y vivían en las habitaciones de detrás.,Los dueños de los almacenes se quedaron en la ciudad para gestionarlos y vivían en las habitaciones de detrás de los almacenes.,1
+454,Muchos lectores empiezan a leer los libros de Paul y no puede dejarlos. Quedan atrapados porque Paul escribe muy bien.,Los libros de Paul quedan atrapados porque Paul escribe muy bien.,0
+455,Jim gritaba a Kevin porque estaba muy enfadado.,Kevin estaba muy enfadado.,0
+456,Kirilov cedió la presidencia a Shatov porque era menos popular.,Shatov era menos popular.,0
+457,"Alice limpiaba el polvo del salón e intentaba encontrar el botón que su madre había perdido. Hoy no tenía tiempo para mirar las fotos antiguas de su álbum favorito. Hoy tenía que buscar un botón, por lo que dejó el álbum sobre un sillón sin ni siquiera abrirlo.",Dejó el álbum sobre un sillón sin ni siquiera abrir el sillón.,0
+458,"Sam iba a clase de francés con Adam, porque estaba orgulloso de hablarlo muy bien.",Sam estaba orgulloso de hablarlo muy bien.,1
+459,Los concejales negaron el permiso a los manifestantes porque temían la violencia.,Los manifestantes temían la violencia.,0
+460,"Bob pagó la formación universitaria de Charlie, pero ahora Charlie actúa como si no lo hubiera hecho. Está muy dolido.",Charlie está muy dolido.,0
+461,¡Mira! Hay un tiburón nadando justo debajo del pato. Mejor que se apresure hasta un lugar seguro.,Mejor que el pato se apresure hasta un lugar seguro.,1
+462,"Bob jugaba a cartas con Adam e iba ganando. Si Adam no hubiera tenido un repentino golpe de suerte, él habría ganado.",Bob habría ganado.,1
+463,El cliente entró en el banco y apuñaló a uno de los cajeros. Lo llevaron a la comisaría inmediatamente.,Llevaron al cliente a la comisaría inmediatamente.,1
+464,"Larry, un adolescente tímido, vive con su madre viuda en una vivienda social en Brooklyn. El padre de Larry, líder de una banda, murió en un tiroteo; el discípulo de su padre, Antonio, ha tomado a Larry bajo su protección y le enseña a traficar con drogas.","El discípulo de su padre, Antonio, ha tomado a Larry bajo su protección y enseña a Larry a traficar con drogas.",0
+465,Este libro introdujo a Shakespeare en Goethe; fue una buena selección de su obra.,Fue una buena selección para la escritura de Goethe.,0
+466,"Era una tarde de verano, y el perro estaba tumbado en medio del césped. Al cabo de un rato, se levantó y se fue bajo el árbol, porque estaba más fresco.",El lugar bajo el árbol estaba más fresco.,1
+467,El desagüe se ha atascado con pelo. Hay que sacarlo.,Hay que sacar el pelo.,1
+468,"Fuimos al lago, porque se había visto un tiburón en la playa del océano, y era un lugar más seguro para nadar.",El lago era un lugar más seguro para nadar.,1
+469,Los bomberos llegaron más tarde que los policías porque venían de más lejos.,Los bomberos venían de más lejos.,1
+470,Carol creía que Rebecca lamentaba haber robado el reloj.,Carol creía que Rebecca lamentaba que Carol hubiera robado el reloj.,0
+471,Billy lloraba porque Toby no quería aceptar su juguete.,Billy lloraba porque Toby no quería aceptar el juguete de Billy.,1
+472,La Dra. Adams informó a Kate de que se había jubilado y le presentó varias opciones para su futuro tratamiento.,Kate se había jubilado y le presentó varias opciones para su futuro tratamiento.,0
+473,Los Wainwright trataron al Sr. Crowley como un príncipe hasta que hizo testamento en su favor; después le trataron como un trapo sucio. La gente decía que murió para acabar con su persistente acoso.,La gente decía que murió para acabar con el persistente acoso de los Wainwright.,1
+474,"La actriz se llamaba Terpsichore, pero hace unos años cambió su nombre por el de Tina porque creía que era demasiado difícil de pronunciar.",Tina era demasiado difícil de pronunciar.,0
+475,"Incluso antes de llegar a la ciudad, pudieron escuchar un ruido como de maíz tostándose. Dora preguntó qué era y papá dijo que eran petardos.",Dora preguntó qué era aquella ciudad.,0
+476,La Dra. Adams informó a Kate de que tenía cáncer y presentó varias opciones para su futuro tratamiento.,La Dra. Adams tenía cáncer y presentó varias opciones para su futuro tratamiento.,0
+477,"Vi a Jim gritando a un tipo con uniforme militar y una gran barba roja. No sé quién era, pero parecía muy triste.","No sé quién era Jim, pero parecía muy triste.",0
+478,Joe pagó al detective cuando le hubo entregado el informe final sobre el caso.,El detective entregó el informe final sobre el caso.,1
+479,"Jane llamó a la puerta de Susan, pero no obtuvo respuesta.",Jane no obtuvo respuesta.,1
+480,"Tatyana sabía que a su abuela siempre le gustaba servir mucha comida a sus invitados. Ahora Tatyana observaba como su abuela abrazaba a la diminuta madre de Tatyana con sus brazos enjutos y después la llevó a la mesa, le quitó el chal de los hombros, y la invitó a sentarse en el puesto de honor, diciendo simplemente: “Hay mucho”",La abuela abrazó a la diminuta madre de Tatyana con sus brazos enjutos y después llevó a la madre de Tatyana a la mesa.,1
+481,Susan lo sabe todo sobre los problemas personales de Ann porque es muy entrometida.,Susan es muy entrometida.,1
+482,"Alice limpiaba el polvo del salón e intentaba encontrar el botón que su madre había perdido. Hoy no tenía tiempo para mirar las fotos antiguas de su álbum favorito. Hoy tenía que buscar un botón, por lo que dejó el álbum sobre un sillón sin ni siquiera abrirlo.",Dejó el álbum sobre un sillón sin ni siquiera abrir el álbum.,1
+483,"El sol estuvo cubierto por una gruesa nube toda la mañana, pero afortunadamente, cuando empezó el pícnic, se había ido.",El sol se había ido.,0
+484,"Cuando Tatyana llegó al camarote, su madre estaba durmiendo. Entró con cuidado para no despertarla, se desvistió y subió a su litera.","Entró con cuidado para no despertarla, se desvistió y subió a la litera de Tatyana.",1
+485,Jim hizo señas al camarero y le señaló su vaso vacío.,Jim hizo señas al camarero y le señaló el vaso vacío de Jim.,1
+486,El pez se comió al gusano. Estaba muy sabroso.,El pez estaba muy sabroso.,0
+487,"El abogado hizo una pregunta al testigo, pero no quiso repetirla.",El testigo no quiso repetirla.,0
+488,"El gato esperaba ante la ratonera a que saliera el ratón, pero era demasiado impaciente.",El gato era demasiado impaciente.,1
+489,Pete envidia a Martin aunque tiene mucho éxito.,Pete tiene mucho éxito.,1
+490,"Con la tormenta, el árbol cayó y destrozó el tejado de mi casa. Ahora tengo que hacer que lo quiten.",Ahora tengo que hacer que quiten el tejado.,0
+491,"George consiguió entradas gratis para la obra, pero se las dio a Eric, aunque tenía muchas ganas de verla.",George tenía muchas ganas de verla.,1
+492,En la sala de estar de Mark hay una pintura de un roble. Está a la derecha de una casa.,El roble está a la derecha de una casa.,1
+493,¡Mira! Hay un pececillo nadando justo debajo del pato. Mejor que se apresure hasta un lugar seguro.,Mejor que el pececillo se apresure hasta un lugar seguro.,1
+494,En la sala de estar de Mark hay una pintura de un roble. Está a la derecha de la estantería.,El roble está a la derecha de la estantería.,0
+495,Clavé una aguja en una zanahoria. Cuando saqué la aguja tenía un agujero.,La aguja tenía un agujero.,0
+496,Susan lo sabe todo sobre los problemas personales de Ann porque es indiscreta.,Susan es indiscreta.,0
+497,Carol creía que Rebecca sospechaba que había robado el reloj.,Carol creía que Rebecca sospechaba que Rebecca había robado el reloj.,0
+498,Billy lloraba porque Toby no quería compartir su juguete.,Billy lloraba porque Toby no quería compartir el juguete de Billy.,0
+499,"Estaba allí sentado sintiéndome un poco como el chico de aquella historia que leí una vez, que había asesinado a una mujer y había ocultado el cuerpo bajo la mesa del comedor, y después tuvo que ser el alma de la fiesta, con ella allí todo el tiempo.","Tuvo que ser el alma de la fiesta, con la historia allí todo el tiempo.",0
+500,"Adam no puede salir del trabajo hasta que Bob llegue para sustituirle. Si Bob hubiera salido de casa a tiempo, ahora ya se habría ido.",Ahora Bob ya se habría ido.,0
+501,"La mesa estaba llena de comida, y sobre la estera, junto a ella, había vasijas, cestas y una lechera.","Junto a la estera había vasijas, cestas y una lechera.",0
+502,La biografía de Sam Goodman sobre el general espartano Jenofonte transmite una vívida visión de las dificultades con las que se enfrentó en su infancia.,La biografía de Sam Goodman sobre el general espartano Jenofonte transmite una vívida visión de las dificultades con las que Goodman se enfrentó en su infancia.,0
+503,La mujer sostenía a la niña contra su voluntad.,La mujer sostenía a la niña contra la voluntad de la mujer.,0
+504,"Jane llamó a la puerta de Susan, pero no hubo respuesta. Había salido.",Susan había salido.,1
+505,John estaba estudiando en la biblioteca cuando escuchó a un hombre que murmuraba y silbaba. Era muy molesto.,El hombre era muy molesto.,1
+506,"Mark le pisaba los talones al Sr. Singer. Oyó cómo llamaba al capitán, y le prometía, en la jerga con la que todo el mundo hablaba aquella noche, que en el barco nada resultaría dañado, excepto la munición, pero el capitán y su tripulación prefirieron quedarse en la cabina hasta que finalizara el trabajo.",Oyó como Mark llamaba al capitán.,0
+507,Bob pagó la formación universitaria de Charlie. Está muy agradecido.,Bob está muy agradecido.,0
+508,"En medio del concierto al aire libre empezó a llover, pero siguió hasta las 10.",El concierto siguió hasta las 10.,1
+509,"Queríamos colocar ejemplares de nuestro boletín en todos los asientos de la sala, pero no había suficientes.",No había suficientes asientos.,0
+510,"Mark solo podía pensar en Blaze, su caballo blanco. Temía que los mozos de las caballerizas de Burlington Stables se metieran con él y le acosaran porque era tímido, por eso asumió él mismo la alimentación y el cuidado del animal.",Blaze temía que los mozos de las caballerizas de Burlington Stables se metieran con él y le acosaran.,0
+511,Ann dio a luz a una niña el mes pasado. Es una mujer encantadora.,Anne es una mujer encantadora.,1
+512,Por eso Mark se durmió. Era de día cuando se despertó con la mano de Warren sobre su hombro.,Era de día cuando se despertó con la mano de Warren sobre el hombro de Warren.,0
+513,"Mark le pisaba los talones al Sr. Singer. Oyó cómo llamaba al capitán, y le prometía, en la jerga con la que todo el mundo hablaba aquella noche, que en el barco nada resultaría dañado, excepto la munición, pero el capitán y su tripulación prefirieron quedarse en la cabina hasta que finalizara el trabajo.",Mark oyó cómo llamaba al capitán.,1
+514,"Mientras estiraba la espalda, la mujer sonrió a la niña.","Mientras estiraba la espalda de la mujer, la mujer sonrió a la niña.",1
+515,Bill pasó la bandeja medio vacía a John porque tenía hambre.,Bill tenía hambre.,0
+516,"La actriz se llamaba Terpsichore, pero hace unos años cambió su nombre por el de Tina porque creía que era demasiado difícil de pronunciar.",Terpsichore era demasiado difícil de pronunciar.,1
+517,"Beth no se enfadó con Sally, que la había interrumpido, porque se esperó y se disculpó.",Beth se paró y se disculpó.,0
+518,Los políticos de Washington no pueden conocer a los colonos y por eso deben redactar normas para regularlos.,Los colonos deben redactar normas para regularlos.,0
+519,La copa no cabe en la maleta marrón porque es demasiado grande.,La copa es demasiado grande.,1
+520,"Todos los botones de la parte de atrás del vestido de Dora se abrochaban por fuera. Maude tendría que haber pensado en abrochárselos, pero no, había dejado a la pobre Dora que lo hiciera como pudiera ella sola.",Había dejado a la pobre Dora que lo hiciera como Dora pudiera ella sola.,1
+521,"Alice intentó con todas sus fuerzas evitar que su hija gritara en la fiesta, y nos preguntábamos por qué se comportaba de forma tan extraña.",La hija de Alice se comportaba de forma extraña.,1
+522,Los bomberos llegaron antes que los policías porque venían de más lejos.,Los policías venían de más lejos.,1
+523,Dan tenía que impedir que Bill siguiera jugando con el pájaro herido. Es muy compasivo.,Bill es muy compasivo.,0
+524,¿Te acuerdas de la vez que cortaste los bulbos de los tulipanes y los cocinaste con las hamburguesas porque pensaste que eran cebollas?,¿Pensaste que las hamburguesas eran cebollas?,0
+525,Tom llevó a Ralph en coche a la escuela para que no tuviera que conducir solo.,Para que Ralph no tuviera que conducir solo.,0
+526,"Incluso antes de llegar a la ciudad, pudieron escuchar un ruido como de maíz tostándose. Dora preguntó qué era y papá dijo que eran petardos.",Dora preguntó qué era el maíz.,0
+527,Tom lanzó su mochila a Ray cuando llegó a la parte inferior de las escaleras.,Tom llegó a la parte inferior de las escaleras.,0
+528,Ann dio a luz a una niña el mes pasado. Es una niña encantadora.,Anne es una niña encantadora.,0
+529,"Alice limpiaba el polvo del salón e intentaba encontrar el botón que su madre había perdido. Hoy no tenía tiempo para mirar las fotos antiguas de su álbum favorito. Hoy tenía que buscar un botón, por lo que dejó el álbum sobre un sillón sin ni siquiera abrirlo.",Alice tenía que buscar un botón.,1
+530,Fred miraba la televisión mientras George salía a comprar comida. Al cabo de una hora volvió.,Fred volvió.,0
+531,La mujer sostenía a la niña junto a su pecho.,La mujer sostenía a la niña junto al pecho de la niña.,0
+532,"Sam se rompió las dos piernas y ahora camina con muletas. Pero dentro de un mes, más o menos, deberían dejar de ser necesarias.",Las piernas deberían dejar de ser necesarias.,0
+533,Joe ha vendido su vieja casa y ha comprado una nueva a pocos kilómetros de distancia. Se va a mudar a ella el jueves.,Se va a mudar a su vieja casa el jueves.,0
+534,"Los padres de Pam llegaron a casa y la encontraron en la cama con su novio, Paul. Se sintieron muy incómodos.",Los padres de Pam se sintieron muy incómodos.,0
+535,"Sam iba a clase de francés con Adam, porque estaba orgulloso de hablarlo muy bien.",Adam estaba orgulloso de hablarlo muy bien.,0
+536,"John ordenó a Bill que se fuera, por eso se marchó al cabo de una hora.",John se marchó.,0
+537,"El Sr. Moncrieff visitó el lujoso apartamento de Chester en Nueva York, pensando que era de su hijo Edward. El resultado es que el Sr. Moncrieff ha decidido cancelar la asignación de Edward porque ya no necesita su ayuda financiera.",Ya no necesita la ayuda financiera de Edward.,0
+538,"Beth no se enfadó con Sally, que la había interrumpido, porque se esperó y contó hasta diez.",Beth se esperó y contó hasta diez.,1
+539,"Si se asomaba desde la cama de arriba, Tatyana podía ver a su madre cómodamente. Cuán pequeña, estirada y rígida estaba en la cama de abajo. Tenía los ojos cerrados, pero Tatyana no estaba segura de que durmiera.","Cuán pequeña, estirada y rígida estaba Tatyana en la cama de abajo.",0
+540,"El asno deseó que la verruga de su pata trasera desapareciera, y así fue.","El asno deseó que la verruga de su pata trasera desapareciera, y la pata desapareció.",0
+541,"Dado que Chester dependía de su tío Vernon, no podía casarse sin su aprobación.",No podía casarse sin la aprobación de su tío Vernon.,1
+542,Madonna despidió a su entrenadora porque no soportaba a su novio.,La entrenadora soportaba a su novio.,0
+543,Bill pasó la videoconsola a John porque su turno había terminado.,El turno de John había terminado.,0
+544,El padre llevaba al hijo que dormía en su cochecito.,El padre llevaba al hijo que dormía en el cochecito del hijo.,1
+545,La biografía de Sam Goodman sobre el general espartano Jenofonte transmite una vívida visión de las dificultades con las que se enfrentó en su infancia.,La biografía de Sam Goodman sobre el general espartano Jenofonte transmite una vívida visión de las dificultades con las que Jenofonte se enfrentó en su infancia.,1
+546,Hay un agujero en el muro. Se puede ver el jardín detrás de él.,Se puede ver el jardín a través del agujero.,0
+547,"Hasta ahora Larry siempre había ayudado a su padre en su trabajo. Pero ahora no podía ayudarle, porque su padre decía que el jefe de la compañía ferroviaria no quería que hubiera nadie más que él en la oficina.",El jefe de Larry en la compañía ferroviaria no quería que nadie más que él trabajara en la oficina.,0
+548,Mary sacó su flauta y tocó una de sus piezas favoritas. Le gustaba desde que era niña.,Le gustaba la flauta desde que era niña.,0
+549,"Cuando finalmente se calmaron un poco y llegaron a casa, el Sr. Farley guardó la piedra mágica en una caja fuerte. Algún día quizás querría usarla, pero ahora mismo ¿qué más podría desear?",Algún día quizás querría usar la piedra mágica.,1
+550,"La actriz se llamaba Terpsichore, pero hace unos años cambió su nombre por el de Tina porque creía que era más fácil de pronunciar.",Tina era más fácil de pronunciar.,1
+551,El hombre llevó al chico sobre sus hombros.,El hombre llevó al chico sobre los hombros del chico.,0
+552,El camión de reparto adelantó al autobús escolar porque iba demasiado lento.,El camión de reparto iba demasiado lento.,0
+553,"Estaban retransmitiendo un anuncio, pero entró un tren en la estación y no pude escucharlo.",No pude escuchar el anuncio.,1
+554,"Papá observó las caras de sus hijas, tan asombradas y tristes ahora. Ya era bastante malo que tuvieran que renunciar a tantas cosas porque él no podía permitírselas.",Ya era bastante malo que las niñas tuvieran que renunciar a tantas cosas porque él no podía permitírselas.,1
+555,"Fuimos al lago, porque se había visto un tiburón en la playa del océano, y era un lugar más seguro para nadar.",La playa del océano era un lugar más seguro para nadar.,0
+556,Frank estaba enfadado con Tom porque la tostadora que le había vendido no funcionaba.,La tostadora que Tom le había vendido no funcionaba.,1
+557,"Mi reunión empezaba a las 16:00 y tenía que coger el tren a las 16:30 por lo que no me quedaba mucho tiempo. Por suerte, se retrasó y todo salió bien.",El tren se retrasó y todo salió bien.,1
+558,Hay un agujero en el muro. Se puede ver el jardín a través de él.,Se puede ver el jardín a través del agujero.,1
+559,"Bernard, que no había dicho al funcionario que tenía menos de 21 años cuando presentó su solicitud de concesión de propiedad, no consideraba que hubiera hecho nada malo. Pero cualquiera que supiera que solo tenía 19 años podría haber anulado su solicitud.","Bernard, que no había dicho al funcionario que tenía menos de 21 años cuando presentó su solicitud de concesión de propiedad, no consideraba que Bernard hubiera hecho nada malo.",1
+560,Grace estaba contenta de cambiar su sudadera por mi chaqueta. Cree que le queda muy bien.,La chaqueta le queda muy bien.,1
+561,"Lionel tiene como prisionero a un científico, el doctor Vardi, que ha inventado un dispositivo que convierte a los animales en invisibles; Lionel tiene previsto utilizarlo en Geoffrey y enviarle a robar material nuclear de un almacén del ejército.",Lionel tiene previsto utilizarlo en Geoffrey y enviar al Dr. Vardi a robar material nuclear de un almacén del ejército.,0
+562,Fred miraba la televisión mientras George salía a comprar comida. Al cabo de una hora se levantó.,Fred se levantó.,1
+563,Coloqué el libro pesado sobre la mesa y se rompió.,La mesa se rompió.,1
+564,"Queríamos colocar ejemplares de nuestro boletín en todos los asientos de la sala, pero había demasiados.",Había suficientes asientos.,1
+565,El dibujo de Sam estaba colgado justo encima del de Tina y parecía mucho mejor con otro encima.,El dibujo de Tina parecía mucho mejor con otro encima.,1
+566,"La madre de Emma había muerto hacía mucho tiempo, y su educación había quedado en manos de una excelente institutriz.",La educación de Emma había quedado en manos de una excelente institutriz.,1
+567,John contrató a Bill para cuidarlo.,John contrató a Bill para cuidar a John.,1
+568,"John ordenó a Bill que se fuera, por eso se marchó al cabo de una hora.",Bill se marchó.,1
+569,Susan lo sabe todo sobre los problemas personales de Ann porque es indiscreta.,Ann es indiscreta.,1
+570,Los arqueólogos han llegado a la conclusión de que había humanos en Laputa hace 20 000 años. Buscaban pruebas en las orillas del río.,Los humanos prehistóricos buscaban pruebas en las orillas del río.,0
+571,"Los rótulos sobre las puertas de las tiendas tenían dibujos que indicaban el trabajo que se hacía dentro. Aunque cada vez había más gente que aprendía a leer, cada artesano seguía teniendo su dibujo, y no quería perder a un posible cliente solo porque no supiera leer.",Cada artesano seguía teniendo su dibujo y no quería perder a un posible cliente solo porque el artesano no supiera leer.,0
+572,Los dueños de los almacenes se quedaron en la ciudad para gestionarlos y vivían en las habitaciones de detrás.,Los dueños de los almacenes se quedaron en la ciudad para gestionarlos y vivían en las habitaciones de detrás de las habitaciones.,0
+573,"Jane llamó a la puerta de Susan, pero no hubo respuesta. Estaba decepcionada.",Jane estaba decepcionada.,1
+574,"Jane llamó a la puerta de Susan, pero no hubo respuesta. Estaba decepcionada.",Susan estaba decepcionada.,0
+575,"Bernard, que no había dicho al funcionario que tenía menos de 21 años cuando presentó su solicitud de concesión de propiedad, no consideraba que hubiera hecho nada malo. Pero cualquiera que supiera que solo tenía 19 años podría haber anulado su solicitud.","Bernard, que no había dicho al funcionario que tenía menos de 21 años cuando presentó su solicitud de concesión de propiedad, no consideraba que el funcionario hubiera hecho nada malo.",0
+576,La escultura cayó de la estantería porque no estaba sujeta.,La estantería no estaba sujeta.,0
+577,Los científicos están estudiando tres especies de peces que recientemente han descubierto en el Océano Índico. Aparecieron hace dos años.,Los peces aparecieron hace dos años.,1
+578,"Alice limpiaba el polvo del salón e intentaba encontrar el botón que su madre había perdido. Hoy no tenía tiempo para mirar las fotos antiguas de su álbum favorito. Hoy tenía que buscar un botón, por lo que dejó el álbum sobre un sillón sin ni siquiera abrirlo.",Dejó el álbum sobre un sillón sin ni siquiera abrir el botón.,0
+579,Los policías arrestaron a todos los miembros de la banda. Intentaban introducir el tráfico de drogas en el barrio.,Los miembros de la banda intentaban introducir el tráfico de drogas en el barrio.,1
+580,"No puedo cortar esta rama con el hacha, es demasiado pequeña.",La rama es demasiado pequeña.,0
+581,"El sol estuvo cubierto por una gruesa nube toda la mañana, pero afortunadamente, cuando empezó el pícnic, se había ido.",La nube se había ido.,1
+582,"El camino hasta el lago estaba cortado, por lo que no pudimos llegar a él.",No pudimos llegar al camino.,0
+583,"Fred y Alice llevaban abrigos muy gruesos, pero no eran suficientes para el frío de Alaska.",Fred y Alice no eran suficientes para el frío de Alaska.,0
+584,Thomson visitó la tumba de Cooper en 1765. Hasta entonces había estado viajando durante cinco años.,Hacía cinco años que Thomson había estado viajando.,1
+585,El hombre llevó al chico hasta su litera.,El hombre llevó al chico hasta la litera del hombre.,0
+586,Dan se sentó atrás mientras Bill reclamaba el asiento de delante porque había sido más lento.,Dan se sentó atrás mientras Bill reclamaba el asiento de delante porque Dan había sido más lento.,1
+587,La mujer sostenía a la niña contra su voluntad.,La mujer sostenía a la niña contra la voluntad de la niña.,1
+588,"No tenía cuchara, por lo que utilicé un bolígrafo para remover el café. Pero no fue buena idea, porque se llenó de café.",El bolígrafo se llenó de café.,1
+589,Este libro introdujo a Shakespeare en Goethe; fue una gran influencia para su escritura.,Fue una gran influencia para la escritura de Shakespeare.,0
+590,"Mientras Ollie subía a Timmy cuestas la larga escalera de caracol, le dolían las piernas.",A Ollie le dolían las piernas.,1
+591,La Dra. Adams informó a Kate de que se había jubilado y le presentó varias opciones para su futuro tratamiento.,La Dra. Adams se había jubilado y le presentó varias opciones para su futuro tratamiento.,1
+592,Vertí agua de la botella a la taza hasta que estuvo llena.,Hasta que la botella estuvo llena.,0
+593,"Mi reunión empezaba a las 16:00 y tenía que coger el tren a las 16:30 por lo que no me quedaba mucho tiempo. Por suerte, fue breve y todo salió bien.",El tren fue breve y todo salió bien.,0
+594,"Sam intentaba pintar un cuadro de pastores con ovejas, pero más bien parecían perros.",Los pastores más bien parecían perros.,0
+595,"Alice intentó con todas sus fuerzas evitar que su hija gritara en la fiesta, y nos preguntábamos por qué se comportaba de forma tan extraña.",Alice se comportaba de forma extraña.,0
+596,"La madre de Emma había muerto hacía mucho tiempo, y su lugar ahora lo ocupaba una excelente institutriz.",El lugar de Emma ahora lo ocupaba una excelente institutriz.,0
+597,Mary sacó su flauta y tocó una de sus piezas favoritas. La tenía desde que era niña.,Tenía la pieza desde que era niña.,0
+598,Tom lanzó su mochila a Ray cuando llegó a lo alto de las escaleras.,Tom llegó a la parte superior de las escaleras.,1
+599,"Mark le pisaba los talones al Sr. Singer. Oyó cómo llamaba al capitán, y le prometía, en la jerga con la que todo el mundo hablaba aquella noche, que en el barco nada resultaría dañado, excepto la munición, pero el capitán y su tripulación prefirieron quedarse en la cabina hasta que finalizara el trabajo.",El capitán y toda la tripulación del Sr. Singer prefirieron quedarse en la cabina hasta que finalizara el trabajo.,0
+600,"La actriz se llamaba Terpsichore, pero hace unos años cambió su nombre por el de Tina porque creía que era más fácil de pronunciar.",Terpsichore era más fácil de pronunciar.,0
+601,Fred era el único hombre vivo que recordaba a mi bisabuelo. Era un hombre extraordinario.,Fred era un hombre extraordinario.,0
+602,Joe pagó al detective cuando hubo recibido el informe final sobre el caso.,El detective recibió el informe final sobre el caso.,0
+603,A Anna la prueba le salió mucho peor que a su buena amiga Lucy porque ella había estudiado mucho.,Lucy había estudiado mucho.,1
+604,"Cada día después de comer el Sr. Schmidt echaba una larga siesta. Mark le dejaba dormir durante una hora y después lo despertaba, lo reñía y le obligaba a trabajar. Necesitaba conseguir que acabara su trabajo, porque era muy bonito.",El trabajo de Mark es muy bonito.,0
+605,"Paul intentó llamar a George por teléfono, pero no estaba disponible.",Paul no estaba disponible.,0
+606,"Lily habló a Donna, rompiendo su silencio.","Lily habló a Donna, rompiendo el silencio de Donna.",0
+607,El prado de Dakota tenía un aspecto tan cálido y brillante bajo la luz del sol que parecía imposible que alguna vez se hubiera visto batido por el viento y la nieve del invierno.,Parecía imposible que el sol alguna vez se hubiera visto batido por el viento y la nieve del invierno.,0
+608,"Los estudiantes mayores acosaban a los más jóvenes, por eso fuimos a castigarles.",Fuimos a castigar a los estudiantes más jóvenes.,0
+609,Muchos lectores empiezan a leer los libros de Paul y no puede dejarlos. Son populares porque Paul escribe muy bien.,Los lectores son populares porque Paul escribe muy bien.,0
+610,Frank estaba enfadado con Tom porque la tostadora que le había comprado no funcionaba.,La tostadora que Tom le había comprado no funcionaba.,0
+611,"Hay un obstáculo entre yo y el escenario, y no puedo verlo.",No puedo ver qué hay detrás del pilar.,0
+612,"Ann preguntó a Mary a qué hora cerraba la librería, pero lo había olvidado.",Ann lo había olvidado.,0
+613,John se ofreció a Bill para cuidarlo.,John se ofreció a Bill para cuidar a Bill.,1
+614,"El padre averiguó cuánto dinero debía el hombre a la tienda; a eso añadió el alojamiento en la cabaña del cocinero. Restó el importe del salario del hombre, y le extendió un cheque.",El padre restó el importe del salario del hombre.,1
+615,Los científicos están estudiando tres especies de peces que recientemente han descubierto en el Océano Índico. Empezaron hace dos años.,Los científicos empezaron hace dos años.,1
+616,"La madre de Emma había muerto hacía mucho tiempo, y su educación había quedado en manos de una excelente institutriz.",La educación de la madre de Emma había quedado en manos de una excelente institutriz.,0
+617,"Sid explicó su teoría a Mark, pero no le entendió.",Mark no pudo comprenderle.,1
+618,"Estaba allí sentado sintiéndome un poco como el chico de aquella historia que leí una vez, que había asesinado a una mujer y había ocultado el cuerpo bajo la mesa del comedor, y después tuvo que ser el alma de la fiesta, con ella allí todo el tiempo.","Tuvo que ser el alma de la fiesta, con el alma allí todo el tiempo.",0
+619,Jim consolaba a Kevin porque estaba muy enfadado.,Jim estaba muy enfadado.,0
+620,"No es fácil dejar la misma distancia entre un ojal y otro, y es muy difícil cortarlos todos exactamente con el largo correcto. El más mínimo desvío del punzón hará que un ojal sea demasiado grande, y un solo hilo sin cortar lo hará demasiado corto.",Y un solo hilo sin cortar hará que el ojal sea demasiado corto.,1
+621,John se ofreció a Bill para cuidarlo.,John se ofreció a Bill para cuidar a John.,0
+622,"John no podía ver el escenario si Billy estaba delante de él, porque es demasiado alto.",Billy es demasiado alto.,1
+623,Le dio una palmadita en la espalda y la mujer sonrió a la niña.,Dio una palmadita en la espalda de la niña y la mujer sonrió a la niña.,1
+624,Utilicé un paño viejo para limpiar el cuchillo y después lo tiré a la basura.,Tiré el cuchillo en la basura.,0
+625,"Como llovía, puse el periódico en mi mochila para que no se mojara.",Puse el periódico en mi mochila para que la mochila no se mojara.,0
+626,La escultura cayó de la estantería porque no estaba recta.,La estantería no estaba recta.,1
+627,Madonna despidió a su entrenadora porque no soportaba a su novio.,Madonna no podía soportar a su novio.,1
+628,"Si se asomaba desde la cama de arriba, Tatyana podía ver a su madre cómodamente. Cuán pequeña, estirada y rígida estaba en la cama de abajo. Tenía los ojos cerrados, pero Tatyana no estaba segura de que durmiera.",Tatyana no estaba segura de que Tatyana durmiera.,0
+629,"Sam y Amy están muy enamorados, pero a los padres de Amy no les gusta, porque tienen quince años.",Sam y Amy tienen quince años.,1
+630,"Cuando Tommy dejó caer su helado, Timmy se rio, por eso su padre le dirigió una mirada risueña.",El padre dirigió a Timmy una mirada risueña.,0
+631,Mark le contó a Pete muchas mentiras sobre sí mismo que Pete incluyó en su libro. Tendría que haber sido más escéptico.,Pete tendría que haber sido más escéptico.,1
+632,Tom dijo “jaque” a Ralph cuando capturó su alfil.,Tom dijo “jaque” a Ralph cuando capturó el alfil de Tom.,0
+633,"La madre de Emma había muerto hacía mucho tiempo, y su lugar ahora lo ocupaba una excelente institutriz.",El lugar de la madre de Emma ahora lo ocupaba una excelente institutriz.,1
+634,"Aunque corrían más o menos a la misma velocidad, Sue ganó a Sally porque ella había empezado muy mal.",Sally había empezado muy mal.,1

@@ -1,0 +1,190 @@
+sentence1,sentence2,label
+John ndaikatúi ohecha escenario Billy oĩramo henondépe ikarapeterei rupi.,John ikarapeterei.,entailment
+"Tatyana og̃uahẽ ikoty'ípe, isy okehína. Oike kirĩrĩhamete ani hag̃ua omombáy ichupe, oñemboi ha ojupi hupápe. ","Isy oike kirirĩhapete ani hag̃ua omombáy ichupe, oñemboi ha ojupi hupápe.",not_entailment
+Aguenohẽ yryru che vokógui aguereko hag̃ua cheykereve.,Aguenohẽ yryru che vokógui aguereko hag̃ua che voko cheykereve. ,not_entailment
+Bombero-kuéra hi'areve policia-kuéragui og̃uahẽ hag̃ua mombyryve oĩ rupi. ,Policia-kuéra ou mombyryvégui.,not_entailment
+"Ko'ág̃a peve Larry katuete oipytyvõ itúvape hembiapópe. Ha katu ko'ág̃a ndaikatuvéima oipytyvõ ichupe, itúva he'irupi huvicha compañía ferroviaria-pegua ndoipotaiha avavete oĩ hendive imba'apohápe.  ",Ko'ág̃a itúva ndaikatúi oipytyvõ ichupe.,not_entailment
+"Jane ojepopete Susan rógape, ha avave nosẽi hendápe.",Nosẽi avave Susan rendápe.,not_entailment
+"Bob oha'ãhína baraja Adam ndive ha ogana ohóvo. Adam peichaguieténte ndaipo'ái rire, ha'e oganamo'ãkuri.",Adam ikatúkuri ogana.,not_entailment
+Upe mba'eapu'aguasu ombokua mesa ha'e rupi acero-guigua.,Upe vóla tuicháva ha'e rupi acero-guigua.,entailment
+Tom he'i “jaque” Ralph-pe ojapyhývo alfil.,Tom he'i “jaque” Ralph-pe ojapyhývo Ralph alfil. ,entailment
+Joe opaga detective-pe omog̃uahẽvo chupe informe paha pe káso rehegua.,Joe-pe og̃uahẽ informe paha pe káso rehegua.,entailment
+"Romoĩsemo'ã ore boletín opaite sala guapyhakuérape, katu hetaiterei oĩ.  ",Oĩkuri hetaiterei boletin.,not_entailment
+"Jackson omomba'eguasueterei Arnold-pe, jepémo ojapóma 200 ary omanohague. ",Arnold omanohague ojapóma 200 ary.,entailment
+"Sam ha Amy ojoayhueterei, katu Amy tuvakuéra ndoguerohorýi ijejapoiterei rupi.",Amy tuvakuéra ijejapoiterei.,entailment
+Bill ombohasa John-pe bandeja nandi lénto iñembyahyieterei rupi,John iñembyahyieterei.,entailment
+Sara oiporu peteĩ aranduka arandukarendágui oikotevẽ rupi ojapo hag̃ua peteĩ artículo ohaivahína. Omoñe'ẽ hógape og̃uahẽ rire imba'apohágui. ,Omoñe'ẽ artículo og̃uahẽ rire hógape imba'apohágui.,not_entailment
+Fred ohechákuri téle George oho aja oheka tembi'u. Peteĩ aravo ohasa rire ou jey.,George ou jey.,entailment
+"Lily oñe'ẽ Donna-pe, ha omyangekói ichupe oĩporãitehágui.","Lily oñe'ẽ Donna-pe, ha omyangekói Donna-pe.",entailment
+"Alice opaichareikuri oñeha'ã ojoko ani hag̃ua oñe'ẽ jerokyhápe imembykuña, ha roñeporandukuri mba'érepa péicha ojapo. ",Alice membykuña ndojeikuaái mba'épa upe ojaposéva.,not_entailment
+"Heta jey Henry oĩkuri itúva oñe'ẽ jave umi detective katupyry ndive oipotáva oipytyvõ ichupe omyesakã hag̃ua umi káso ijetu'u añetéva, ha umíva ichupe opytáva mandu'arã.",Ko'ãva opytáva Henry-pe mandu'arã.,entailment
+"Sam omboja peteĩ apyka piano oĩháme, katu opẽmba, ha upévare opytánte oñembo'yhápe.","Upe apyka opẽmba, ha upévare opytánte oñembo'yhápe.",entailment
+Umi político Washington-pegua ndaikatúi oikuaávo umi colono-pe ha upévare ojapo tekoguatarã ichupekuéra g̃uarã. ,Ojapo tekoguatarã ichupekuéra g̃uarã. ,not_entailment
+Anna-pe osẽ porãiteve kuara'ã ojapova'ekue iñangirũete Lucy ojapova'ekuégui hetave olee rupi. ,Anna heta árama oñemoarandu,entailment
+"John he'íkuri Bill-pe ohotaha, upéva rehe oho avei ohasa rire peteĩ aravo.", John oho.,entailment
+Pira ho'u ysópe. Iñembyahýikuri. ,Yso iñembyahýi.,not_entailment
+Bill ombohasa John-pe bandeja nandilénto hyg̃uatáma rupi.,Bill hyg̃uatãma.,entailment
+Aguara oike pyharekue ha ho'use ryguasukuéra. Ajukátamante.,Ajukátamante umi aguara.,entailment
+"Ann oporandu Mary-pe mba'e aravópepa omboty aranduka ñevendeha, hesaráima rupi.",Ann hesaráima.,entailment
+Peteĩ ñemuhára oike banco-pe ha oikutu peteĩva umi cajero-pe. Pya'eterei oguereha hikuái tasyópe.,Ogueraha hikuái pya'eterei ñemuhárape tasyópe. ,not_entailment
+Emma nombohasái vakapipopo Janie-pe jepémo ohecha oĩha ha'eñoite.,Emma ohecha ichupe oĩha ha'eñoite.,entailment
+"Mark imandu'a Blaze rehentevoi, ikavaju morotĩ. Okyhyje umi Burlington Stables kavaju rógape oñangarekóvagui ani ojahéi hese hekomirĩmi rupi,  upéva rehe ha'etevoi omongaru ha oñangareko hese.  ",Mark okyhyje umi Burlington Stables kavaju rógape oñangarekóvagui ani ojahéi hese.,entailment
+"Ojesarekóramo hupa yvategua guive, Tatyana ikatu ohecha isýpe oĩporãiteha. Mba'eichaitépa michĩmi, ojepyso hatã'asy tupa oĩva iguýpe. Hesa oñemboty katu Tatyana ndogueroviapái añetehápepa okehína. ",Tatyana ndogueroviapái añetehápepa isy okehína. ,entailment
+"Ndaikatúi aikytĩ háchape ko yvyra rakã, ipoguasueterei.",Hácha ipoguasueterei.,not_entailment
+Tom ogueraha Ralph-pe mbo'ehaópe mba'yruguatápe ani hag̃ua omboguata ha'eño. ,Ani hag̃ua Tom omboguata ha'eño.,entailment
+Ta'ãnga Sam ojapóva oñemosãigókuri Tina ojapova'ekue ári ha ha'ete iporãvéva oĩramo ambue iguýpe.,Ta'ãnga Sam ojapova'ekue ha'etévaicha iporãvéva oĩramo ambue ta'ãnga iguýpe.,entailment
+"Jepémo peteĩchalénto oñani hikuái, Sue raẽ og̃uahẽkuri Sally-gui ha'e oñepyrũ porãve rupi.",Sue oñepyrũ porãvekuri.,entailment
+Upe kuimba'e ogueraha mitãme ijati'y ári,Pe kuimba'e ogueraha mitãme kuimba'e ati'y ári,entailment
+"Jackson omomba'eguasueterei Arnold-pe, jepémo ojapóma 200 ary omanohague.",Arnold omanohague ojapóma 200 ary.,not_entailment
+Nemandu'ápa reikytĩramoguare tulipan rapo ha embojy hamburguesarã reimo'ã rupi ha'eha sevói.,Reimo'ãpa umi bulbo ha'eha sevói,entailment
+Ko aranduka omoĩnge ñepyrũ Shakespeare Ovidio akãme; hetamba'e ichugui oúva oĩ ihaipyrépe.,Tuichaiterei mba'e Shakespeare haipýpe g̃uarã.,entailment
+Añongatu tarta eladérape. Heta tembyre oĩ ipype.  ,Heta tembyre oĩ tarta-pe.,not_entailment
+Steve akóinte oreko techapyrãramo Fred-pe. Ohecharamoite ichupe.,Heta mba'épe ohecharamo Fred-pe.,entailment
+"Tommy-gui helado ho'aramoguare, Timmy opuka hese, upéva rehe itúva oma'ẽvai hese. ",Tommy ru oma'ẽvai hese.,not_entailment
+"Ndaguerekóikuri kuimbe, upéva rehe aiporukuri peteĩ viróme aipyvu hag̃ua che café. Katu naiporãiete upe ajapóva ohopaite rupi tinta ipype. ",Café henyhẽ tinta-gui,entailment
+"Sam oñeha'ãkuri omoha'ãnga hag̃ua ovechakuéra iñangarekohára ndive, katu uvei ojoguave umi golf ra'ãhárape. ",Umi ovecha ñangarekohára ojoguave uvei umi golf ra'ãharakuérape.,entailment
+John oñanihína parque-pe ha ohecha sapy'a peteĩ tapicha ojapóva malabarismo sandia reheve. Ohecharamoiterei.,John ohecharamoiterei.,entailment
+"Che ru oma'ẽ itajyrakuéra rováre, ha'ete ku noimo'ãi ha hovañembyasyvahína ko'ág̃a. Ivaimavoihína omboyke umi oipotáva ha'e ndaikatúi rupi ome'ẽ ichupekuéra. ",Ivaimavoihína umi tova omboyke heta mba'e oipotáva ha'e ndaikatúi rupi ome'ẽ ichupekuéra ,not_entailment
+"Jagua omuña mbarakajápe, ojupíva peteĩ yvyra rehe. Oha'ãrõ ichupe iguýpe.",Jagua oha'ãrõ iguýpe.,entailment
+Aikutu peteĩ ju zanahoria rehe. Aipe'a rire ju opyta ikuare hese.,Zahahoria oheja peteĩ kuare.,not_entailment
+"Sam oñeha'ãkuri omoha'ãnga hag̃ua ovechakuéra iñangarekohára ndive, katu uvei ojoguave jaguápe. ",Umi ovecha ojoguave uvei jaguápe.,entailment
+"Concierto okápe oiko aja oñepyrũ oky sapy'a, ha ohorei hese la 10 peve.",Concierto oho hese la 10 peve.,not_entailment
+Mark oikuaaporã peteĩ mba'e. Harry sa'ieteve oikuaa ichugui. ,Harry sa'ieteve oikuaa ichugui.,entailment
+"Peteĩ ka'aru arahaku jave, ha jagua oñenohína kapi'ipe mbytépe. Upe riremínte, opu'ã ha oho yvyra guýpe hakúma rupi ichupe.  ",Hakúma jaguápe.,entailment
+"Ombohasahína hikuái marandu, ha upe jave oike peteĩ tren estación-pe ha nahendúi upe he'íva.",Nahendúi upe marandu.,not_entailment
+John oñemoaranduhínakuri arandukakotýpe ha upeichaháguinte ohendu oñe'ẽguyguy ha oturuñe'ẽva. Ombopochyete ichupe upéva.,John ipochyeterei,entailment
+Mary oguenohẽ imimby ha ombopu peteĩva purahéi ohayhuvéva. Ohayhu yma imitãkuñami guive.,Ohayhu upe purahéi yma imitãkuñami guive.,entailment
+Jane ojepopete okẽ renondépe ha Susan osẽ ohecha. Ojerure ichupe osẽ hag̃ua oñondive.,Susan oipepirũ ichupe osẽ hag̃ua hendive.,not_entailment
+Pam sy ha itúva og̃uahẽ hógape ha ojuhu chupe tupápe ichíko Paul ndive. Ipochyeterei hikuái.,Pam ha Paul ipochyeterei hikuái.,not_entailment
+"Aguapy'aína upépe añeñandu upe mitãkaria'ýicha amoñe'ẽva'ekue rembiasakuépe, ojukava'ekue peteĩ kuñáme ha hetekue oñongatu mesa karuha guýpe, ha upéi ha'éntema hetia'éva vy'aguasu aja, upe kuña retekue reheve upépe.","Ha'étamante upe hetia'evéva vy'aguasu aja, vy'aguasu upépe oiko aja.",not_entailment
+"Fred omoĩva'erãkuri upe tembiporu joheiha, katu ohejavénte ág̃amieve g̃uarã ohechase rupi téle. Upéi ohechakuaa upe télepe ombohasáva nahe'ẽiha, omoambue upe he'iva'ekue ha ombogue.",Omoambue upe he'iva'ekue ha ombogue,entailment
+"Hasy ojeheja hag̃ua upe ojal renda peteĩchapa ojoehegui, ha hasy oiñeikytĩ hag̃ua peteĩchapaite.Michĩmínte jepe oku'éramo punzón ikatu tuichavéma ojal ambuégui ha peteĩ inimbónte jepe noñeikytĩriramo ikatu ojal mbykyve.  ",ha peteĩ inimbónte jepe noñeikytĩriramo ikatu imimbo mbykyve.,not_entailment
+Sam Goodman ojapova'ekue general espartaygua Jenofonte rekoveasakue ohechauka mba'eichaitépa heta iñapañuãi ojapo hag̃ua hesegua tembikuaareka.,Sam Goodman ojapova'ekue general espartaygua Jenofonte rekoveasakue ohechauka mba'eichaitépa heta iñapañuãi ohasa Goodman ojapo hag̃ua ehegua tembikuaareka.,entailment
+"Alice omopotĩkuri yvytimbo kotyguasúpe ha upekuévo oheka votõ okañyva'ekue isýgui. Ko'árape nahembýi ichupe aravo ohecha hag̃ua umi ta'ãnga ymaguare upe álbum ohayhuvevapegua. Ko árape ohekava'erã peteĩ votõ, upévare oheja álbum sillón ári ohecha'ỹre ni peteĩ hogue.",Isy ohekava'erã peteĩ votõ.,not_entailment
+Amoĩ y botella-gui taza-pe henyhẽte peve.,Henyhẽtéma pe taza,entailment
+John oñemoaranduhínakuri arandukakotýpe ha upeichaháguinte ohendu oñe'ẽguyguy ha oturuñe'ẽva. Ombopochyete ichupe upéva.,Upe kuimba'e ipochyetereikuri.,not_entailment
+"Jackson omomba'eguasueterei Arnold-pe, jepémo heñóikuri 200 ary upe riréma. ",Jackson oikove 200 ary uperiréma.,entailment
+Upe túva oguerahákuri ita'ýrape coche'ípe oke aja,Upe túva oguerahákuri ita'ýrape oke aja coche'ípe ha'éva itúva mba'e.,not_entailment
+Dan oguapy ikupépe ha upe aja Bill oguapy tendondepeguápe ha'e ipya'eve rupi.,Dan oguapy ikupépe ha upe aja Bill oguapy tendondepeguápe Dan ipya'eve rupi.,not_entailment
+Aguara oike pyharekue ha ho'use ryguasukuéra. Iñangekoipa hikuái.,Aguarakuéra ipochypa.,not_entailment
+Aguenohẽ yryru che vokógui aguereko hag̃ua cheykereve.,Aguenohẽ yryru che vokógui aguereko hag̃ua yryru cheykereve. ,entailment
+"Andrea ohasávo avioneta-pe Susan ári, ohechákuri upe pista jeguejyha.",Andrea ohechákuri pista jeguejyha.,entailment
+"Andrea ohasávo avioneta-pe Susan ári, ohechákuri upe pista jeguejyha.",Susan ohechákuri pista jeguejyha.,not_entailment
+"Mbarakaja oha'ãrõkuri angujakuára renondépe tosẽ upe anguja, katu ipy'atarovaiterei.",Anguja ipy'atarovaiterei,not_entailment
+"Opavavete ho'usékuri galleta avena-guigua, oĩnte sa'imi ho'uséva galleta chocolate-gui ojejapóva. Ágã ko'a rire, jajapova'erã hetavéma. ",Jajapova'erã hetavéma galleta chocolate-guigua.,not_entailment
+Jim ojapo seña upe mesápe oñatendévape ha ohechauka ichupe llave báño-pegua.,Jim ojapo seña upe mesápe oñatendévape ha ohechauka ichupe Jim llave báño-pegua.,not_entailment
+"Mark opyrũ ohóvo Karai Singer pytáre. Ohendu mba'éichapa ohenói capitán-pe, ha ome'ẽ ichupe iñe'ẽ, opave upe pyharépe oñe'ẽhaichaite, ygaratápe oĩvape mba'evete ivaíva ndojehumo'ãiha, katu umíva apytépe ndoikéi vala kuéra, capitán ha hendiveguakuéra opytánte cabina ryepýpe opaite peve ojejapóva.",Ohendu mba'éichapa Karai Singer ohenóikuri capitán-pe.,entailment
+"Jeporavo Loebner oikova'ekuépe umi juez noñemoĩri peteĩ ñe'ẽme mavaitévapa umi concursante apytépe ha'e chatbots, oñembotavyeterei rupi hikuái.",Juez kuéra oñembotavyeterei,entailment
+Mba'e apu'aguasu ombokua mesa ha'e rupi acero-guigua.,Mesa acero-guigua.,not_entailment
+"Upe oporombotavyséva Sam-pe ombotavýrire, ichugui oipe'aramo'ã heta viru.",Sam-gui oipe'aramo'ã heta viru..,entailment
+"Upe kuimba'e ru oporandu mboy virúpa odeve ñemuhãme, upéva ndive omoĩva tembi'uapoha róga repy. Oipe'a upe kuimba'e rembiapo repýgui, ha ome'ẽ ichupe peteĩ cheque.  ",Pe kuimba'e oipe'a odevéva kuimba'e rembiapo repýgui.,not_entailment
+Kirilov oheja tetã ñeisãmbyhy Shatov-pe sa'ive ojehayhurupi.,Kirilov sa'ive ojehayhu.,entailment
+John omomba'apo Bill-pe oñangareko haguã hese.,John omomba'apo Bill-pe oñangareko haguã Bill rehe. ,not_entailment
+"Fred añóntema kuimba'e oikovéva imandu'áva che túva rehe yma imitãramoguare. Fred ohecha ñepyrũramoguare che rúpe, oguerekova'ekue 12 jasy.","Fred ohecha ñepyrũramoguare che rúpe, che ru oguerekova'ekue 12 jasy.",entailment
+Bod oha'ã baraja Adam ndive ha oganákuri ohóvo. Adam nda'ipo'áirire upe árape operde mo'ãkuri.,Bod operde mo'ãkuri.,not_entailment
+Mary omoñeno imemby Anne-pe. ha'e ikatu haguãicha omba'apo.,"Mary omoñeno imemby Anne-pe, Mary ikatu haguãicha omba'apo.",entailment
+James ojerure Robert-pe oipytyvõmi haguã ichupe ha he'i ndojaposéiha.,Robert noipytyvõséi.,entailment
+"Tape ohóva ypa peve oso, ha upéva rehe ndaikatúi roho upérupi.",Ndaikatúi roiporu tape.,entailment
+"Añeha'ãkuri amoha'ãnga yvyra kuéra hi'áva, limón hi'áva hakãre, katu uvei ojoguave foco-pe. ",Umi limón ojoguave foco-pe.,entailment
+Dan ojoko Bill-pe anivéma haguã oñemboharái upe guyra hasymíva rehe. Ha'e oporombyasykuaa.,Dan oporombyasykuaa.,entailment
+Aiporu peteĩ trapo tuja amopotĩ haguã kyse ha upe rire amombo ytýpe.,Amombo trapo ytýpe.,entailment
+"Chavurro oipota okañy upe kytã oĩva ipy ikupepegua rehe, ha upéicha oiko.","Chavurro oipota okañy upe kytã oĩva ipy ikupepegua rehe, ha upe kytã okañy.",entailment
+"Papa bosa oĩkuri harina bosa guýpe, upéva rehe ojeipe'arãemanteva'erã", Ojeipe'arãemanteva'erã papa bosa.,not_entailment
+Tuvakuéra iderécho ita'yrakuéra omba'apóvo ichupekuéra g̃uarã omboty peve 21 ary.,Tuvakuéra iderécho ita'yrakuéra omba'apóvo ichupekuéra g̃uarã ita'yrakuéra omboty peve 21 ary.,entailment
+"Temimbo'ekuéra tuichavémava orairõ umi imitãvévape, upéva rehe roho roipytyvõ haguã ichupekuéra.",Roho roipytyvõ umi temimbo'e imitãvévape.,entailment
+"Ko pyharevépe, Joey omopu'ãkuri peteĩ castillo yvýgui playa-pe ha omoĩ peteĩ poyvi'i torre ijyvatevévape, katu ka'aru g̃uarã oitýma yvytu.",Ka'aru g̃uarã oitýma yvytu upe poyvi'i.,entailment
+Ann imembýkuri peteĩ mitãkuña jasy ohasava'ekuépe. Peteĩ mitãkuña ndejukýva.,Ann memby ha'e peteĩ mitãkuña ijukýva.,entailment
+"Grant heta ñeha'ãme oñotỹ garbanzo ho'u haguã hogayguakuéra ndive og̃uahẽ vove ára ro'y. Iñangirũ Henry, ome'ẽ ichupe oñongatu haguã galpon-pe ha upépe ta'ipiru. Upe rire, ha'e ha Tatyana ojykýita ha ojapo chugui hembi'urã arateĩ jave. ","Upe rire, ha'e ha Tatyana ojykýita ha ojapo chugui hembi'urã arateĩ jave, ha'e ha Tatyana-pe g̃uarã",entailment
+"Ko aranduka omoĩnge Shakespeare-pe Ovidio remimo'ãme, ojeiporavoporã ko'ã hembiapokue.",Ojeiporavoporã ko'ã hembiapokue Ovidio jehaipyrãme.,entailment
+Sam Goodman ojapova'ekue general espartaygua Jenofonte rekoveasakue ohechauka mba'eichaitépa heta iñapañuãi ojapo hag̃ua hesegua tembikuaareka.,Sam Goodman ojapova'ekue general espartaygua Jenofonte rekoveasakue ohechauka mba'eichaitépa heta iñapañuãi ojapo hag̃ua Jenofonte tembikuaareka.,not_entailment
+"Jackson omomba'eguasueterei Arnold-pe, jepémo heñói 200 ary upe riréma. ",Arnold heñói 200 ary upe riréma.,not_entailment
+Joe ovendékuri hóga tuja ha ojogua peteĩ ipyahúva namombyryiete upégui. Ohóta upégui ágã arapópe.,Ohótama óga pyahúgui arapópe.,not_entailment
+Joan omboaguyje Susan-pe hetaite oipytyvõ rehe ichupe.,Joan oaguyjeme'ẽ Susan-pe opaite ñepytyvõ Joan-pe oñeme'ẽva'ekue rehe.,entailment
+"Larry, mitãrusu itĩndymíva, oiko isy viuda ndive peteĩ óga social Brooklyn-pe. Larry túva, omyakãva'ekue mondaha aty, ojejuka peteĩ ñoa'ãhápe; itúva remimbo'ekue, Antonio, oñangareko Larry rehe ha ombo'e ichupe omba'apo haguã droga rehe. ","Upe túva remimbo'e, Antonio, oguereko Larry-pe hendive ha ombo'e Antonio-pe ovende hag̃ua droga.",entailment
+"Bob opaga Charlie rehe oñemoarandu haguã mbo'ehaovusúpe, katu ko'ágã Charlie oiko mba'eve'ỹrõguáicha. Ndohechakuaáiete upe ojejapova'ekue hese.",Bob ndoaguyjeme'ẽi araka'eve.,not_entailment
+"Adam ndaikatúi osẽ imba'apohágui Bob og̃uahẽ meve opyta hag̃ua hendaguépe. Bob osẽ voive guive hógagui, ko'ágã og̃uahẽmaramo'ã.",Ko'ág̃a Adam og̃uahẽmaramo'ã.,not_entailment
+"Fred añóntema kuimba'e oikovéva imandu'áva che túva rehe yma imitãramoguare. Fred ohecha ñepyrũramoguare che rúpe, oguerekova'ekue pakõi ary.","Fred ohecha ñepyrũvo che túvape, Fred oguereko kuri pakõi ary.",entailment
+Hetáma oĩ omoñe'ẽva Paul aranduka ha ndaikatuvéi oheja hikuái. Ojehecharamo Paul ohaiporãiterei rupi.,Paul arandukakuéra herakuãguasu Paul ohaiporã añetete rupive.,entailment
+"Jeporavo Loebner oikova'ekuépe umi juez noñemoĩri peteĩ ñe'ẽme mavaitévapa umi concursante apytépe ha'e chatbots, oñembotavyeterei rupi hikuái.",Umi chatbots ivyrorasáma.,not_entailment
+"Ahecha Jim osapukái peteĩ kuimba'e ijao militar ha tuicha hendyva pytãvape, ha'etévaicha oñembyasyetereíva.","Ndaikuaái mávapa pe karai oguerekóva uniforme, hákatu ha'ete ndovy'áiva.",entailment
+John ndaikatúi ohecha escenario Bill oñemoĩramo henonderã ha'e ikarape'eterei rupi.,Billy ikaraperasántema.,not_entailment
+"Abogado oporandu upe testigo-pe, katu nombohováiri ichupe.",Upe abogado nombohovaiséi.,not_entailment
+Joan omboaguyje Susan-pe hetaite oipytyvõ rehe ichupe.,Joan oaguyjeveme'ẽ Susan-pe opaite ñepytyvõ Susan-pe oñeme'ẽva'ekue rehe.,not_entailment
+"Mark imandu'a Blaze rehentevoi, ikavaju morotĩ. Okyhyje umi Burlington Stables kavaju rógape oñangarekóvagui ani ojahéi hese hekomirĩmi rupi,  upéva rehe ha'etevoi omongaru ha oñangareko hese.  ",Mark ha'etévoi omongaru ha oñatende pe mymba rehe.,entailment
+"Tatyana oguerahína mokoĩ mbaraka ha peteĩ vosa, ha upéicharõ jepe imandu'a Freeman kuéra rehe: Iporãite piko che sy ouhaguére hikuái! ","”¡Ajépa iporã umi mokõi mbaraka ha pe vosa ovendére, che sy!”",not_entailment
+Tom omombo ivoko Ray-pe oguejypávo ohóvo escalera.,Ray og̃uahẽ upe jupiha karapevehápe.,entailment
+Bod oha'ã baraja Adam ndive ha oganákuri ohóvo. Adam nda'ipo'ái rire upe árape operde mo'ãkuri.,Adam ohundíma.,entailment
+"Añembyatyva'erã ágã 16:00 aravo jave ha upeva'erã ajupíta tren ohasáva 16:30 aravópe ha upévare mbykypaite chearavo. Iporãveha, mbykymínte ha osẽ porãmbaite.",Upe aty sapy'ami oiko ha osẽporãmba.,entailment
+"Sid omombe'u hemimo'ã Mark-pe, katu nahesakãi ichupe.",Sid noikumbýi chupe.,not_entailment
+Mesa nda'ijamo'ãi okẽrupi ipeterei rupi.,Upe mesa ipetereíma.,entailment
+Sara oiporu aranduka arandukarendágui oikotevẽ rupi ohai hag̃ua peteĩ artículo omba'apovahína hese. Ohai hógape og̃uahẽ rire imba'apohágui.,Ehai upe artículo eg̃uahẽvo nde rógape ne mba'apohágui.,entailment
+Jane ome'ẽ mba'ehe'ẽ Joan-pe naiñembyahýi rupi.,Joan nda'ivare'ái.,not_entailment
+"Andrea ohasávo avioneta-pe Susan ári, ohechákuri upe aviõ rueda ojeguejyha.",Susan ohecha upe aviõ rueda ojeguejyha.,entailment
+"Rohókuri ypápe, ojehecha rupi peteĩ tiburón océano playa-pe, ha naiporãivoi ojeyta hag̃ua upépe.",Pe océano rembe'y ybyku'i oĩha ijetu'u eyta hag̃ua.,entailment
+Steve akóinte oguereko Fred-pe techapyrãramo. Ohecharamoiterei ichupe.,Steve ohecharamo ichupe.,entailment
+Ta'ãnga ho'a upe hendágui noñemoĩporãi rupi.,Upe ta'ãnga noñembo'yporãi.,not_entailment
+San ojapova'ekue ta'ãnga oñemosãingo upe Tina mba'e ariete ha ha'etévaicha iporãvéva ambue oñemoĩramo hi'ári.,Upe ta'ãnga Sam mba'éva ha'ete iporãvaitevéva ambue oĩre hi'ári.,not_entailment
+"Rohókuri ypápe, ojehecha rupi peteĩ tiburón océano playa-pe, ha naiporãivoi ko tenda ojeyta hag̃ua.",Upe ypa ijetu'u eyta hag̃ua.,not_entailment
+"Karai Schmit katuete okarupa rire oho oke areporã. Mark oheja ichupe oke 1 aravórupi ha upéi oho omombáy, oja'o ha upéi ojopy ichupe omba'apo haguã. Oikotevẽ hese tojapopa hembiapo, iporãiterei rupi hembiapokue.","Upe karai Schmidt oikotevẽkuri omohu'ã añetehápe hembiapo, péva iporã añete rupi.",not_entailment
+Kamiõ ojapóva reparto ohasa mba'yruguata ogueraháva mitãnguéra mbo'ehaópe ,Upe kamiõ mba'e rerahaha oho hatãitereikuri.,entailment
+Mary omoñeno imemby Anne-pe. ha'e ikatu haguãicha omba'apo.,"Mary omoñeno imemby Anne-pe, upe Mary memby omba'apokuaa hag̃ua.",not_entailment
+Hetáma oĩ omoñe'ẽva Paul aranduka ha ndaikatuvéi oheja hikuái. Opyta hendive Paul ohaiporãiterei rupi.,Paul arandukaita opyta apytĩmbýpe Paul ohaiporã añetete rupive.,not_entailment
+Jim osapukái Kevin-pe ipochyeterei rupi hendive.,Kevin ipochyeterei.,not_entailment
+Kirilov oheja tetã ñeisãmbyhy Shatov-pe sa'ive ojehayhurupi.,Shatov sa'ive ojekuaa.,not_entailment
+"Sam ohómiva oñemoarandu francés Adam ndive, ipy'aroryeterei oñe'ẽ porãhaguére.",Sam ijerovu oñe'ẽporãiterei haguére.,entailment
+Umi consejal nomoneĩséi umi manifestante-pe okyhyje rupi oikórõ g̃uarã sarambi.,Umi oñembyatýva okyje ñenupãvaipágui.,not_entailment
+"Bob opaga Charlie rehe oñemoarandu haguã mbo'ehaovusúpe, katu ko'ágã Charlie oiko mba'eve'ỹrõguáicha. Hasy chupe upéva.",Charlie-pe hasy oikóvare.,not_entailment
+¡Emañami! Oĩ peteĩ tiburón ohasáva ype guýrupi. Tekotevẽ pya'emi oho peteĩ tenda oĩporãve hag̃uame. ,Iporãvéta pe ype ohóramo tenda iñapañuai'ỹhápe.,entailment
+Bod oha'ã baraja Adam ndive ha oganákuri ohóvo. Adam nda'ipo'ái rire peichaguiete upe árape oganaramo'ãkuri.,Bob ha'ete oganáva.,entailment
+"Peteĩ arahaku ka'arúpe, jagua oñenohína kapi'ipe mbytépe. Upe rire pukumi, opu'ã ha oho yvyra guýpe,  ho'ysãve rupi upépe. ",Upe yvyraguy porãme ha'ete ipiro'yvéva.,entailment
+Karol oimo'ãkuri Rebecca oimbyasyha omondahaguére pe aravopapaha.,Carol orovía Rebecca oñalamentaha Carol omondáre aravopapaha.,not_entailment
+Billy hasẽkuri Toby ndoipotái rupi ihugéte.,Billy hasẽ Toby ndoipotáire Billy ñembosaraiha.,entailment
+Dra. Adams omombe'u Kate-pe ojehuvilamahague ha he'i ichupe mba'épa ojapokuaa tenonderãve oñepohano hag̃ua.,Kate ojejubiláma ha omog̃uahẽ chupe hetaichagua ñepohano tenonderãguápe g̃uarã.,not_entailment
+"Actriz herava'ekue Terpsichore, katu ndaha'éi aretereíva oñembohéra Tina he'íre ha'e hasyetereiha oje'e hag̃ua.  ",Tina hasyeterei emoñe'ẽ hag̃ua.,not_entailment
+"Tavusúpe og̃uahẽ guivéma, ohendu hikuái hyapúva ha'ete avati oñemaimbevahína. Dora oporandu mba'épa ha che ru he'i ichupe oñembokapuha.",Dora oporandu mba'épa pe táva.,not_entailment
+Dra. Adams omombe'u Kate-pe oguerekoha cáncer ha he'i ichupe mba'épa ojapokuaa oñepohano hag̃ua. ,Dra. Adams oguereko cáncer ha ohechauka hetaichagua ñepohano tenondeverã.,not_entailment
+"Ahecha Jim osapukái peteĩ kuimba'e ijao militar ha tuicha hendyva pytãvape. Ndaikuaái mávapa, katu ha'ete oñembyasyetereíva.","Ndaikuaái mávapa Jim, hákatu ha'ete ndovy'áiva.",not_entailment
+"Tatyana og̃uahẽ ikoty'ípe, isy okehína. Oike kirĩrĩhamete ani hag̃ua omombáy ichupe, oñemboi ha ojupi hupápe.","Oike kirirĩhápe ani hag̃ua oporomombáy, oñemboi ha ojupi Tatyana rupápe.",entailment
+Jim ojapo seña bar-pe oñatendévape ha ohechauka ichupe ivaso inandiha.,Jim ojepoupi camarérope ha ohechauka pe Jim kagua inandiha.,entailment
+Pete ,Pete ikatupyryrasa.,entailment
+"George oguereko entrada reínte jeike haguã ñoa'ãngahápe, katu ome'ẽ Eric-pe, jepémo ha'e avei ohechasékuri.",George ohechasetereíma chupe.,entailment
+Mark sala ñeimeháme oĩ peteĩ pintura roble ra'ãnga. Oĩ peteĩ óga akatúa gotyo.,Upe roble oĩhína pe óga akatúa gotyo.,entailment
+Billy hasẽkuri Toby ndoiporukaséi rupi chupe ihugéte.,Billy hasẽ Toby ndoiporukaséi haguére pe ñembosaraiha Billy-pe.,not_entailment
+Sam Goodman ojapova'ekue general espartaygua Jenofonte rekoveasakue ohechauka mba'eichaitépa heta ohasa'asy yma imitãme.,Upe Sam Goodman omombe'úva pe general espartano Jenofonte rekovekue rehegua ohechauka añetehápe mba'eichaitépa Goodman oikoasyetereihague imitãramoguare.,not_entailment
+"Jane ombota Susan-pe hokẽ, ha mavave nombohovái ichupe. Osẽkuri.",Susan osẽmakuri.,entailment
+John oñemoaranduhínakuri arandukakotýpe ha upeichaháguinte ohendu oñe'ẽguyguy ha oturuñe'ẽva. Oporomyangekói upéva. ,Upe karai oporomoangekoieterei.,entailment
+"Concierto oiko javehína inandihápe oñepyrũ oky sapy'a, katu oho hese 10 aravo peve.",Upe jepurahéi ipuku 10 aravo peve.,entailment
+"Mark opensa Blaze rehe añoite, ikavaju morotĩ. Okyhyje umi kavaju oikohapegua omba'apovakuéra Burlington Stables mba'éva omyangekóivo chupe ikoyguaiterei rupi, upévare ha'etévoi omongaru ha oñantendéta ko mymba rehe.",Blaze okyhyje umi kavaju oikohapegua omba'apovakuéra Burlington Stables mba'éva omyangekóivo chupe.,not_entailment
+"Ojetetira aja, upe kuñakarai opukavy pe mitãkuña'ípe.","Opoko aja upe kuña atúare, pe kuña opukavy mitãkuña'ípe.",entailment
+"Beth ndaipochýi ñetehápe Sally ndive, oñe'ẽ jokóva ichupe, oha'ãrõ ha oñepomoĩ ichupe.",Beth oñembo'y ha ojerure omoñyrõmi hag̃ua chupe.,not_entailment
+Upe kagua ndoikéi pe aoryruguasu marrõvape tuichaiterei rupi.,Pe kagua ñemokõha tuichaiterei.,entailment
+"Opaite votõ Dora aopuku tapykue gotyoguáva oñeprende okáguivo añónte. Maude ha'eva'erãkuri pe oprendéva, hákatu nahániri, oheja Dora-pe ha'eñorei ojapóvo ikatumíva añónte.",Oheja Dora-pe ojapo hag̃uáicha ha'e ojapo hag̃ua ikatumiháicha.,entailment
+"Alice omopotĩ mba'etimbo kotyguasupegua ha ohekahápe avei pe votõ isy ohundiva'ekue. Ko árape ndarekói pa'ũ ahecha hag̃ua ta'ãnga ymaguare pe ta'ãngaryru ahayhuvévape. Ko árape ahekáta kuri peteĩ votõ, ohejahápe ta'ãngaryru apykaguasu ári ohecha'ỹre mba'evete.",Alice ohekava'erãkuri votõ.,entailment
+Fred ohecha téle George osẽ aja ojogua tembi'u. Peteĩ aravo haguépe ou jey.,Fred ou jey.,not_entailment
+"Sam oho mbo'ehakotýpe oikuaaségui francés Adam ndive, ijerovúgui oñe'ẽporãitereiha.",Adam ojerovu oñe'ẽporãiterei haguére.,not_entailment
+"Karai Moncrieff oho Chester róga iporãitévape táva Nueva York-pegua, oimo'ãhápe ita'ýra Edward mba'eha. Ha osẽva kóvagui katu karai Moncrieff mome'ẽvéima pirapire Edward-pe noikotevẽvéima rupi iñepytyvõ.",Noikotevẽvéima Edward ñepytyvõ rehe.,not_entailment
+Upe karai ogueraha pe mitã'i ijatúa ári.,Upe karai ogueraha mitã'ípe pe mitã'i atúa ári.,not_entailment
+"Oñemoherakuãhína peteĩ marandu ñemurãva, hákatu oike peteĩ tren pe estación ryepýpe ha upévare nahendúi.",Nahendúi pe marandu ñemurãva.,entailment
+"Che ru ohecha itajyrakuéra rova, ha'ete oñemondýi ha hovasyetereíva. Naiporãmbái mitãkuña'inguéra ohejareívo hetaiterei mba'e ha'e ndaikatúi haguére ojoguánte.",Naiporãmbái mitãkuña'inguéra ohejareívo hetaiterei mba'e ha'e ndaikatúi haguére ojoguánte.,entailment
+"Roho ypápe, ojehecha rehe upépe peteĩ tiburón pe océano rembe'ýpe, ha upépe ikatútakuri ojeyta apañuai'ỹre.",Upe océano rembe'y jeytaha naiñapañuáiri.,not_entailment
+Grace ovy'a añetehápe ikatu rehe ocambia isáco chemba'e ndive. Oguerovia opyta porãha hese.,Pe chaqueta oĩporã hese.,entailment
+"Lionel oguereko ka'irãime peteĩ científicope, doctor Vardi, omoheñoiva'ekue peteĩ mba'e mymbakuéra omokañýva; Lionel oiporuse kóva Geoffrey rehe ha péicha omondóta amonda hag̃uáicha material nuclear ejército mba'éva.",Lionel oiporuse Geoffrey-pe ha omondo Dr. Vardi-pe omondávo material nuclear milikokuéra mba'évagui.,not_entailment
+Fred ohecha téle ha George osẽ ojogua tembi'u upe aja. Ohasávo peteĩ aravo opu'ã.,Fred opu'ãma.,entailment
+Amboguejy pe aranduka pohýi mesa árí ha upévare opẽ.,Upe mesa opẽma.,entailment
+"Romoĩsékuri ore jahaipy marandurã peteĩteĩva umi apyka ári, hákatu hetaitereíma oĩ.",Oĩkuri hetaiterei apyka.,entailment
+Sam ojapóva ta'ãnga oĩhína pe Tina ojapova'ekue ariete ha ha'ete iporãvéva ambue hi'ári oĩre.,Upe Tina ojapóva ta'ãnga iporãve ambue hi'ári oĩre.,entailment
+"Emma sy aréma omanohague, ha iñehekombo'e opytákuri peteĩ tapicha ikatupyry añetéva pópe.",Emma ñemoarandu opytákuri peteĩ tapicha ikatupyry añetéva pópe.,entailment
+Umi científico ohesa'ỹijo mbohapy pira aty rehegua ojejuhuramóva Océano Índico ryepýpe. Osẽhague ojapomahína mokõi ary.,Pirakuéra osẽ ñepyrũkuri ojapóma mokõi ary.,entailment
+Upe karai ogueraha mitãme hupa peve.,Upe karai ogueraha mitãme pe karai rupa peve.,not_entailment
+Dra. Adams omomarandu Kate-pe ojejubilamaha ha omog̃uahẽ chupe hetaichagua oñepohanouka hag̃ua tenondeve.,Dra. Adams ojejubiláma ha omog̃uahẽ hetaichagua oñepohanouka hag̃ua tenondeve.,entailment
+"Alice heta oñeha'ã ikatuháicha imembykuña ani hag̃ua osapukái upe jerokyhápe, ha roñeporandu mba'eicharupípa péicha ojapose.",Alice ha'ete hekotarovanungáva.,not_entailment
+"Upe ñoha'ãngahára héra Terpsichore, hákatu nda'areguasúi omoambuehague héra ko'ág̃a Tina ogueroviáre ndahasyiveha ije'e.",Terpsichore ndahasyive ije'e.,not_entailment
+Fred ha'eñomi tapicha oikovéva apytépe imandu'áva che taita guasúre. Era un hombre extraordinario.,Fred ha'e tapicha ikatupyry añetéva.,not_entailment
+Anna-pe osẽvaive ipruéba iñangirũ Lucy-pe osẽva'ekuégui ha'e olee heteitereive rupi.,Lucy alee hetaiterei.,entailment
+"Upe túva oikuaase mboyete virúpa odeve pe karai ñemuhápe; upépe ombojuaju jekeha tembi'uapoha rogapegua. Oipe'a viru karai ocobrávagui imba'apohápe, ha ombohasa chupe peteĩ chéke.",Upe túva oipe'a viru pe karai ocobrávagui hembiapohápe.,entailment
+"Sid omyesakã hemiandu Mark-pe, hákatu noikumbýi chupe.",Mark noikumbýi chupe.,entailment
+Jim ombopy'aguapy Kevin-pe ipochyetereí rupi.,Jim ipochyetereíkuri.,not_entailment
+Aiporu peteĩ trapo tuja omopotĩ hag̃ua kyse ha upéi amombo ytyapýpe.,Amombo kyse ytyapýpe.,not_entailment
+"Oñembojáramo tupa yvateguágui, Tatyana ikatu ohecha apañuai'ỹre. Michĩmi, ojepyso ha hetatã tupa yvypeguávape. Hesa ñemboty kuri, hákatu Tatyana ndogueroviái okeha.",Tatyana ndogueroviái okeha.,not_entailment
+"Sam ha Amy ojuayhueterei, hákatu Amy tuvakuérape ndogustái, oguereko rupi papo ary.",Sam ha Amy oguereko papo ary.,entailment
+Tom he'i “jaque” Ralph-pe ojagarrávo ijalfil.,Tom he'i “jaque” Ralph-pe ojagarrávo Tom alfil.,not_entailment

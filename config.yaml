@@ -1,0 +1,12 @@
+# Configuración para Latam-Eval-Framework (Entregable 2)
+# Puedes correr esto usando: eval-llm --config config.yaml
+
+models:
+  - local-gemma
+
+dataset: data/dataset_guarani_2.json
+output: report.json
+
+parameters:
+  temperature: 0.9
+  top_p: 0.8
