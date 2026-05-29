@@ -17,11 +17,6 @@ latam-eval-framework/
 │   ├── models/                # Adaptadores de LLMs (Base, OpenAI, Langchain, Mock)
 │   ├── datasets/              # Manejo y carga de datos JSON/JSONL
 │   ├── utils/                 # Herramientas utilitarias (e.g. lector de config)
-│
-├── data/                      # Datasets de validación (Guaraní-Español)
-├── examples/                  # Scripts de pruba rápidos
-├── tests/                     # Tests unitarios 
-```
 
 ## Requisitos y Configuración
 
