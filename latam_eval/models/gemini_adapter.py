@@ -78,7 +78,10 @@ class GeminiAdapter(BaseModelAdapter):
         if "max_tokens" in gen_params:
             config_kwargs["max_output_tokens"] = gen_params["max_tokens"]
         # Preserve explicit system_instruction if user supplied it directly
-        if "system_instruction" in gen_params and "system_instruction" not in config_kwargs:
+        if (
+            "system_instruction" in gen_params
+            and "system_instruction" not in config_kwargs
+        ):
             config_kwargs["system_instruction"] = gen_params["system_instruction"]
 
         config = types.GenerateContentConfig(**config_kwargs) if config_kwargs else None

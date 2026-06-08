@@ -8,6 +8,10 @@ from nltk.translate.meteor_score import single_meteor_score
 from rouge_score import rouge_scorer
 from sklearn.metrics import accuracy_score, f1_score
 
+import torch
+from transformers import AutoTokenizer, AutoModel
+import torch.nn.functional as F
+
 from latam_eval.models.base import BaseModelAdapter
 from latam_eval.datasets.loader import DatasetLoader
 
@@ -25,6 +29,18 @@ class Evaluator:
         self.scorer = rouge_scorer.RougeScorer(
             ["rouge1", "rouge2", "rougeL"], use_stemmer=True
         )
+
+        # Initialize Embedding Model for Semantic Similarity
+        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        self.embedding_model_name = "mmaguero/multilingual-bert-gn-base-cased"
+        try:
+            self.tokenizer = AutoTokenizer.from_pretrained(self.embedding_model_name)
+            self.embed_model = AutoModel.from_pretrained(self.embedding_model_name).to(self.device)
+            self.embed_model.eval()
+        except Exception as e:
+            logging.warning(f"Could not load embedding model: {e}")
+            self.tokenizer = None
+            self.embed_model = None
 
         # Ensure required NLTK data is downloaded
         self._ensure_nltk_resources()
@@ -110,7 +126,7 @@ class Evaluator:
         Calculates NLP metrics (ROUGE, BLEU, METEOR).
         """
         if not hypothesis or not reference:
-            return {"rougeL": 0.0, "bleu": 0.0, "meteor": 0.0}
+            return {"rougeL": 0.0, "bleu": 0.0, "meteor": 0.0, "embedding_similarity": 0.0}
 
         # ROUGE
         rouge_scores = self.scorer.score(reference, hypothesis)
@@ -128,7 +144,39 @@ class Evaluator:
         except Exception:
             meteor = 0.0
 
-        return {"rougeL": rougeL, "bleu": bleu, "meteor": meteor}
+        # Embedding Similarity
+        embedding_similarity = self._calculate_embedding_similarity(hypothesis, reference)
+
+        return {
+            "rougeL": rougeL,
+            "bleu": bleu,
+            "meteor": meteor,
+            "embedding_similarity": embedding_similarity,
+        }
+
+    def _calculate_embedding_similarity(self, hypothesis: str, reference: str) -> float:
+        """
+        Calculates cosine similarity between the embeddings of the hypothesis and reference.
+        Uses a Guaraní-trained BERT model.
+        """
+        if not self.tokenizer or not self.embed_model:
+            return 0.0
+
+        try:
+            inputs = self.tokenizer([hypothesis, reference], padding=True, truncation=True, return_tensors="pt").to(self.device)
+            with torch.no_grad():
+                outputs = self.embed_model(**inputs)
+
+            # Mean pooling
+            attention_mask = inputs["attention_mask"].unsqueeze(-1).expand(outputs.last_hidden_state.size()).float()
+            embeddings = torch.sum(outputs.last_hidden_state * attention_mask, 1) / torch.clamp(attention_mask.sum(1), min=1e-9)
+
+            # Cosine similarity
+            sim = F.cosine_similarity(embeddings[0].unsqueeze(0), embeddings[1].unsqueeze(0))
+            return sim.item()
+        except Exception as e:
+            logging.error(f"Error computing embedding similarity: {e}")
+            return 0.0
 
     def save_report(self, results: Dict[str, Any], output_path: str):
         """

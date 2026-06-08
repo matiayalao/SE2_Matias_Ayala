@@ -23,9 +23,7 @@ def main():
         type=str,
         help="Comma-separated list of models (e.g. gpt-4o,gemini-1.5-flash,mock)",
     )
-    parser.add_argument(
-        "--dataset", type=str, help="Path to the JSON dataset file"
-    )
+    parser.add_argument("--dataset", type=str, help="Path to the JSON dataset file")
     parser.add_argument(
         "--output",
         type=str,
@@ -62,7 +60,9 @@ def main():
             dataset_path = args.dataset
 
     if not model_names or not dataset_path:
-        logging.error("You must provide either a --config file or both --models and --dataset.")
+        logging.error(
+            "You must provide either a --config file or both --models and --dataset."
+        )
         sys.exit(1)
     models = []
 
@@ -82,19 +82,21 @@ def main():
             models.append(GeminiAdapter(m, **generation_params))
         elif "llama" in lower_m or "grok" in lower_m:
             if not os.getenv("GROQ_API_KEY"):
-                logging.error(f"GROQ_API_KEY not set for model {m}. Required for Llama/Grok via Groq.")
+                logging.error(
+                    f"GROQ_API_KEY not set for model {m}. Required for Llama/Grok via Groq."
+                )
                 sys.exit(1)
             models.append(
                 UniversalOpenAIAdapter(
                     m,
                     base_url="https://api.groq.com/openai/v1",
                     api_key_env_var="GROQ_API_KEY",
-                    **generation_params
+                    **generation_params,
                 )
             )
         elif "local" in lower_m:
             logging.info(
-                f"Conectando a modelo local usando LM Studio / Ollama en puerto 1234"
+                "Conectando a modelo local usando LM Studio / Ollama en puerto 1234"
             )
             os.environ["LOCAL_DUMMY_KEY"] = "lm-studio"
             models.append(
@@ -102,7 +104,7 @@ def main():
                     "local-gemma",
                     base_url="http://localhost:1234/v1",
                     api_key_env_var="LOCAL_DUMMY_KEY",
-                    **generation_params
+                    **generation_params,
                 )
             )
         else:

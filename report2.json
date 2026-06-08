@@ -1,0 +1,43 @@
+{
+    "mock": {
+        "global_metrics": {},
+        "evaluations": [
+            {
+                "id": "q4",
+                "instruction": "Traduce 'El sol está muy caliente hoy' al guaraní.",
+                "expected": "Kuarahy hakueterei ko árape.",
+                "response": "[[ Mock response from mock ]]\nRecibí este prompt: 'Traduce 'El sol está muy caliente hoy' al guaraní.'.\nMba'éichapa, esto es una prueba en Jopará/Guaraní simulada.",
+                "metrics": {
+                    "rougeL": 0.0,
+                    "bleu": 0.005474870710453651,
+                    "meteor": 0.06329113924050633,
+                    "embedding_similarity": 0.198
+                }
+            },
+            {
+                "id": "q5",
+                "instruction": "¿Qué es el ñandutí?",
+                "expected": "El ñandutí es un encaje tradicional paraguayo tejido a mano, cuyo nombre en guaraní significa 'tela de araña' debido a su diseño.",
+                "response": "[[ Mock response from mock ]]\nRecibí este prompt: '¿Qué es el ñandutí?'.\nMba'éichapa, esto es una prueba en Jopará/Guaraní simulada.",
+                "metrics": {
+                    "rougeL": 0.22222222222222224,
+                    "bleu": 0.010128952330932188,
+                    "meteor": 0.1888156837538165,
+                    "embedding_similarity": 0.241
+                }
+            },
+            {
+                "id": "q6",
+                "instruction": "Completá esta frase en Jopará: 'Me fui a la despensa y no había más pan, entonces...'",
+                "expected": "Me fui a la despensa y no había más pan, entonces ajogua galleta.",
+                "response": "[[ Mock response from mock ]]\nRecibí este prompt: 'Completá esta frase en Jopará: 'Me fui a la despensa y no había más pan, entonces...''.\nMba'éichapa, esto es una prueba en Jopará/Guaraní simulada.",
+                "metrics": {
+                    "rougeL": 0.52,
+                    "bleu": 0.23240102389974368,
+                    "meteor": 0.66167290886392,
+                    "embedding_similarity": 0.309
+                }
+            }
+        ]
+    }
+}

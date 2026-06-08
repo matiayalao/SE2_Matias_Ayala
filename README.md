@@ -8,6 +8,15 @@ Framework de evaluación agnóstico y robusto para medir el desempeño de LatamG
 - **Configuración Modular:** Configuración basada en archivos `YAML`.
 - **Código Pythonico:** Implementación siguiendo `PEP8` y con cobertura total de `docstrings`.
 
+## Características (Entregable 3)
+- **Similitud de Embeddings:** Nueva métrica semántica usando `mmaguero/multilingual-bert-gn-base-cased` (BERT entrenado en guaraní). Mide la coherencia semántica y cultural de las respuestas generadas, más allá de la superposición textual.
+- **Cost-Performance Ratio:** Análisis comparativo de desempeño compuesto (`0.6×METEOR + 0.4×Embedding Similarity`) frente al costo estimado (USD/1M tokens) y la latencia de cada modelo.
+- **Visualizaciones Comparativas:** Tres gráficos generados automáticamente por `generate_report.py`:
+  - `comparativa_metricas.png` — Todas las métricas (ROUGE-L, BLEU, METEOR, Emb. Similarity) por modelo.
+  - `cost_performance.png` — Desempeño compuesto vs. Costo.
+  - `latency_performance.png` — Desempeño compuesto vs. Latencia.
+- **Reporte Final:** `reporte_final.md` con análisis técnico completo, tablas y conclusiones.
+
 ## Estructura del Proyecto
 
 ```

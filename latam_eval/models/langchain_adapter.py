@@ -50,7 +50,7 @@ class LangchainAdapter(BaseModelAdapter):
             # LM Studio or any local OpenAI compatible server
             self.llm = ChatOpenAI(
                 base_url="http://localhost:1234/v1",
-                api_key="lm-studio", # API key is required by the SDK but ignored by LM Studio
+                api_key="lm-studio",  # API key is required by the SDK but ignored by LM Studio
                 model=self.model_name,
                 **self.config,
             )
@@ -84,20 +84,14 @@ class LangchainAdapter(BaseModelAdapter):
                     "No des explicaciones, ni contexto, ni opciones adicionales."
                 )
             elif temp >= 0.7:
-                system_content = (
-                    "Eres un asistente conversacional. Provee la respuesta solicitada, pero también puedes incluir una breve explicación o ejemplos cuando sea pertinente."
-                )
+                system_content = "Eres un asistente conversacional. Provee la respuesta solicitada, pero también puedes incluir una breve explicación o ejemplos cuando sea pertinente."
 
         # 3. Manejo dinámico de Top_P (solo si temperature no definió el prompt)
         elif "top_p" in gen_params:
             if gen_params["top_p"] < 0.5:
-                system_content = (
-                    "Responde de forma concisa y directa, sin elaboraciones innecesarias."
-                )
+                system_content = "Responde de forma concisa y directa, sin elaboraciones innecesarias."
             else:
-                system_content = (
-                    "Puedes ser más elaborado en tu respuesta, ofreciendo contexto adicional si lo consideras útil."
-                )
+                system_content = "Puedes ser más elaborado en tu respuesta, ofreciendo contexto adicional si lo consideras útil."
 
         # 4. Preservar system_instruction explícito del usuario
         if "system_instruction" in gen_params:
