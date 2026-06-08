@@ -1,69 +1,139 @@
 # Latam-Eval-Framework
 
-Framework de evaluación agnóstico y robusto para medir el desempeño de LatamGPT frente a otros modelos fundacionales (ALIA, GPT, Gemini, Claude, Llama, Gemma, etc.), con un enfoque particular en lenguas indígenas americanas como el Guaraní.
+Framework de evaluación agnóstico y robusto para medir el desempeño de LLMs frente a
+modelos fundacionales (GPT, Gemini, Claude, Llama, Gemma, etc.), con un enfoque especial
+en lenguas indígenas americanas como el **Guaraní / Jopará** (Paraguay).
 
-## Características (Entregable 1)
-- **Arquitectura Multimodelo:** Basada en el patrón `Strategy/Adapter` para la fácil integración de diversos proveedores (OpenAI, LangChain/OpenRouter, Mocking local).
-- **Gestión de Dataset:** Carga estructurada de pares de instrucciones y respuestas.
-- **Configuración Modular:** Configuración basada en archivos `YAML`.
-- **Código Pythonico:** Implementación siguiendo `PEP8` y con cobertura total de `docstrings`.
+---
 
-## Características (Entregable 3)
-- **Similitud de Embeddings:** Nueva métrica semántica usando `mmaguero/multilingual-bert-gn-base-cased` (BERT entrenado en guaraní). Mide la coherencia semántica y cultural de las respuestas generadas, más allá de la superposición textual.
-- **Cost-Performance Ratio:** Análisis comparativo de desempeño compuesto (`0.6×METEOR + 0.4×Embedding Similarity`) frente al costo estimado (USD/1M tokens) y la latencia de cada modelo.
-- **Visualizaciones Comparativas:** Tres gráficos generados automáticamente por `generate_report.py`:
-  - `comparativa_metricas.png` — Todas las métricas (ROUGE-L, BLEU, METEOR, Emb. Similarity) por modelo.
+## Características
+
+### Entregable 1 — Arquitectura base
+- **Patrón Strategy/Adapter:** Integración sencilla de cualquier proveedor de LLMs.
+- **Gestión de Dataset:** Carga estructurada de pares instrucción/respuesta en JSON y CSV.
+- **Configuración Modular:** Parámetros definidos en archivos `YAML`.
+- **Código Pythonico:** 100% `PEP8` y `docstrings` en todas las clases y funciones.
+
+### Entregable 2 — CLI y métricas
+- **CLI `eval-llm`:** Evaluaciones completas desde la línea de comandos.
+- **Métricas NLP:** ROUGE-L, BLEU y METEOR para evaluar calidad de respuestas.
+
+### Entregable 3 — Análisis comparativo (Cost-Performance Ratio)
+- **Similitud de Embeddings:** Métrica semántica usando `mmaguero/multilingual-bert-gn-base-cased`
+  (BERT entrenado específicamente en guaraní). Mide coherencia cultural más allá de n-gramas.
+- **Cost-Performance Ratio:** Análisis de desempeño compuesto (`0.6×METEOR + 0.4×Emb.Sim`)
+  frente al costo estimado (USD/1M tokens) y latencia de cada modelo.
+- **Visualizaciones comparativas** generadas por `generate_report.py`:
+  - `comparativa_metricas.png` — ROUGE-L, BLEU, METEOR y Emb. Similarity por modelo.
   - `cost_performance.png` — Desempeño compuesto vs. Costo.
   - `latency_performance.png` — Desempeño compuesto vs. Latencia.
-- **Reporte Final:** `reporte_final.md` con análisis técnico completo, tablas y conclusiones.
+- **Reporte final:** `reporte_final.md` con análisis técnico completo.
+
+---
 
 ## Estructura del Proyecto
 
 ```
-latam-eval-framework/
-│
+SE2/
 ├── latam_eval/
-│   ├── models/                # Adaptadores de LLMs (Base, OpenAI, Langchain, Mock)
-│   ├── datasets/              # Manejo y carga de datos JSON/JSONL
-│   ├── utils/                 # Herramientas utilitarias (e.g. lector de config)
+│   ├── cli.py                      # CLI: eval-llm
+│   ├── evaluator.py                # Motor de evaluación + métricas
+│   ├── datasets/
+│   │   └── loader.py               # Carga JSON / CSV
+│   ├── models/
+│   │   ├── base.py                 # ABC BaseModelAdapter
+│   │   ├── gemini_adapter.py       # Google Gemini
+│   │   ├── openai_adapter.py       # Groq / OpenAI-compatible
+│   │   ├── universal_api_adapter.py
+│   │   └── mock_adapter.py         # Simulador local (sin API key)
+│   └── utils/
+│       └── config.py               # Carga YAML
+├── data/
+│   └── dataset_guarani_2.json      # Dataset de evaluación
+├── tests/
+│   ├── test_evaluator.py
+│   └── test_cli.py
+├── generate_report.py              # Genera las 3 visualizaciones PNG
+├── report.json                     # Resultados: llama-3.1-8b-instant
+├── report2.json                    # Resultados: mock
+├── reporte_final.md                # Reporte técnico final (Entrega 3)
+├── comparativa_metricas.png
+├── cost_performance.png
+├── latency_performance.png
+├── config.yaml                     # Configuración de ejemplo
+├── setup.py
+└── requirements.txt
+```
 
-## Requisitos y Configuración
+---
 
-1. Instalar dependencias:
-   ```bash
-   pip install -r requirements.txt
-   ```
-2. Configurar variables de entorno si se utilizarán las API reales (no mocks):
-   ```bash
-   export GEMINI_API_KEY="AIt-..."
-   export GROQ_API_KEY="gsk-..."
-   ```
-3. Activar el entorno virtual
-   ```bash
-   source .venv/bin/activate
-   ```
-# Configuración de Modelos Locales (Local Gemma)
-Para evaluar usando local-gemma sin depender de APIs externas ni gastar créditos, el framework se conecta a un servidor local compatible con la API de OpenAI corriendo en el puerto 1234.
-## Pasos
-Abre LM Studio.
+## Instalación y Configuración
 
-Descargar Gemma: Asegúrate de tener descargada una variante de Gemma (ej. gemma-2-9b-it). 
-![alt text](captura1.png)
+### 1. Clonar y activar entorno virtual
 
-Una vez descargado, ve a la pestaña de Chat (el ícono de la burbuja de diálogo). En la parte superior de la pantalla verás un desplegable que dice "Select a model to load". Haz clic ahí y selecciona el archivo GGUF de Gemma-2 que acabas de bajar. (no pongo foto porque ya no me aparece la opción)
+```bash
+git clone <url-del-repo>
+cd SE2
+python -m venv .venv
+source .venv/bin/activate          # Linux/macOS
+# .venv\Scripts\activate           # Windows
+```
 
-Configurar el LLM a gusto, yo por ejemplo que no tengo gráfica dedicada y solo 8gb de ram, mim configuración (ver a la derecha) terminó siendo esta:
-![alt text](captura2.png)
+### 2. Instalar dependencias
 
-Iniciar el Servidor: Inicia el servidor de inferencia local en http://127.0.0.1:1234. El adapter le apuntará automáticamente al endpoint de chat (http://127.0.0.1:1234/v1).
-![alt text](captura3.png)
+```bash
+pip install -r requirements.txt
+pip install -e .                   # Instala el paquete y el CLI eval-llm
+```
 
-## Uso y Ejecución (CLI)
+### 3. Configurar API Keys (solo para modelos reales)
 
-Para el Entregable 2, el framework cuenta con una interfaz de línea de comandos (CLI) llamada `eval-llm`. Una vez activado tu entorno virtual y con el paquete instalado, puedes ejecutar evaluaciones completas de dos maneras: mediante parámetros directos o usando un archivo de configuración.
+```bash
+export GROQ_API_KEY="gsk-..."       # Para llama, mixtral, etc. vía Groq (gratis)
+export GEMINI_API_KEY="AIza-..."    # Para modelos Gemini
+export OPENAI_API_KEY="sk-..."      # Para modelos GPT
+```
 
-### Opción 1: Usando un Archivo de Configuración (Recomendado)
-El sistema soporta definir los parámetros de evaluación mediante un archivo YAML.
+> Si no tenés API keys, usá el modelo `mock` — funciona sin ninguna clave.
+
+---
+
+## Cómo probarlo (demo rápida sin API key)
+
+### Demo instantánea con modelo mock
+
+```bash
+source .venv/bin/activate
+eval-llm --models mock --dataset data/dataset_guarani_2.json --output mi_reporte.json
+```
+
+Eso corre la evaluación completa con el modelo simulado y guarda el resultado en `mi_reporte.json`.
+
+### Generar las visualizaciones comparativas (Entrega 3)
+
+```bash
+python generate_report.py
+```
+
+Genera los 3 gráficos PNG en la raíz del proyecto.
+
+### Correr los tests
+
+```bash
+python -m pytest tests/ -v
+```
+
+### Verificar PEP8
+
+```bash
+flake8 latam_eval/ generate_report.py
+```
+
+---
+
+## Uso del CLI `eval-llm`
+
+### Opción 1: Con archivo de configuración (recomendado)
 
 ```bash
 eval-llm --config config.yaml
@@ -72,9 +142,9 @@ eval-llm --config config.yaml
 **Ejemplo de `config.yaml`:**
 ```yaml
 models:
-  - llama-3.1-8b-instant
-  - gemini-3.1-flash-lite
-  - local-gemma
+  - mock                      # Sin API key
+  # - llama-3.1-8b-instant    # Requiere GROQ_API_KEY
+  # - gemini-2.5-flash        # Requiere GEMINI_API_KEY
 dataset: data/dataset_guarani_2.json
 output: report.json
 parameters:
@@ -82,39 +152,59 @@ parameters:
   top_p: 0.9
 ```
 
-y el .json de las datasets tienen esta estructura:
+### Opción 2: Por línea de comandos
+
+```bash
+eval-llm --models mock,llama-3.1-8b-instant \
+         --dataset data/dataset_guarani_2.json \
+         --output reporte_nuevo.json
+```
+
+### Parámetros disponibles
+
+| Parámetro | Descripción |
+|-----------|-------------|
+| `--config` | Ruta al archivo YAML (si se usa, `--models` y `--dataset` son opcionales) |
+| `--models` | Lista de modelos separados por coma |
+| `--dataset` | Ruta al archivo JSON del dataset |
+| `--output` | Ruta de salida del reporte (default: `results.json`) |
+
+**Modelos soportados:**
+
+| Nombre | Proveedor | API Key necesaria |
+|--------|-----------|-------------------|
+| `mock` | Local | ❌ Ninguna |
+| `local-gemma` | LM Studio (puerto 1234) | ❌ Ninguna |
+| `llama-3.1-8b-instant` | Groq | `GROQ_API_KEY` |
+| `gemini-2.5-flash` | Google | `GEMINI_API_KEY` |
+| `gpt-4o` / `gpt-4o-mini` | OpenAI | `OPENAI_API_KEY` |
+
+### Estructura del dataset JSON
+
 ```json
-{
-    "id": "q4",
+[
+  {
+    "id": "q1",
     "category": "traduccion",
-    "instruction": "Traduce 'El sol está muy caliente hoy' al guaraní.",
-    "expected_response": "Kuarahy hakueterei ko árape."
+    "instruction": "Traduce 'Hola' al guaraní.",
+    "expected_response": "Mba'éichapa"
   }
+]
 ```
 
-### Opción 2: Usando Parámetros por Línea de Comandos
+---
 
-```bash
-eval-llm --models <lista_de_modelos> --dataset <ruta_al_json> --output <archivo_salida>
-```
+## Configuración de Modelo Local (LM Studio / Gemma)
 
-### Parámetros
-- `--models`: Lista de modelos separados por coma. **Importante:** Usa nombres exactos de versión para modelos reales para evitar errores (ej. `gemini-1.5-flash`, `gpt-4o`). 
-  - *Modelos soportados:* `gpt-4o`, `gemini-1.5-flash`, `llama3-8b-8192`, `mock`, `local-gemma`.
-  - *Nota sobre Grok y Llama:* Se procesan a través de la API de Groq si incluyen la palabra `llama`.
-  - *Para ver los modelos disponibles de Gemini:* Ejecuta `curl "https://generativelanguage.googleapis.com/v1beta/models?key=$GEMINI_API_KEY"`
-- `--dataset`: Ruta al archivo JSON con el dataset de prueba.
-- `--config`: Ruta al archivo de configuración YAML (Si se usa, `--models` y `--dataset` son opcionales).
-- `--output`: (Opcional) Ruta donde se guardará el reporte. Por defecto es `results.json`.
+Para evaluar sin depender de APIs externas:
 
-### Ejemplos rápidos
-
-**1. Evaluación con modelo local y mock:**
-```bash
-eval-llm --models local-gemma,mock --dataset data/dataset_guarani_2.json --output report.json
-```
-
-**2. Ejecución mediante script de python:**
-```bash
-python examples/run_simple_eval.py
-```
+1. Descargá [LM Studio](https://lmstudio.ai/) e instalá un modelo (ej. `gemma-2-9b-it`).
+   ![Descarga de Gemma en LM Studio](captura1.png)
+2. Configurá el modelo según tu hardware.
+   ![Configuración de LM Studio](captura2.png)
+3. Iniciá el servidor local en `http://127.0.0.1:1234`.
+   ![Servidor LM Studio corriendo](captura3.png)
+4. Usá el nombre `local-gemma` en el CLI:
+   ```bash
+   eval-llm --models local-gemma --dataset data/dataset_guarani_2.json --output report.json
+   ```
