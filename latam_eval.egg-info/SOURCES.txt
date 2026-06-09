@@ -21,3 +21,5 @@ latam_eval/models/universal_api_adapter.py
 latam_eval/utils/__init__.py
 latam_eval/utils/config.py
 tests/__init__.py
+tests/test_cli.py
+tests/test_evaluator.py

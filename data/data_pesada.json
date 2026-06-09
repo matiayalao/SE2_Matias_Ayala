@@ -1,0 +1,134 @@
+[
+  {
+    "id": "q1",
+    "category": "traduccion",
+    "instruction": "Traduce '¿Quién fue chiquitunga?' al guaraní.",
+    "expected_response": "Máva piko ra'e Chiquitunga?"
+  },
+  {
+    "id": "q2",
+    "category": "traduccion",
+    "instruction": "Traduce 'Chiquitunga fue el apodo de Maria Felicia de Jesús Sacramentado, una paraguaya nacida en 1925 en Villarrica, que se hizo monja carmelita y vivió con profunda humildad y caridad, fue beatificada en 2018 por la Iglesia Católica y es venerada como patrona de la juventud paraguaya, muriendo en 1959 a los 34 años.' al guaraní.",
+    "expected_response": "Chiquitunga ha'e kuri María Felicia de Jesús Sacramentado réra jehero. Ha'e niko oñeñanduka Paraguaípe, heñóiva 1925-pe Villarrica-pe; oiko chugui monja carmelita ha ojekuaa chupe hory ha imba'eporäiterei haguére opavave ndive. Tupão Katóliko omboheravy a (beatificación) chupe 2018-pe ha ko'áğa ojehechakuaa chupe Paraguái mitārusukuéra sâmbyhyháramo, Chiquitunga omano 1959-pe, orekórõ guare 34 ary."
+  },
+  {
+    "id": "q3",
+    "category": "traduccion",
+    "instruction": "Traduce '¿Qué es el juego balita - balita?' al guaraní.",
+    "expected_response": "Mba'épa hina pe ñembosarai hérava balita-balita?"
+  },
+  {
+    "id": "q4",
+    "category": "traduccion",
+    "instruction": "Traduce 'El juego \"balita-balita\" es un juego tradicional infantil de Paraguay similar a las canicas, donde se usan pequeñas bolas de vidrio para intentar sacar las del oponente de un circulo dibujado en el suelo, ganando puntos o las balitas, con técnicas como cuare, cuarti o pika valita.' al guaraní.",
+    "expected_response": "\"Balita-balita\" ha'e peteï ñembosarai ymaguaréva mitänguéra oipuruhåpe itavera'i (bolitas de vidrio). Oñembo'apu'a yvýpe ha upėpe oñemoï umi balita, pe oñembosaraiva oñeha'a omoñuâ ha oguenohë hagua hapicha mba'e pe apu'a guive. Oñembosarái hagua ojepuru heta mba'eichagua jepytaso, techapyrarő: cuare, cuarti térä pika valita"
+  },
+  {
+    "id": "q5",
+    "category": "traduccion",
+    "instruction": "Traduce '¿Cómo se le llama al juego de la cometa en Paraguay?' al guaraní.",
+    "expected_response": "Mba'éichapa oje'e pe ñembosarai \"cometa\"-pe ñane retâme?"
+  },
+  {
+    "id": "q6",
+    "category": "traduccion",
+    "instruction": "Traduce 'En Paraguay, al juego de la cometa se le llama comúnmente pandorga, aunque también se conoce como barrilete o cometa, y en guaraní se dice kuatiaveve.' al guaraní.",
+    "expected_response": "Paraguáipe, oje'eve chupe pandorga, jepéramo of avel ohenõiva barrilete téră cometa, guaranime katu héra kuatiaveve."
+  },
+  {
+    "id": "q7",
+    "category": "traduccion",
+    "instruction": "Traduce '¿Qué río pasa a lado de Asunción?' al guaraní.",
+    "expected_response": "Mba'e ysyrýpa ohasa Paraguaype (Asunción)?"
+  },
+  {
+    "id": "q8",
+    "category": "traduccion",
+    "instruction": "Traduce 'El río Paraguay pasa junto a Asunción, bañando la ciudad y sirviendo como su principal vía fluvial.' al guaraní.",
+    "expected_response": "Ysyry Paraguay niko pe ohasáva Paraguaype (Asunción). Ko ysyry guasu omohe'õ ñane retă tavaguasúpe ha ha'e hina pe tape y rupigua tuichavéva oipytyvõva ñemurehépe."
+  },
+  {
+    "id": "q9",
+    "category": "traduccion",
+    "instruction": "Traduce 'quien fue el creador de la Guarania?' al guaraní.",
+    "expected_response": "Máva piko ra'e pe omoheñói va ekue Guarania?"
+  },
+  {
+    "id": "q10",
+    "category": "traduccion",
+    "instruction": "Traduce 'El creador de la Guarania fue el músico paraguayo José Asunción Flores, quien la desarrolló en 1925, inspirado en la polca paraguaya pero con ritmo más lento y melódico, y la concibió como expresión auténtica del alma paraguaya, con su primera composición, \"Jejul\", como hito fundacional.' al guaraní.",
+    "expected_response": "Pe omoheñói va'ekue Guarania ha'e kuri purahéi apohára José Asunción Flores, omoerakuä va'ekue ko purahéi pyahu 1925-pe. Flores oñemopyenda Polka Paraguaire, ha katu omohenda mbegue ha horyve hagua; omoheñõi kuri ko purahéi ohechauka hagua mba éichapa oñandu ha opurahéi ñane retâygua iñapytu'üme. Pe guarania peteïha ojekuaa va'ekue héra Jejul."
+  },
+  {
+    "id": "q11",
+    "category": "traduccion",
+    "instruction": "Traduce '¿Qué es el clericó y en qué país se consume tradicionalmente?' al guaraní.",
+    "expected_response": "Mba'épa hina pe clericó ha mba'e tetämepa oje' uve?"
+  },
+  {
+    "id": "q12",
+    "category": "traduccion",
+    "instruction": "Traduce 'El clericó se consume principalmente en Paraguay, Argentina y Uruguay, especialmente en Navidad y Año Nuevo. Es una bebida frutal preparada con vino tinto, naranja, manzana, fresa, durazno y otras frutas, a veces mezclada con gaseosa o sidra, y se sirve fría como parte de las celebraciones de fin de año.' al guaraní.",
+    "expected_response": "Clericó niko peteî yva rykue oje'uvehäpe Paraguai, Argentina ha Uruguay retäme, tenonderäite Navidad ha Año Nuevo jave. Ko mboy urā ojejapo vino pytā, narā, manzana, yva pyłā, durazno ha ambue yvakuéra oñembojehe'áva sapy'änte oñemoî avei gaseosa téră sidra, ha oje'u ro'ysă poră opavave vy'aguasu jave."
+  },
+  {
+    "id": "q13",
+    "category": "traduccion",
+    "instruction": "Traduce '¿Qué es el Arete Guasu?' al guaraní.",
+    "expected_response": "Mba'épa hina pe Arete Guasu?"
+  },
+  {
+    "id": "q14",
+    "category": "traduccion",
+    "instruction": "Traduce 'Arete Guasu, también llamado Kandaváre, es una fiesta tradicional guarani occidental que se celebra en enero o febrero en Paraguay, Bolivia y Argentina, significando fiesta grande\". Involucra danzas, máscaras ancestrales, música con flautas y tambores, y rituales que honran la cosecha de maiz y fortalecen el vinculo entre vivos, muertos y la naturaleza.' al guaraní.",
+    "expected_response": "Arete Guasu, ojekuaáva avei Kandaváre ramo, ha'e petel vy'aguasu ymaguare ojeroviáva guaraní occidental-kuėra apytépe. Oiko jave jasytel térā jasykõime Paraguái, Bolivia ha Argentina-pe; héra niko he'ise \"vy'a guasu\". Ko aretépe of jeroky, ava ra'anga (máscaras), mbaraka ha mimby, ha ojeguerohory pe avati nemono'ō. Upéicha avel oñemombarete ňe'ë ha joaju oîva umi oikovėva, umi omanóva ha ñande rekoha ndive."
+  },
+  {
+    "id": "q15",
+    "category": "traduccion",
+    "instruction": "Traduce '¿Quién fue la única mujer reconocida como protagonista de la independencia de Paraguay?' al guaraní.",
+    "expected_response": "Máva piko ha'e pe kuña ojehechakuaáva ha'e hague ha'eñoite protagonista Paraguai Säso jave?"
+  },
+  {
+    "id": "q16",
+    "category": "traduccion",
+    "instruction": "Traduce 'Juana Maria de Lara, también conocida como Juana Maria de Lara de Díaz de Bedoya, fue la única mujer reconocida como protagonista de la independencia de Paraguay, desempeñando un papel clave como mensajera secreta, transmitiendo la contraseña \"Independencia o muerte y facilitando la coordinación de los patriotas durante los hechos de mayo de 1811.' al guaraní.",
+    "expected_response": "Juana Maria de Lara (ojeikuaáva avei Juana Maria de Lara de Diaz de Bedoya ramo) ha'e kuri pe kuña ha'efñoite ojehechakuaáva Paraguái säso sämbyhyháramo. Ha'e niko imbarete kuri oguerahávo marandu ñemi (mensajera secreta) umi ohekáva säso apytépe; ha'e hina pe omyasai va'ekue pe ñe'ë ñemi: \"Säso térä Ñemano\" (Independencia o muerte), ha oipytyvő opavave oñemohenda pora hagua jasypo 1811 jave."
+  },
+  {
+    "id": "q17",
+    "category": "traduccion",
+    "instruction": "Traduce '¿Cuál es el idioma oficial de Paraguay?' al guaraní.",
+    "expected_response": "Mba'épa hina umi ñe'ë tee ojeipurůva Paraguaipe?"
+  },
+  {
+    "id": "q18",
+    "category": "traduccion",
+    "instruction": "Traduce 'El español el guarani son los idiomas oficiales de Paraguay.' al guaraní.",
+    "expected_response": "Español ha guarani ha'e hina umi ñe'e tee (idiomas oficiales) Paraguái retâme."
+  },
+  {
+    "id": "q19",
+    "category": "traduccion",
+    "instruction": "Traduce '¿Cómo se prepara el tereré en Paraguay?' al guaraní.",
+    "expected_response": "Mba'éichapa ojejapo pe terere Paraguaipe?"
+  },
+  {
+    "id": "q20",
+    "category": "traduccion",
+    "instruction": "Traduce 'Se llena un recipiente hasta la mitad con yerba mate, se añade abundante hielo y agua fria, jugo de citricos como limón o naranja, o incluso hierbas frescas como menta. Se deja reposar unos minutos, se introduce la bombilla y se bebe directamente, reponiendo agua fría y hielo en cada cebada.' al guaraní.",
+    "expected_response": "Oñemoї pe yvyrarogue (yerba mate) peteî guápe mbyte peve, upei oñemoî heta yrypy'a (hielo) ha y ro'ysä. Ojehe'a pype yva rykue (limón térä nara) ha avei pohā ro'ysä ipyahúva (merita, kapli kati ha ambue). Ojeheja opytu'u sapy ami, oñетої руре pe bombilla ha upépe oñemboy'u; oñemoïve va'erä pype y ro'ysä ha yrypy'a káda oñemyenyhë jey vove."
+  },
+  {
+    "id": "q21",
+    "category": "traduccion",
+    "instruction": "Traduce '¿Cuál es el apodo más comúnmente reconocido de la selección paraguaya de fútbol?' al guaraní.",
+    "expected_response": "Mba'éichapa ojekuaave Paraguai atyguasu vakapipopo mbo'eha (selección paraguaya de fútbol)?"
+  },
+  {
+    "id": "q22",
+    "category": "traduccion",
+    "instruction": "Traduce 'La selección paraguaya de fútbol es conocida como \"La Albirroja\" por los colores rojo y blanco de su camiseta, idénticos a los de la bandera nacional, y también como \"Los Guaranies\", en honor al pueblo indigena originario del pals.' al guaraní.",
+    "expected_response": "Paraguái atyguasu vakapipopo mbo'eha ojekuaave \"La Albirroja\" ramo, oguerekóqui umi sa'y pyta ha moroti ijaópe, ojoguaräicha ñane retã poyvipe. Upéicha avei oje'e chupekuéra \"Los Guaraníes\", ojeguerohorývo ñande ypykuérape ha'éva ñane retā te yi."
+  }
+]

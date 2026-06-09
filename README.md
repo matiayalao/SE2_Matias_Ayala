@@ -92,44 +92,10 @@ pip install -e .                   # Instala el paquete y el CLI eval-llm
 export GROQ_API_KEY="gsk-..."       # Para llama, mixtral, etc. vía Groq (gratis)
 export GEMINI_API_KEY="AIza-..."    # Para modelos Gemini
 export OPENAI_API_KEY="sk-..."      # Para modelos GPT
+export HF_TOKEN="hf_..."            # Para LatamGPT (Hugging Face Inference)
 ```
 
 > Si no tenés API keys, usá el modelo `mock` — funciona sin ninguna clave.
-
----
-
-## Cómo probarlo (demo rápida sin API key)
-
-### Demo instantánea con modelo mock
-
-```bash
-source .venv/bin/activate
-eval-llm --models mock --dataset data/dataset_guarani_2.json --output mi_reporte.json
-```
-
-Eso corre la evaluación completa con el modelo simulado y guarda el resultado en `mi_reporte.json`.
-
-### Generar las visualizaciones comparativas (Entrega 3)
-
-```bash
-python generate_report.py
-```
-
-Genera los 3 gráficos PNG en la raíz del proyecto.
-
-### Correr los tests
-
-```bash
-python -m pytest tests/ -v
-```
-
-### Verificar PEP8
-
-```bash
-flake8 latam_eval/ generate_report.py
-```
-
----
 
 ## Uso del CLI `eval-llm`
 
@@ -178,6 +144,7 @@ eval-llm --models mock,llama-3.1-8b-instant \
 | `llama-3.1-8b-instant` | Groq | `GROQ_API_KEY` |
 | `gemini-2.5-flash` | Google | `GEMINI_API_KEY` |
 | `gpt-4o` / `gpt-4o-mini` | OpenAI | `OPENAI_API_KEY` |
+| `latamgpt` | Hugging Face | `HF_TOKEN` |
 
 ### Estructura del dataset JSON
 
@@ -192,6 +159,30 @@ eval-llm --models mock,llama-3.1-8b-instant \
 ]
 ```
 
+### Generar las visualizaciones comparativas (Entrega 3)
+
+```bash
+python generate_report.py
+```
+
+Genera los 3 gráficos PNG en la carpeta `reports_graphs/` (`comparativa_metricas.png`, `cost_performance.png` y `latency_performance.png`).
+
+> [!NOTE]
+> Podés y debés actualizar los valores de costos estimados para cada modelo editando la variable `MODEL_COSTS` dentro de [generate_report.py](file:///home/Mati/AntiGravity/SE2/generate_report.py) para ajustarlos a la realidad del mercado o a tus propios consumos.
+
+
+### Correr los tests
+
+```bash
+python -m pytest tests/ -v
+```
+
+### Verificar PEP8
+
+```bash
+flake8 latam_eval/ generate_report.py
+```
+
 ---
 
 ## Configuración de Modelo Local (LM Studio / Gemma)
@@ -199,11 +190,11 @@ eval-llm --models mock,llama-3.1-8b-instant \
 Para evaluar sin depender de APIs externas:
 
 1. Descargá [LM Studio](https://lmstudio.ai/) e instalá un modelo (ej. `gemma-2-9b-it`).
-   ![Descarga de Gemma en LM Studio](captura1.png)
+   ![Descarga de Gemma en LM Studio](latam_eval/datasets/assssseetts/captura1.png)
 2. Configurá el modelo según tu hardware.
-   ![Configuración de LM Studio](captura2.png)
+   ![Configuración de LM Studio](latam_eval/datasets/assssseetts/captura2.png)
 3. Iniciá el servidor local en `http://127.0.0.1:1234`.
-   ![Servidor LM Studio corriendo](captura3.png)
+   ![Servidor LM Studio corriendo](latam_eval/datasets/assssseetts/captura3.png)
 4. Usá el nombre `local-gemma` en el CLI:
    ```bash
    eval-llm --models local-gemma --dataset data/dataset_guarani_2.json --output report.json

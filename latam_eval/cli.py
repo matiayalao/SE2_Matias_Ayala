@@ -8,7 +8,24 @@ from latam_eval.models.mock_adapter import MockAdapter
 from latam_eval.models.openai_adapter import OpenAIAdapter
 from latam_eval.models.gemini_adapter import GeminiAdapter
 from latam_eval.models.universal_api_adapter import UniversalOpenAIAdapter
+from latam_eval.models.latamgpt_adapter import LatamGPTAdapter
 from latam_eval.utils.config import load_config
+
+
+def parse_model_names(raw_models):
+    """Normalize comma-separated model arguments, with or without spaces."""
+    if not raw_models:
+        return []
+
+    if isinstance(raw_models, str):
+        raw_models = [raw_models]
+
+    model_names = []
+    for raw_model in raw_models:
+        model_names.extend(
+            model.strip() for model in raw_model.split(",") if model.strip()
+        )
+    return model_names
 
 
 def main():
@@ -20,8 +37,11 @@ def main():
     )
     parser.add_argument(
         "--models",
-        type=str,
-        help="Comma-separated list of models (e.g. gpt-4o,gemini-1.5-flash,mock)",
+        nargs="+",
+        help=(
+            "Comma-separated list of models, with optional spaces "
+            "(e.g. gpt-4o,gemini-1.5-flash,mock or gpt-4o, gemini-1.5-flash, mock)"
+        ),
     )
     parser.add_argument("--dataset", type=str, help="Path to the JSON dataset file")
     parser.add_argument(
@@ -55,7 +75,7 @@ def main():
             sys.exit(1)
     else:
         if args.models:
-            model_names = [m.strip() for m in args.models.split(",")]
+            model_names = parse_model_names(args.models)
         if args.dataset:
             dataset_path = args.dataset
 
@@ -70,6 +90,18 @@ def main():
         lower_m = m.lower()
         if "mock" in lower_m:
             models.append(MockAdapter(m, **generation_params))
+        elif "latamgpt" in lower_m:
+            if not os.getenv("HF_TOKEN"):
+                logging.error(
+                    f"HF_TOKEN not set for model {m}. Required for LatamGPT via Hugging Face."
+                )
+                sys.exit(1)
+            models.append(
+                LatamGPTAdapter(
+                    "latam-gpt/Llama-3.1-70B-LatamGPT-SFT-1.0:featherless-ai",
+                    **generation_params,
+                )
+            )
         elif "gpt" in lower_m:
             if not os.getenv("OPENAI_API_KEY"):
                 logging.error(f"OPENAI_API_KEY not set for model {m}")

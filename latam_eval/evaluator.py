@@ -1,5 +1,6 @@
 import json
 import logging
+import time
 from typing import List, Dict, Any
 
 import nltk
@@ -75,12 +76,15 @@ class Evaluator:
                 expected = item.get("expected_response", "")
 
                 try:
+                    t0 = time.perf_counter()
                     response = model.generate_response(instruction)
+                    latency_ms = round((time.perf_counter() - t0) * 1000, 1)
                 except Exception as e:
                     logging.error(
                         f"Error generating response for {model.model_name}: {e}"
                     )
                     response = ""
+                    latency_ms = 0.0
 
                 metrics = self._calculate_metrics(response, expected)
 
@@ -90,6 +94,7 @@ class Evaluator:
                         "instruction": instruction,
                         "expected": expected,
                         "response": response,
+                        "latency_ms": latency_ms,
                         "metrics": metrics,
                     }
                 )

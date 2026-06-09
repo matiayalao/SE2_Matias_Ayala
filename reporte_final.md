@@ -17,6 +17,7 @@ Los modelos evaluados en esta entrega son:
 | Modelo | Proveedor | Tipo |
 |--------|-----------|------|
 | `llama-3.1-8b-instant` | Groq API | Modelo real (LLM 8B) |
+| `latamgpt` | Hugging Face Hub | Modelo especializado (LLM 70B LatamGPT-SFT) |
 | `mock` | Local | Modelo simulado (baseline arquitectural) |
 
 ---
@@ -72,6 +73,7 @@ Los precios son aproximados según las tarifas públicas vigentes (por millón d
 |--------|----------------------|-------------------|
 | `mock` | $0.00 (simulado) | ~500 ms |
 | `llama-3.1-8b-instant` | $0.05 (Groq) | ~320 ms |
+| `latamgpt` | $0.90 (HF Inference) | variable (medida en ejecución) |
 | `gemini-2.5-flash` *(referencia)* | $0.15 | ~1200 ms |
 | `gpt-4o-mini` *(referencia)* | $0.15 | ~800 ms |
 
@@ -106,15 +108,15 @@ Las siguientes visualizaciones fueron generadas automáticamente con `generate_r
 
 ### 5.1 Métricas lingüísticas por modelo
 
-![Comparativa de métricas](comparativa_metricas.png)
+![Comparativa de métricas](reports_graphs/comparativa_metricas.png)
 
 ### 5.2 Cost-Performance Ratio
 
-![Cost-Performance Ratio](cost_performance.png)
+![Cost-Performance Ratio](reports_graphs/cost_performance.png)
 
 ### 5.3 Latencia vs. Desempeño
 
-![Latencia vs Desempeño](latency_performance.png)
+![Latencia vs Desempeño](reports_graphs/latency_performance.png)
 
 ---
 
@@ -173,36 +175,21 @@ SE2/
 │       └── config.py             # Carga YAML
 ├── data/
 │   └── dataset_guarani_2.json    # Dataset de evaluación
+├── data/
+│   └── data_pesada.json #ultima dataset que nos pasó Marvin    
+
 ├── tests/
 │   ├── test_evaluator.py
 │   └── test_cli.py
 ├── generate_report.py            # Genera visualizaciones PNG
 ├── report.json                   # Resultados: llama-3.1-8b-instant
-├── report2.json                  # Resultados: mock
-├── comparativa_metricas.png      # Visualización de métricas
-├── cost_performance.png          # Visualización costo-desempeño
-├── latency_performance.png       # Visualización latencia-desempeño
-├── config.yaml                   # Configuración de ejemplo
+├── reports_graphs/               # Directorio con las imágenes generadas
+│   ├── comparativa_metricas.png  # Visualización de métricas
+│   ├── cost_performance.png      # Visualización costo-desempeño
+│   └── latency_performance.png   # Visualización latencia-desempeño
+├── config.yaml                   # Configuración (cambiar si se quiere evaluar otros modelos)
 ├── setup.py
 ├── requirements.txt
 └── README.md
 ```
 
----
-
-## 8. Conclusión
-
-La integración de **similitud de embeddings** con el modelo BERT guaraní
-(`mmaguero/multilingual-bert-gn-base-cased`) aporta una perspectiva semántica que las
-métricas de n-gramas no capturan. Los resultados muestran que:
-
-1. **`llama-3.1-8b-instant`** es el modelo más eficiente para guaraní en términos de
-   cost-performance: bajo costo ($0.05/1M), baja latencia (~320 ms) y la mejor coherencia
-   semántica medida por embeddings (0.543).
-
-2. **Las métricas de superficie** (ROUGE, BLEU, METEOR) sobreestiman al modelo `mock` por
-   efecto de eco textual, confirmando la necesidad de métricas semánticas en evaluación de
-   LLMs para lenguas de bajos recursos.
-
-3. El framework es **extensible y agnóstico**: cualquier modelo con API compatible con
-   OpenAI puede integrarse añadiendo una entrada en `config.yaml`.

@@ -2,7 +2,8 @@
 # Puedes correr esto usando: eval-llm --config config.yaml
 
 models:
-  - local-gemma
+  - gemini-3.1-flash-lite
+  - latamgpt
 
 dataset: data/dataset_guarani_2.json
 output: report.json

@@ -16,27 +16,30 @@ Uso:
 """
 
 import json
+import os
 
 import matplotlib.pyplot as plt
 import numpy as np
 
 
 # ---------------------------------------------------------------------------
-# Costos y latencias estimados por modelo
+# Carpeta de salida para las imágenes generadas
+# ---------------------------------------------------------------------------
+OUTPUT_DIR = "reports_graphs"
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+
+# ---------------------------------------------------------------------------
+# Costos estimados por modelo
 # (USD por millón de tokens de entrada, según precios públicos aprox.)
+# Los modelos sin entrada explícita usan 0.2 como fallback.
 # ---------------------------------------------------------------------------
 MODEL_COSTS = {
-    "llama-3.1-8b-instant": 0.05,   # Groq: ~$0.05/M tokens (input)
-    "mock": 0.0,                     # Sin costo real (simulado)
-    "gemini-2.5-flash": 0.15,       # Google Gemini Flash aprox.
-    "gpt-4o-mini": 0.15,            # OpenAI gpt-4o-mini
-}
-
-MODEL_LATENCY_MS = {
-    "llama-3.1-8b-instant": 320,    # ~320ms promedio en Groq
-    "mock": 500,                     # 0.5s de sleep simulado
-    "gemini-2.5-flash": 1200,       # ~1200ms promedio
-    "gpt-4o-mini": 800,             # ~800ms promedio
+    "llama-3.1-8b-instant": 0.05,                                        # Groq: ~$0.05/M tokens
+    "mock": 0.0,                                                          # Sin costo real (simulado)
+    "gemini-2.5-flash": 0.15,                                            # Google Gemini Flash aprox.
+    "gpt-4o-mini": 0.15,                                                  # OpenAI gpt-4o-mini
+    "latam-gpt/Llama-3.1-70B-LatamGPT-SFT-1.0:featherless-ai": 0.9,    # Featherless AI: ~$0.9/M tokens
 }
 
 COLORS = ["#6C63FF", "#FF6584", "#43AA8B", "#F8961E", "#577590"]
@@ -51,10 +54,6 @@ def load_reports() -> dict:
     """
     with open("report.json", "r", encoding="utf-8") as f:
         r1 = json.load(f)
-    with open("report2.json", "r", encoding="utf-8") as f:
-        r2 = json.load(f)
-
-    r1.update(r2)
     return r1
 
 
@@ -151,9 +150,10 @@ def plot_linguistic_metrics(models: list, metrics: dict) -> None:
     ax.set_ylim(0, 1.05)
 
     plt.tight_layout()
-    plt.savefig("comparativa_metricas.png", dpi=150, bbox_inches="tight")
+    out_path = os.path.join(OUTPUT_DIR, "comparativa_metricas.png")
+    plt.savefig(out_path, dpi=150, bbox_inches="tight")
     plt.close()
-    print("✓ Guardado: comparativa_metricas.png")
+    print(f"✓ Guardado: {out_path}")
 
 
 def plot_cost_performance(models: list, metrics: dict) -> None:
@@ -217,23 +217,65 @@ def plot_cost_performance(models: list, metrics: dict) -> None:
     ax.grid(linestyle="--", alpha=0.3, color="white")
 
     plt.tight_layout()
-    plt.savefig("cost_performance.png", dpi=150, bbox_inches="tight")
+    out_path = os.path.join(OUTPUT_DIR, "cost_performance.png")
+    plt.savefig(out_path, dpi=150, bbox_inches="tight")
     plt.close()
-    print("✓ Guardado: cost_performance.png")
+    print(f"✓ Guardado: {out_path}")
 
 
-def plot_latency_performance(models: list, metrics: dict) -> None:
+def compute_avg_latency(reports: dict) -> dict:
+    """
+    Calcula la latencia promedio real (en ms) por modelo a partir del
+    campo ``latency_ms`` registrado en cada evaluación del reporte JSON.
+
+    Si alguna evaluación no tiene ``latency_ms`` (reportes anteriores a esta
+    versión), se devuelve ``None`` para ese modelo para que el gráfico pueda
+    advertirlo en lugar de usar un valor inventado.
+
+    Args:
+        reports (dict): Diccionario de reportes cargado por ``load_reports()``.
+
+    Returns:
+        dict: {model_name: avg_latency_ms | None}
+    """
+    avg_latencies = {}
+    for model, data in reports.items():
+        evals = data.get("evaluations", [])
+        latencies = [
+            e["latency_ms"]
+            for e in evals
+            if "latency_ms" in e and e["latency_ms"] > 0
+        ]
+        avg_latencies[model] = round(sum(latencies) / len(latencies), 1) if latencies else None
+    return avg_latencies
+
+
+def plot_latency_performance(models: list, metrics: dict, avg_latencies: dict) -> None:
     """
     Genera y guarda el gráfico de dispersión Latencia vs. Desempeño.
+
+    La latencia se toma de ``avg_latencies``, calculada desde los datos reales
+    del reporte JSON (campo ``latency_ms`` registrado en tiempo de ejecución).
+    Los modelos sin datos de latencia se omiten del gráfico con un aviso.
 
     Args:
         models (list): Nombres de los modelos evaluados.
         metrics (dict): Promedios de métricas por modelo.
+        avg_latencies (dict): Latencia promedio real por modelo en ms.
     """
-    latencies = [MODEL_LATENCY_MS.get(m, 1000) for m in models]
+    filtered = [
+        (i, m) for i, m in enumerate(models)
+        if avg_latencies.get(m) is not None
+    ]
+    if not filtered:
+        print("⚠ No hay datos de latencia real disponibles. Corré eval-llm nuevamente para generarlos.")
+        return
+
+    indices, filtered_models = zip(*filtered)
+    latencies = [avg_latencies[m] for m in filtered_models]
     performances = [
         0.6 * metrics["meteor"][i] + 0.4 * metrics["embedding_similarity"][i]
-        for i in range(len(models))
+        for i in indices
     ]
 
     fig, ax = plt.subplots(figsize=(9, 6))
@@ -274,9 +316,10 @@ def plot_latency_performance(models: list, metrics: dict) -> None:
     ax.grid(linestyle="--", alpha=0.3, color="white")
 
     plt.tight_layout()
-    plt.savefig("latency_performance.png", dpi=150, bbox_inches="tight")
+    out_path = os.path.join(OUTPUT_DIR, "latency_performance.png")
+    plt.savefig(out_path, dpi=150, bbox_inches="tight")
     plt.close()
-    print("✓ Guardado: latency_performance.png")
+    print(f"✓ Guardado: {out_path}")
 
 
 def main() -> None:
@@ -284,20 +327,25 @@ def main() -> None:
     Función principal. Carga los reportes y genera los tres gráficos comparativos:
         1. comparativa_metricas.png  — Todas las métricas lingüísticas por modelo.
         2. cost_performance.png      — Desempeño compuesto vs. Costo.
-        3. latency_performance.png   — Desempeño compuesto vs. Latencia.
+        3. latency_performance.png   — Desempeño compuesto vs. Latencia real medida.
     """
     reports = load_reports()
     models, metrics = compute_avg_metrics(reports)
+    avg_latencies = compute_avg_latency(reports)
 
     print(f"\nModelos evaluados: {models}")
     for key, vals in metrics.items():
         for m, v in zip(models, vals):
             print(f"  [{m}] {key}: {v:.4f}")
     print()
+    print("Latencias promedio reales (ms):")
+    for m, lat in avg_latencies.items():
+        print(f"  [{m}] {lat if lat is not None else 'sin datos'}")
+    print()
 
     plot_linguistic_metrics(models, metrics)
     plot_cost_performance(models, metrics)
-    plot_latency_performance(models, metrics)
+    plot_latency_performance(models, metrics, avg_latencies)
 
     print("\n✅ Todas las visualizaciones generadas con éxito.")
 
